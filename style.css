@@ -69,7 +69,7 @@ h1,h2,h3{
 
 /* HERO */
 .hero{
-  background-image: url('img/hero.jpg');
+  background-image: url('img/optimized/hero-optimized.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -264,7 +264,39 @@ a:focus-visible, button:focus-visible {
     outline-offset: 2px;
 }
 
+/* Lazy loading para background images */
+.lazy-bg {
+  background-image: none !important;
+  background-color: #f5f5f5;
+  position: relative;
+}
+.lazy-bg::before {
+  content: "🖼️";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  opacity: 0.3;
+}
+.lazy-bg.loaded::before {
+  display: none;
+}
+.lazy-bg.loaded {
+  transition: opacity 0.3s ease;
+}
+
+/* Lazy loading para imágenes regulares */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+img[loading="lazy"].loaded {
+  opacity: 1;
+}
+
 @media (prefers-reduced-motion: reduce){
   .card-item, .nav-cta, .hero a{ transition:none !important; }
   .card-item:hover{ transform:none; }
+  img[loading="lazy"] { transition: none !important; }
 }

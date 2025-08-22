@@ -14,6 +14,12 @@
   <!-- Performance hints -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Preload recursos críticos -->
+  <link rel="preload" as="image" href="img/optimized/hero-optimized.jpg">
+  <link rel="preload" as="image" href="img/logo-zasa.jpg">
+  <link rel="preload" as="style" href="style.css">
+  
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
@@ -202,17 +208,17 @@
         <section id="servicios" class="cards-premium">
             <h2>Nuestros Servicios</h2>
             <ul>
-                <li class="card-item" style="background-image:url('img/cocinas integrales/cocinaintegrales.png')">
+                <li class="card-item lazy-bg" data-bg="img/optimized/cocinaintegrales-optimized.jpg">
                     <a href="cocinas-integrales-culiacan.html" class="overlay-link">
                         <div class="overlay"><span>Cocinas integrales</span></div>
                     </a>
                 </li>
-                <li class="card-item" style="background-image:url('img/cocinas-modernas.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/cocinas-modernas.jpg">
                     <a href="cocinas-modernas.html" class="overlay-link">
                         <div class="overlay"><span>Cocinas modernas</span></div>
                     </a>
                 </li>
-                <li class="card-item" style="background-image:url('img/closets.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/closets.jpg">
                     <a href="closets-culiacan.html" class="overlay-link">
                         <div class="overlay"><span>Closets a medida</span></div>
                     </a>
@@ -224,13 +230,13 @@
         <section id="materiales" class="cards-premium">
             <h2>Materiales y Acabados</h2>
             <ul>
-                <li class="card-item" style="background-image:url('img/granito.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/granito.jpg">
                     <div class="overlay"><a href="/cubiertas-granito-culiacan">Cubiertas de granito</a></div>
                 </li>
-                <li class="card-item" style="background-image:url('img/cuarzo.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/cuarzo.jpg">
                     <div class="overlay"><a href="/cubiertas-cuarzo-culiacan">Cubiertas de cuarzo</a></div>
                 </li>
-                <li class="card-item" style="background-image:url('img/marmol.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/marmol.jpg">
                     <div class="overlay"><a href="/cubiertas-marmol-culiacan">Cubiertas de mármol</a></div>
                 </li>
             </ul>
@@ -240,13 +246,13 @@
         <section id="zonas" class="cards-premium">
             <h2>Zonas de Culiacán que Atendemos</h2>
             <ul>
-                <li class="card-item" style="background-image:url('img/tres-rios.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/tres-rios.jpg">
                     <div class="overlay"><a href="/cocinas-integrales-tres-rios">Tres Ríos</a></div>
                 </li>
-                <li class="card-item" style="background-image:url('img/chapalita.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/chapalita.jpg">
                     <div class="overlay"><a href="/cocinas-integrales-chapalita">Chapalita</a></div>
                 </li>
-                <li class="card-item" style="background-image:url('img/country.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/country.jpg">
                     <div class="overlay"><a href="/cocinas-integrales-country-alamos">Country Álamos</a></div>
                 </li>
             </ul>
@@ -256,22 +262,22 @@
         <section id="beneficios" class="cards-premium">
             <h2>Beneficios</h2>
             <ul>
-                <li class="card-item" style="background-image:url('img/beneficio-calidad.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/beneficio-1.jpg">
                     <div class="overlay"><a href="#beneficios">Calidad en materiales</a></div>
                 </li>
-                <li class="card-item" style="background-image:url('img/beneficio-diseno.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/beneficio-2.jpg">
                     <div class="overlay"><a href="#beneficios">Diseños personalizados</a></div>
                 </li>
-                <li class="card-item" style="background-image:url('img/beneficio-instalacion.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/beneficio-3.jpg">
                     <div class="overlay"><a href="#beneficios">Instalación limpia y rápida</a></div>
                 </li>
-                <li class="card-item" style="background-image:url('img/beneficio-transparencia.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/beneficio-4.jpg">
                     <div class="overlay"><a href="#beneficios">Transparencia en costos</a></div>
                 </li>
-                <li class="card-item" style="background-image:url('img/beneficio-garantia.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/beneficio-5.jpg">
                     <div class="overlay"><a href="#beneficios">Garantía de satisfacción</a></div>
                 </li>
-                <li class="card-item" style="background-image:url('img/beneficio-atencion.jpg')">
+                <li class="card-item lazy-bg" data-bg="img/beneficio-6.jpg">
                     <div class="overlay"><a href="#beneficios">Atención al detalle</a></div>
                 </li>
             </ul>
@@ -333,6 +339,57 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
+  // Lazy loading para background images
+  const lazyBgs = document.querySelectorAll('.lazy-bg');
+  
+  if ('IntersectionObserver' in window) {
+    const bgObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const bgUrl = entry.target.dataset.bg;
+          if (bgUrl) {
+            entry.target.style.backgroundImage = `url(${bgUrl})`;
+            entry.target.classList.add('loaded');
+            bgObserver.unobserve(entry.target);
+          }
+        }
+      });
+    }, {
+      rootMargin: '50px'
+    });
+    
+    lazyBgs.forEach(bg => bgObserver.observe(bg));
+  } else {
+    // Fallback para navegadores sin IntersectionObserver
+    lazyBgs.forEach(bg => {
+      const bgUrl = bg.dataset.bg;
+      if (bgUrl) {
+        bg.style.backgroundImage = `url(${bgUrl})`;
+        bg.classList.add('loaded');
+      }
+    });
+  }
+
+  // Lazy loading para imágenes regulares
+  const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+  
+  if ('IntersectionObserver' in window) {
+    const imageObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.classList.add('loaded');
+          imageObserver.unobserve(img);
+        }
+      });
+    });
+    
+    lazyImages.forEach(img => imageObserver.observe(img));
+  } else {
+    // Fallback
+    lazyImages.forEach(img => img.classList.add('loaded'));
+  }
 });
 </script>
 </body>
