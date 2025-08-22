@@ -1,0 +1,251 @@
+/* Reset básico y configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #F5F5F5;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Header y Hero */
+header {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 60px 0;
+}
+
+header .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+header p {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 32px;
+    opacity: 0.8;
+}
+
+header a {
+    display: inline-block;
+    background-color: #25D366;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    background-color: #1fa855;
+}
+
+header a:focus {
+    outline: 2px solid #E36414;
+    outline-offset: 2px;
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Secciones */
+section {
+    padding: 48px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+section h2 {
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #E36414;
+    display: inline-block;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    display: grid;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+li {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+li a:hover {
+    color: #E36414;
+}
+
+li a:focus {
+    outline: 2px solid #E36414;
+    outline-offset: 2px;
+}
+
+/* Lista de beneficios (sin enlaces) */
+section:nth-child(2) li {
+    color: #000000;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 48px 0;
+    margin-top: 60px;
+}
+
+footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+
+footer p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+footer a {
+    color: #E36414;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
+footer a:focus {
+    outline: 2px solid #E36414;
+    outline-offset: 2px;
+}
+
+/* Responsive Design */
+
+/* Pantallas grandes (≥1024px) - 3 columnas */
+@media (min-width: 1024px) {
+    ul {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+    
+    header h1 {
+        font-size: 48px;
+    }
+}
+
+/* Pantallas medianas (640px - 1023px) - 2 columnas */
+@media (min-width: 640px) and (max-width: 1023px) {
+    ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    header h1 {
+        font-size: 42px;
+    }
+}
+
+/* Pantallas móviles (<640px) - 1 columna */
+@media (max-width: 639px) {
+    ul {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    header h1 {
+        font-size: 36px;
+    }
+    
+    header p {
+        font-size: 18px;
+    }
+    
+    header a {
+        width: 100%;
+        padding: 18px 16px;
+        font-size: 16px;
+    }
+    
+    section h2 {
+        font-size: 28px;
+    }
+    
+    section {
+        padding: 32px 0;
+    }
+    
+    header {
+        padding: 40px 0;
+    }
+}
+
+/* Estados de accesibilidad adicionales */
+a:focus-visible {
+    outline: 2px solid #E36414;
+    outline-offset: 2px;
+}
+
+button:focus-visible {
+    outline: 2px solid #E36414;
+    outline-offset: 2px;
+}
