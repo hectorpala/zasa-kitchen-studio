@@ -12,7 +12,7 @@
   --whatsapp: #25D366;
   --text: #0F172A;
   --text-light: #475569;
-  --text-muted: #64748B;
+  --text-muted: #475569;
   --bg: #FFFFFF;
   --bg-soft: #F8FAFC;
   --bg-card: #FFFFFF;
@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #6c757d;
+    color: #495057;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     box-sizing: border-box;
@@ -283,15 +283,15 @@ h3 {
 
 .btn-secondary {
     background: white;
-    color: var(--text);
-    border: 2px solid var(--border);
+    color: #334155;
+    border: 2px solid #334155;
     box-shadow: 0 2px 8px var(--shadow);
 }
 
 .btn-secondary:hover {
-    background: var(--bg-soft);
-    border-color: var(--brand);
-    color: var(--brand);
+    background: #334155;
+    border-color: #334155;
+    color: #FFFFFF;
     transform: translateY(-2px);
     box-shadow: 0 4px 16px var(--shadow);
 }
