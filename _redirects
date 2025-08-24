@@ -1,13 +1,1 @@
-# Redirects para Netlify/Render
-/colonias/:slug/  /colonias/:slug.html  301
-/colonias/:slug   /colonias/:slug.html  301
-
-# Headers de staging
-/*  X-Robots-Tag: noindex, nofollow
-
-# Cache para assets estáticos  
-/*.css  Cache-Control: public, max-age=31536000
-/*.js   Cache-Control: public, max-age=31536000
-/*.jpg  Cache-Control: public, max-age=31536000
-/*.png  Cache-Control: public, max-age=31536000
-/*.svg  Cache-Control: public, max-age=31536000
+/colonias/:slug/   /colonias/:slug.html   301
