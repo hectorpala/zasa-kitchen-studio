@@ -1,0 +1,11 @@
+{
+  "name": "zasa-kitchen-staging",
+  "version": "1.0.0",
+  "description": "ZASA Kitchen Studio staging website",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site - no dev server needed'"
+  },
+  "keywords": ["cocinas", "culiacan", "staging"],
+  "author": "ZASA Kitchen Studio"
+}
