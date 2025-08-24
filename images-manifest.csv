@@ -1,0 +1,41 @@
+ruta,seccion,slot_tipo,proporcion,tamaño_minimo,archivo_sugerido,alt_pendiente,prioridad
+index.html,hero,hero-image-slot,16:9,1920x1080,hero-zasa-cocinas.jpg,Cocina integral moderna ZASA Kitchen Studio Culiacán,alta
+index.html,servicios,gallery-image-slot,4:3,800x600,cocina-integral-featured.jpg,Cocina integral moderna destacada,alta
+servicios/cocinas/cocinas-integrales.html,hero,hero-image-slot,16:9,1920x1080,hero-cocinas-integrales.jpg,Cocinas integrales en Culiacán diseño a medida,alta
+servicios/cocinas/cocinas-integrales.html,hero-logo,hero-image-slot,16:9,400x225,logo-hero-cocinas-integrales.jpg,Logo ZASA cocinas integrales,media
+servicios/cocinas/cocinas-integrales.html,proceso,hero-image-slot,16:9,800x450,proceso-cocinas-integrales.jpg,Proceso fabricación cocinas integrales,media
+servicios/cocinas/cocinas-integrales.html,beneficios,card-image-slot,1:1,300x300,beneficios-cocinas-card.jpg,Beneficios cocinas integrales ZASA,media
+servicios/cocinas/cocinas-integrales.html,materiales,gallery-image-slot,4:3,600x450,materiales-cocinas-integrales.jpg,Materiales premium cocinas integrales,media
+servicios/cocinas/cocinas-modernas.html,hero,hero-image-slot,16:9,1920x1080,hero-cocinas-modernas.jpg,Cocinas modernas Culiacán líneas limpias,alta
+servicios/cocinas/cocinas-modernas.html,hero-content,hero-image-slot,16:9,800x450,cocinas-modernas-estilo.jpg,Estilo moderno cocinas contemporáneas,media
+servicios/cocinas/cocinas-modernas.html,rasgos,card-image-slot,1:1,300x300,rasgos-modernos-card.jpg,Rasgos modernos cocinas ZASA,media
+servicios/cocinas/cocinas-modernas.html,inspiracion,gallery-image-slot,4:3,600x450,inspiracion-cocinas-modernas.jpg,Inspiración cocinas modernas,media
+proyectos-culiacan/tres-rios.html,hero,hero-image-slot,16:9,1920x1080,proyecto-tres-rios-hero.jpg,Proyecto cocina integral premium Tres Ríos,alta
+proyectos-culiacan/tres-rios.html,resumen,hero-image-slot,16:9,800x450,tres-rios-resumen.jpg,Resumen proyecto cocina Tres Ríos,media
+proyectos-culiacan/tres-rios.html,detalles,card-image-slot,1:1,300x300,tres-rios-detalles.jpg,Detalles proyecto Tres Ríos,media
+proyectos-culiacan/tres-rios.html,galeria-1,gallery-image-slot,4:3,800x600,tres-rios-antes.jpg,Estado inicial cocina Tres Ríos,alta
+proyectos-culiacan/tres-rios.html,galeria-2,gallery-image-slot,4:3,800x600,tres-rios-proceso.jpg,Proceso instalación cocina Tres Ríos,alta
+proyectos-culiacan/tres-rios.html,galeria-3,gallery-image-slot,4:3,800x600,tres-rios-final.jpg,Resultado final cocina premium Tres Ríos,alta
+proyectos-culiacan/tres-rios.html,galeria-adicional,gallery-image-slot,4:3,800x600,tres-rios-detalle.jpg,Detalle acabados premium Tres Ríos,media
+proyectos-culiacan/benevento.html,hero,hero-image-slot,16:9,1920x1080,proyecto-benevento-hero.jpg,Proyecto cocina integral Benevento,alta
+proyectos-culiacan/benevento.html,resumen,hero-image-slot,16:9,800x450,benevento-resumen.jpg,Resumen proyecto cocina Benevento,media
+proyectos-culiacan/benevento.html,detalles,card-image-slot,1:1,300x300,benevento-detalles.jpg,Detalles proyecto Benevento,media
+proyectos-culiacan/benevento.html,galeria-1,gallery-image-slot,4:3,800x600,benevento-antes.jpg,Estado inicial cocina Benevento,alta
+proyectos-culiacan/benevento.html,galeria-2,gallery-image-slot,4:3,800x600,benevento-proceso.jpg,Proceso instalación cocina Benevento,alta
+proyectos-culiacan/benevento.html,galeria-3,gallery-image-slot,4:3,800x600,benevento-final.jpg,Resultado final cocina Benevento,alta
+proyectos-culiacan/benevento.html,galeria-adicional,gallery-image-slot,4:3,800x600,benevento-detalle.jpg,Detalle acabados Benevento,media
+colonias/tres-rios.html,hero,hero-image-slot,16:9,1920x1080,cocinas-tres-rios-hero.jpg,Cocinas integrales en Tres Ríos Culiacán,alta
+colonias/tres-rios.html,servicios,hero-image-slot,16:9,800x450,tres-rios-servicios.jpg,Servicios cocinas Tres Ríos,media
+colonias/tres-rios.html,zona,hero-image-slot,16:9,800x450,tres-rios-zona.jpg,Fraccionamiento Tres Ríos Culiacán,media
+colonias/tres-rios.html,beneficios,card-image-slot,1:1,300x300,tres-rios-beneficios.jpg,Beneficios cocinas Tres Ríos,media
+colonias/tres-rios.html,ejemplos,gallery-image-slot,4:3,600x450,tres-rios-ejemplo.jpg,Ejemplo cocina integral Tres Ríos,media
+colonias/las-quintas.html,hero,hero-image-slot,16:9,1920x1080,cocinas-las-quintas-hero.jpg,Cocinas integrales en Las Quintas Culiacán,alta
+colonias/las-quintas.html,servicios,hero-image-slot,16:9,800x450,las-quintas-servicios.jpg,Servicios cocinas Las Quintas,media
+colonias/las-quintas.html,zona,hero-image-slot,16:9,800x450,las-quintas-zona.jpg,Fraccionamiento Las Quintas Culiacán,media
+colonias/las-quintas.html,beneficios,card-image-slot,1:1,300x300,las-quintas-beneficios.jpg,Beneficios cocinas Las Quintas,media
+colonias/las-quintas.html,ejemplos,gallery-image-slot,4:3,600x450,las-quintas-ejemplo.jpg,Ejemplo cocina integral Las Quintas,media
+colonias/chapultepec.html,hero,hero-image-slot,16:9,1920x1080,cocinas-chapultepec-hero.jpg,Cocinas integrales en Chapultepec Culiacán,alta
+colonias/chapultepec.html,servicios,hero-image-slot,16:9,800x450,chapultepec-servicios.jpg,Servicios cocinas Chapultepec,media
+colonias/chapultepec.html,zona,hero-image-slot,16:9,800x450,chapultepec-zona.jpg,Colonia Chapultepec Culiacán,media
+colonias/chapultepec.html,beneficios,card-image-slot,1:1,300x300,chapultepec-beneficios.jpg,Beneficios cocinas Chapultepec,media
+colonias/chapultepec.html,ejemplos,gallery-image-slot,4:3,600x450,chapultepec-ejemplo.jpg,Ejemplo cocina integral Chapultepec,media

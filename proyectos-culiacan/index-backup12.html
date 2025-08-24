@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <meta name="generator" content="Astro v5.12.2">
 
@@ -15,7 +16,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 
   <meta name="theme-color" content="#ED6623">
 
@@ -211,30 +212,88 @@
   }
 }
 </script>
+
+<style>
+.image-slot {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.image-slot:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.hero-image-slot {
+    width: 100%;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .hero-image-slot {
+        min-height: 250px;
+    }
+}
+
+.card-image-slot {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 1rem auto;
+}
+
+.gallery-image-slot {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Preparación para lazy loading */
+.image-slot[data-lazy] {
+    background-image: none !important;
+}
+
+.image-slot.loaded {
+    border: none;
+    background: none;
+}
+
+.image-slot.loaded::after {
+    content: none;
+}
+</style>
+
+<style>body { padding-top: 80px; }</style>
 </head>
 <body>
     <nav class="navbar">
         <div class="container nav-wrap">
             <div class="brand">
-                <img src="../img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
             </div>
-            <ul class='nav-list' data-astro-cid-3ef6ksr2>
-              <li class='nav-item' data-astro-cid-3ef6ksr2>
-                <a href='/servicios' class='nav-link' data-astro-cid-3ef6ksr2>SERVICIOS</a>
+            <ul class='nav-list' id="nav-list">
+              <li class='nav-item'>
+                <a href='/servicios' class='nav-link'>SERVICIOS</a>
               </li>
-              <li class='nav-item' data-astro-cid-3ef6ksr2>
-                <a href='/proyectos-culiacan' class='nav-link' data-astro-cid-3ef6ksr2>PROYECTOS</a>
+              <li class='nav-item'>
+                <a href='/proyectos-culiacan' class='nav-link'>PROYECTOS</a>
               </li>
-              <li class='nav-item' data-astro-cid-3ef6ksr2>
-                <a href='/blog' class='nav-link' data-astro-cid-3ef6ksr2>BLOG</a>
+              <li class='nav-item'>
+                <a href='/blog' class='nav-link'>BLOG</a>
               </li>
-              <li class='nav-item' data-astro-cid-3ef6ksr2>
-                <a href='/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto' class='nav-link' data-astro-cid-3ef6ksr2>CONTACTO</a>
+              <li class='nav-item'>
+                <a href='/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto' class='nav-link'>CONTACTO</a>
               </li>
             </ul>
-            <a href='tel:+526671234567' class='nav-cta' data-phone='header' data-astro-cid-3ef6ksr2>
-              <span data-astro-cid-3ef6ksr2>LLÁMANOS</span>
-            </a>
+            <div class="nav-actions">
+              <a href='tel:+526671234567' class='nav-cta' data-phone='header'>
+                <span>LLÁMANOS</span>
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
         </div>
     </nav>
     
@@ -260,7 +319,12 @@
           <div class="card-header">
             <h3>Centro</h3><span class="emergency-badge">Proyectos activos</span>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina integral en Centro, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cocinas integrales y modernas</h4>
             <p>Diseños a medida con cubiertas premium y herrajes de cierre suave.</p>
@@ -279,7 +343,12 @@
           <div class="card-header">
             <h3>Guadalupe</h3><span class="emergency-badge">Proyectos activos</span>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina integral en Guadalupe, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cocinas integrales</h4>
             <p>Optimización de espacio, módulos funcionales y acabados modernos.</p>
@@ -298,7 +367,12 @@
           <div class="card-header">
             <h3>Chapultepec</h3><span class="emergency-badge">Proyectos activos</span>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina moderna en Chapultepec, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cocinas modernas</h4>
             <p>Líneas limpias, iluminación integrada y cubiertas de cuarzo.</p>
@@ -317,7 +391,12 @@
           <div class="card-header">
             <h3>Las Quintas</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina a medida en Las Quintas, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Diseño a medida</h4>
             <p>Distribuciones eficientes y materiales de alto desempeño.</p>
@@ -342,7 +421,12 @@
           <div class="card-header">
             <h3>Tres Ríos</h3><span class="emergency-badge">Proyectos premium</span>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina con isla en Tres Ríos, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cocinas con isla</h4>
             <p>Integración de barra, electrodomésticos empotrados y perfiles Gola.</p>
@@ -361,7 +445,12 @@
           <div class="card-header">
             <h3>La Primavera</h3><span class="emergency-badge">Proyectos premium</span>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina premium en La Primavera, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Acabados premium</h4>
             <p>Porcelanato gran formato, cuarzo de alto brillo y herrajes ocultos.</p>
@@ -380,7 +469,12 @@
           <div class="card-header">
             <h3>Country Álamos</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina contemporánea en Country Álamos, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Diseño contemporáneo</h4>
             <p>Puertas lisas, tonos neutros y luz cálida de tarea y ambiente.</p>
@@ -399,7 +493,12 @@
           <div class="card-header">
             <h3>Montebello</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina moderna en Montebello, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cocinas modernas</h4>
             <p>Altura a plafón, zócalos ocultos y módulos organizadores.</p>
@@ -424,7 +523,12 @@
           <div class="card-header">
             <h3>Benevento</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina integral en Benevento, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cocinas integrales</h4>
             <p>Proyectos llave en mano con instalación y garantía por escrito.</p>
@@ -443,7 +547,12 @@
           <div class="card-header">
             <h3>Villas del Río</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina moderna pequeña en Villas del Río, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Optimización de espacio</h4>
             <p>Cocinas modernas pequeñas con máxima capacidad y orden.</p>
@@ -462,7 +571,12 @@
           <div class="card-header">
             <h3>Portalegre</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina con carpintería a medida en Portalegre, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Carpintería a medida</h4>
             <p>Gabinetes y alacenas con herrajes de cierre suave.</p>
@@ -481,7 +595,12 @@
           <div class="card-header">
             <h3>Terranova</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cubiertas de cocina en Terranova, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cubiertas</h4>
             <p>Cuarzo, granito y porcelanato con instalación profesional.</p>
@@ -506,7 +625,12 @@
           <div class="card-header">
             <h3>Infonavit Humaya</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina moderna en Infonavit Humaya, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cocinas modernas</h4>
             <p>Soluciones funcionales y estéticas para espacios compactos.</p>
@@ -525,7 +649,12 @@
           <div class="card-header">
             <h3>Lomas de Guadalupe</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina integral en Lomas de Guadalupe, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cocinas integrales</h4>
             <p>Proyecto completo con medición, diseño e instalación.</p>
@@ -544,7 +673,12 @@
           <div class="card-header">
             <h3>La Conquista</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Diseño de cocina en La Conquista, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Diseño y render</h4>
             <p>Visualiza tu cocina antes de fabricarla con renders realistas.</p>
@@ -563,7 +697,12 @@
           <div class="card-header">
             <h3>Horizontes</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Cocina con isla en Horizontes, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Cocinas con isla</h4>
             <p>Integración de barras funcionales y almacenamiento oculto.</p>
@@ -582,7 +721,12 @@
           <div class="card-header">
             <h3>Chulavista</h3>
           </div>
-          <img src="/img/placeholder-cocina.webp" alt="Closets y almacenamiento en Chulavista, Culiacán" loading="lazy" decoding="async" width="800" height="534" style="border-radius:12px;margin-bottom:14px;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
           <div class="service-areas">
             <h4>Closets & almacenamiento</h4>
             <p>Vestidores, pantaloneros y organizadores a medida.</p>
@@ -620,41 +764,85 @@
             <a href="/servicios">Servicios</a> |
             <a href="/proyectos-culiacan">Proyectos</a> |
             <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
             <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
         </nav>
     </footer>
 
     <script type="module">
 document.addEventListener("DOMContentLoaded", () => {
-  // Tel
-  document.querySelectorAll('a[href^="tel:"]').forEach(el=>{
-    el.addEventListener("click", function(){
-      const number = this.href.replace("tel:","");
+  // Menú hamburguesa premium
+  const hamburger = document.getElementById('hamburger');
+  const navList = document.getElementById('nav-list');
+  
+  if (hamburger && navList) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+    
+    // Cerrar menú al hacer clic en enlaces
+    navList.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navList.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  }
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Clics en teléfono
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener("click", function () {
+      const number = this.href.replace("tel:", "");
       if (typeof gtag !== "undefined") {
         gtag("event", "phone_call_click", {
           event_category: "engagement",
           event_label: number,
           value: 1,
-          phone_location: el.dataset.phone || "unknown"
+          phone_location: this.dataset.phone || "unknown"
         });
       }
     });
   });
 
-  // WhatsApp
-  document.querySelectorAll('a[href*="wa.me"],a[href*="api.whatsapp.com"]').forEach(el => {
-    el.addEventListener("click", () => {
+  // Clics en WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener("click", function () {
       if (typeof gtag !== "undefined") {
         gtag("event", "whatsapp_click", {
           event_category: "engagement",
-          event_label: el.href,
+          event_label: this.href,
           value: 1,
-          phone_location: el.dataset.phone || "unknown"
+          phone_location: this.dataset.phone || "unknown"
         });
       }
     });
   });
 });
 </script>
+
+<script src="/lazy-loading.js"></script>
 </body>
 </html>

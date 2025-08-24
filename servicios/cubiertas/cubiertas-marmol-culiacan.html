@@ -3,40 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <title>Cubiertas de mármol en Culiacán | Elegancia atemporal</title>
   <meta name="description" content="Mármol en Culiacán: pros, contras, uso ideal y mantenimiento. Elegancia y frescura en cocina. Diseñamos e instalamos con costos claros y garantía por escrito.">
   <link rel="canonical" href="https://zasakitchen.com/cubiertas-marmol-culiacan/">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../style.css">
+
+<style>
+.image-slot {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.image-slot:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.hero-image-slot {
+    width: 100%;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .hero-image-slot {
+        min-height: 250px;
+    }
+}
+
+.card-image-slot {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 1rem auto;
+}
+
+.gallery-image-slot {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Preparación para lazy loading */
+.image-slot[data-lazy] {
+    background-image: none !important;
+}
+
+.image-slot.loaded {
+    border: none;
+    background: none;
+}
+
+.image-slot.loaded::after {
+    content: none;
+}
+</style>
+
+<style>body { padding-top: 80px; }</style>
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar">
-    <div class="container nav-wrap">
-        <div class="brand">
-            <img src="img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+        <div class="container nav-wrap">
+            <div class="brand">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+            </div>
+            <ul class='nav-list' id="nav-list">
+              <li class='nav-item'>
+                <a href='/servicios' class='nav-link'>SERVICIOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/proyectos-culiacan' class='nav-link'>PROYECTOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/blog' class='nav-link'>BLOG</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto' class='nav-link'>CONTACTO</a>
+              </li>
+            </ul>
+            <div class="nav-actions">
+              <a href='tel:+526671234567' class='nav-cta' data-phone='header'>
+                <span>LLÁMANOS</span>
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
         </div>
-        <ul class='nav-list'>
-          <li class='nav-item'><a href='/servicios' class='nav-link'>SERVICIOS</a></li>
-          <li class='nav-item'><a href='/proyectos-culiacan' class='nav-link'>PROYECTOS</a></li>
-          <li class='nav-item'><a href='/blog' class='nav-link'>BLOG</a></li>
-          <li class='nav-item'><a href='/contacto' class='nav-link'>CONTACTO</a></li>
-        </ul>
-        <a href='tel:+526671234567' class='nav-cta'>LLÁMANOS</a>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- HERO -->
-  <section class="hero" style="background-image:url('img/proyectos/las-quintas-01.jpg')">
-    <div class="container">
-      <h1>Cubiertas de mármol en Culiacán</h1>
-      <p>El mármol aporta una estética premium y una sensación de frescura. Es ideal para proyectos que priorizan la elegancia, siempre considerando sus cuidados específicos para mantenerlo en óptimo estado.</p>
-      <a href="tel:+526671234567">COTIZAR MÁRMOL</a>
-      <a href="/proyectos-culiacan">VER PROYECTOS</a>
-    </div>
-  </section>
-
-  <main class="container">
+  
+    
+    <header class="hero">
+        <div class="container">
+            <!-- Hero content será definido por cada página -->
+        </div>
+    </header>
+<main class="container">
     <!-- ¿POR QUÉ MÁRMOL? -->
     <section>
       <h2>¿Por qué mármol?</h2>
@@ -118,22 +184,22 @@
     <section class="cards-premium">
       <h2>Ventajas del Mármol Natural</h2>
       <ul>
-        <li class="card-item" style="background-image:url('img/marmol-elegancia.jpg')">
+        <li class="card-item" style="">
           <div class="overlay"><span>Elegancia Clásica</span></div>
         </li>
-        <li class="card-item" style="background-image:url('img/marmol-vetas.jpg')">
+        <li class="card-item" style="">
           <div class="overlay"><span>Vetas Únicas</span></div>
         </li>
-        <li class="card-item" style="background-image:url('img/marmol-frescura.jpg')">
+        <li class="card-item" style="">
           <div class="overlay"><span>Superficie Fresca</span></div>
         </li>
-        <li class="card-item" style="background-image:url('img/marmol-reposteria.jpg')">
+        <li class="card-item" style="">
           <div class="overlay"><span>Ideal para Repostería</span></div>
         </li>
-        <li class="card-item" style="background-image:url('img/marmol-lujo.jpg')">
+        <li class="card-item" style="">
           <div class="overlay"><span>Símbolo de Lujo</span></div>
         </li>
-        <li class="card-item" style="background-image:url('img/marmol-versatilidad.jpg')">
+        <li class="card-item" style="">
           <div class="overlay"><span>Versatilidad de Diseño</span></div>
         </li>
       </ul>
@@ -194,18 +260,94 @@
     </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <h3>Zasa Kitchen Studio – Cubiertas de Mármol</h3>
-      <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
-      <p>WhatsApp: <a href="https://wa.me/526671234567?text=Hola%20Zasa%2C%20quiero%20cotizar%20cubiertas%20de%20m%C3%A1rmol">667 123 4567</a></p>
-      <p>Teléfono: <a href="tel:+526671234567">667 123 4567</a></p>
-      <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
-      <nav>
-        <a href="/">Inicio</a> | <a href="/servicios">Servicios</a> | <a href="/proyectos-culiacan">Proyectos</a> | <a href="/contacto">Contacto</a>
-      </nav>
-    </div>
-  </footer>
+  <footer id="contacto">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526671234567?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 123 4567</a></p>
+        <p>Teléfono: <a href="tel:+526671234567">667 123 4567</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
+    </footer>
 <script src="/lazy-loading.js"></script>
+
+    <script type="module">
+document.addEventListener("DOMContentLoaded", () => {
+  // Menú hamburguesa premium
+  const hamburger = document.getElementById('hamburger');
+  const navList = document.getElementById('nav-list');
+  
+  if (hamburger && navList) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+    
+    // Cerrar menú al hacer clic en enlaces
+    navList.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navList.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  }
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Clics en teléfono
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener("click", function () {
+      const number = this.href.replace("tel:", "");
+      if (typeof gtag !== "undefined") {
+        gtag("event", "phone_call_click", {
+          event_category: "engagement",
+          event_label: number,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+
+  // Clics en WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener("click", function () {
+      if (typeof gtag !== "undefined") {
+        gtag("event", "whatsapp_click", {
+          event_category: "engagement",
+          event_label: this.href,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+});
+</script>
 </body>
 </html>

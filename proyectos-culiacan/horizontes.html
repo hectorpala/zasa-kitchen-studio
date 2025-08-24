@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <title>Proyecto Cocina Integral en Horizontes, Culiacán | Zasa Kitchen Studio</title>
   <meta name="description" content="Cocina integral funcional en Horizontes, Culiacán. Diseño estilizado con optimización de espacios y acabados modernos. Ver proyecto completo.">
@@ -45,10 +46,101 @@
   }
   </script>
   <link rel="stylesheet" href="../style.css">
+
+<style>
+.image-slot {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.image-slot:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.hero-image-slot {
+    width: 100%;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .hero-image-slot {
+        min-height: 250px;
+    }
+}
+
+.card-image-slot {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 1rem auto;
+}
+
+.gallery-image-slot {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Preparación para lazy loading */
+.image-slot[data-lazy] {
+    background-image: none !important;
+}
+
+.image-slot.loaded {
+    border: none;
+    background: none;
+}
+
+.image-slot.loaded::after {
+    content: none;
+}
+</style>
+
+<style>body { padding-top: 80px; }</style>
 </head>
 <body>
-  <!-- HERO con imagen del proyecto -->
-  <section class="hero" style="background-image:url('../img/proyectos/horizontes-01.jpg')">
+<nav class="navbar">
+        <div class="container nav-wrap">
+            <div class="brand">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+            </div>
+            <ul class='nav-list' id="nav-list">
+              <li class='nav-item'>
+                <a href='/servicios' class='nav-link'>SERVICIOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/proyectos-culiacan' class='nav-link'>PROYECTOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/blog' class='nav-link'>BLOG</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto' class='nav-link'>CONTACTO</a>
+              </li>
+            </ul>
+            <div class="nav-actions">
+              <a href='tel:+526671234567' class='nav-cta' data-phone='header'>
+                <span>LLÁMANOS</span>
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+        </div>
+    </nav>
+
+
+  
+    
+    <header class="hero">
+        <div class="container">
+            <!-- Hero content será definido por cada página -->
+        </div>
+    </header>
+
+    <section class="hero" style="">
     <div class="hero-content">
       <h1>Proyecto Horizontes</h1>
       
@@ -112,21 +204,36 @@
           <source media="(max-width: 480px)" srcset="../img/proyectos/horizontes-01-480.jpg">
           <source media="(max-width: 800px)" srcset="../img/proyectos/horizontes-01-800.jpg">
           <source media="(max-width: 1200px)" srcset="../img/proyectos/horizontes-01-1200.jpg">
-          <img src="../img/proyectos/horizontes-01-1600.jpg" alt="Cocina integral funcional en Horizontes - Vista general" loading="lazy" style="border-radius:12px;margin-bottom:20px;width:100%;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
         </picture>
         
         <picture>
           <source media="(max-width: 480px)" srcset="../img/proyectos/horizontes-02-480.jpg">
           <source media="(max-width: 800px)" srcset="../img/proyectos/horizontes-02-800.jpg">
           <source media="(max-width: 1200px)" srcset="../img/proyectos/horizontes-02-1200.jpg">
-          <img src="../img/proyectos/horizontes-02-1600.jpg" alt="Cocina integral funcional en Horizontes - Optimización de espacios" loading="lazy" style="border-radius:12px;margin-bottom:20px;width:100%;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
         </picture>
         
         <picture>
           <source media="(max-width: 480px)" srcset="../img/proyectos/horizontes-03-480.jpg">
           <source media="(max-width: 800px)" srcset="../img/proyectos/horizontes-03-800.jpg">
           <source media="(max-width: 1200px)" srcset="../img/proyectos/horizontes-03-1200.jpg">
-          <img src="../img/proyectos/horizontes-03-1600.jpg" alt="Cocina integral funcional en Horizontes - Detalles estilizados" loading="lazy" style="border-radius:12px;margin-bottom:20px;width:100%;">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
         </picture>
       </div>
     </div>
@@ -156,7 +263,20 @@
       <h2>Resultado del Cliente</h2>
       <blockquote style="background:#f9f9f9;padding:20px;border-left:4px solid var(--brand);margin:20px 0;">
         <p style="font-style:italic;font-size:18px;line-height:1.6;">"Increíble cómo aprovecharon cada espacio. Aunque es una cocina compacta, tiene todo lo que necesitamos y más. Los sistemas organizadores son geniales y el diseño se ve muy estilizado."</p>
-        <footer style="margin-top:15px;font-weight:bold;">— Familia Castro, Horizontes</footer>
+        <footer id="contacto">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526671234567?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 123 4567</a></p>
+        <p>Teléfono: <a href="tel:+526671234567">667 123 4567</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
+    </footer>
       </blockquote>
     </div>
   </section>
@@ -166,15 +286,15 @@
     <div class="container">
       <h2>Proyectos Funcionales Similares</h2>
       <div class="services-grid">
-        <div class="service-card bg" style="background-image:url('../img/proyectos/villas-del-rio-01.jpg')">
+        <div class="service-card bg" style="">
           <h3><a href="villas-del-rio.html" style="color:inherit;text-decoration:none;">Villas del Río</a></h3>
           <p>Diseño fresco con espacios optimizados.</p>
         </div>
-        <div class="service-card bg" style="background-image:url('../img/proyectos/infonavit-humaya-01.jpg')">
+        <div class="service-card bg" style="">
           <h3>Infonavit Humaya</h3>
           <p>Soluciones integrales y accesibles.</p>
         </div>
-        <div class="service-card bg" style="background-image:url('../img/proyectos/la-primavera-01.jpg')">
+        <div class="service-card bg" style="">
           <h3><a href="la-primavera.html" style="color:inherit;text-decoration:none;">La Primavera</a></h3>
           <p>Diseño contemporáneo funcional.</p>
         </div>
@@ -193,15 +313,95 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
-      <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, Sinaloa</p>
-      <p>WhatsApp: <a href="https://wa.me/526671234567?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n">667 123 4567</a></p>
-      <p>Teléfono: <a href="tel:+526671234567">667 123 4567</a></p>
-      <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
-      <p>&copy; 2025 Zasa Kitchen Studio - Proyecto Horizontes, Culiacán</p>
-    </div>
-  </footer>
+  <footer id="contacto">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526671234567?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 123 4567</a></p>
+        <p>Teléfono: <a href="tel:+526671234567">667 123 4567</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
+    </footer>
+
+<script src="/lazy-loading.js"></script>
+
+    <script type="module">
+document.addEventListener("DOMContentLoaded", () => {
+  // Menú hamburguesa premium
+  const hamburger = document.getElementById('hamburger');
+  const navList = document.getElementById('nav-list');
+  
+  if (hamburger && navList) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+    
+    // Cerrar menú al hacer clic en enlaces
+    navList.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navList.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  }
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Clics en teléfono
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener("click", function () {
+      const number = this.href.replace("tel:", "");
+      if (typeof gtag !== "undefined") {
+        gtag("event", "phone_call_click", {
+          event_category: "engagement",
+          event_label: number,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+
+  // Clics en WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener("click", function () {
+      if (typeof gtag !== "undefined") {
+        gtag("event", "whatsapp_click", {
+          event_category: "engagement",
+          event_label: this.href,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+});
+</script>
 </body>
 </html>

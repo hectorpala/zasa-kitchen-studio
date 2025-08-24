@@ -1,5 +1,3 @@
 User-agent: *
 Disallow: /
-
-# STAGING VERSION - NO INDEXING
-# This is a staging environment for testing purposes only
+# Staging environment - Do not index

@@ -158,12 +158,13 @@
   ]
 }
 </script>
+<style>body { padding-top: 80px; }</style>
 </head>
 <body>
     <nav class="navbar">
         <div class="container nav-wrap">
             <div class="brand">
-                <img src="img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
             </div>
             <ul class='nav-list' id="nav-list">
               <li class='nav-item'>
@@ -195,7 +196,12 @@
     <header class="hero">
         <div class="container">
             <div class="hero-logo">
-                <img src="img/logo-zasa.jpg" alt="ZASA Kitchen Studio" class="hero-logo-img">
+                <div class="image-slot hero-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Hero 16:9</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
             </div>
             <h1>Cocinas integrales y modernas en Culiacán</h1>
             <p>En ZASA Kitchen Studio diseñamos, fabricamos e instalamos cocinas a medida que combinan estética y funcionalidad. Trabajamos con cuarzo, granito y mármol, optimizamos tu espacio y cuidamos cada detalle desde la asesoría hasta la instalación. Cotiza por WhatsApp y recibe propuestas claras, tiempos definidos y garantía por escrito.</p>
@@ -225,7 +231,12 @@
                 <div class="services-grid">
                     <a href="/servicios/cocinas/cocinas-integrales.html" class="service-card service-card-featured">
                         <div class="service-image">
-                            <img src="/img/optimized/cocina-integral-gris-1x1.jpg" loading="lazy" alt="Cocina integral moderna gris con isla de cuarzo en Culiacán" loading="lazy">
+                            <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
                         </div>
                         <div class="service-content">
                             <h3>Cocinas integrales</h3>
@@ -644,7 +655,7 @@
             <a href="/servicios">Servicios</a> |
             <a href="/proyectos-culiacan">Proyectos</a> |
             <a href="/blog">Blog & Consejos</a> |
-            <a href="#colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
             <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
         </nav>
     </footer>
@@ -683,7 +694,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Navbar scroll effect
   const navbar = document.querySelector('.navbar');
-  let lastScrollY = window.scrollY;
   
   window.addEventListener('scroll', () => {
     if (window.scrollY > 100) {
@@ -721,57 +731,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
-
-  // Lazy loading para background images
-  const lazyBgs = document.querySelectorAll('.lazy-bg');
-  
-  if ('IntersectionObserver' in window) {
-    const bgObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const bgUrl = entry.target.dataset.bg;
-          if (bgUrl) {
-            entry.target.style.backgroundImage = `url(${bgUrl})`;
-            entry.target.classList.add('loaded');
-            bgObserver.unobserve(entry.target);
-          }
-        }
-      });
-    }, {
-      rootMargin: '50px'
-    });
-    
-    lazyBgs.forEach(bg => bgObserver.observe(bg));
-  } else {
-    // Fallback para navegadores sin IntersectionObserver
-    lazyBgs.forEach(bg => {
-      const bgUrl = bg.dataset.bg;
-      if (bgUrl) {
-        bg.style.backgroundImage = `url(${bgUrl})`;
-        bg.classList.add('loaded');
-      }
-    });
-  }
-
-  // Lazy loading para imágenes regulares
-  const lazyImages = document.querySelectorAll('img[loading="lazy"]');
-  
-  if ('IntersectionObserver' in window) {
-    const imageObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const img = entry.target;
-          img.classList.add('loaded');
-          imageObserver.unobserve(img);
-        }
-      });
-    });
-    
-    lazyImages.forEach(img => imageObserver.observe(img));
-  } else {
-    // Fallback
-    lazyImages.forEach(img => img.classList.add('loaded'));
-  }
 });
 </script>
 <script src="/lazy-loading.js"></script>

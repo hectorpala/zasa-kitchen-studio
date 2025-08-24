@@ -1,0 +1,41 @@
+ruta,seccion,slot_tipo,proporcion,tamaño_minimo,archivo_sugerido,alt_pendiente,prioridad
+index.html,hero,hero-image-slot,16:9,1920x1080,index-hero-1.jpg,Hero imagen index - Por definir,alta
+index.html,galeria-1,gallery-image-slot,4:3,800x600,index-gallery-1.jpg,Galería index - Por definir,media
+servicios/cocinas/cocinas-integrales.html,hero,hero-image-slot,16:9,1920x1080,cocinas-integrales-hero-1.jpg,Hero imagen cocinas-integrales - Por definir,alta
+servicios/cocinas/cocinas-integrales.html,hero-2,hero-image-slot,16:9,1920x1080,cocinas-integrales-hero-2.jpg,Hero imagen cocinas-integrales - Por definir,alta
+servicios/cocinas/cocinas-integrales.html,hero-3,hero-image-slot,16:9,1920x1080,cocinas-integrales-hero-3.jpg,Hero imagen cocinas-integrales - Por definir,alta
+servicios/cocinas/cocinas-integrales.html,tarjeta-1,card-image-slot,1:1,400x400,cocinas-integrales-card-1.jpg,Tarjeta cocinas-integrales - Por definir,media
+servicios/cocinas/cocinas-integrales.html,galeria-1,gallery-image-slot,4:3,800x600,cocinas-integrales-gallery-1.jpg,Galería cocinas-integrales - Por definir,media
+servicios/cocinas/cocinas-modernas.html,hero,hero-image-slot,16:9,1920x1080,cocinas-modernas-hero-1.jpg,Hero imagen cocinas-modernas - Por definir,media
+servicios/cocinas/cocinas-modernas.html,hero-2,hero-image-slot,16:9,1920x1080,cocinas-modernas-hero-2.jpg,Hero imagen cocinas-modernas - Por definir,media
+servicios/cocinas/cocinas-modernas.html,tarjeta-1,card-image-slot,1:1,400x400,cocinas-modernas-card-1.jpg,Tarjeta cocinas-modernas - Por definir,media
+servicios/cocinas/cocinas-modernas.html,galeria-1,gallery-image-slot,4:3,800x600,cocinas-modernas-gallery-1.jpg,Galería cocinas-modernas - Por definir,media
+proyectos-culiacan/tres-rios.html,hero,hero-image-slot,16:9,1920x1080,tres-rios-hero-1.jpg,Hero imagen tres-rios - Por definir,alta
+proyectos-culiacan/tres-rios.html,hero-2,hero-image-slot,16:9,1920x1080,tres-rios-hero-2.jpg,Hero imagen tres-rios - Por definir,alta
+proyectos-culiacan/tres-rios.html,tarjeta-1,card-image-slot,1:1,400x400,tres-rios-card-1.jpg,Tarjeta tres-rios - Por definir,media
+proyectos-culiacan/tres-rios.html,galeria-1,gallery-image-slot,4:3,800x600,tres-rios-gallery-1.jpg,Galería tres-rios - Por definir,media
+proyectos-culiacan/tres-rios.html,galeria-2,gallery-image-slot,4:3,800x600,tres-rios-gallery-2.jpg,Galería tres-rios - Por definir,media
+proyectos-culiacan/tres-rios.html,galeria-3,gallery-image-slot,4:3,800x600,tres-rios-gallery-3.jpg,Galería tres-rios - Por definir,media
+proyectos-culiacan/tres-rios.html,galeria-4,gallery-image-slot,4:3,800x600,tres-rios-gallery-4.jpg,Galería tres-rios - Por definir,media
+proyectos-culiacan/benevento.html,hero,hero-image-slot,16:9,1920x1080,benevento-hero-1.jpg,Hero imagen benevento - Por definir,alta
+proyectos-culiacan/benevento.html,hero-2,hero-image-slot,16:9,1920x1080,benevento-hero-2.jpg,Hero imagen benevento - Por definir,alta
+proyectos-culiacan/benevento.html,tarjeta-1,card-image-slot,1:1,400x400,benevento-card-1.jpg,Tarjeta benevento - Por definir,media
+proyectos-culiacan/benevento.html,galeria-1,gallery-image-slot,4:3,800x600,benevento-gallery-1.jpg,Galería benevento - Por definir,media
+proyectos-culiacan/benevento.html,galeria-2,gallery-image-slot,4:3,800x600,benevento-gallery-2.jpg,Galería benevento - Por definir,media
+proyectos-culiacan/benevento.html,galeria-3,gallery-image-slot,4:3,800x600,benevento-gallery-3.jpg,Galería benevento - Por definir,media
+proyectos-culiacan/benevento.html,galeria-4,gallery-image-slot,4:3,800x600,benevento-gallery-4.jpg,Galería benevento - Por definir,media
+colonias/tres-rios.html,hero,hero-image-slot,16:9,1920x1080,tres-rios-hero-1.jpg,Hero imagen tres-rios - Por definir,media
+colonias/tres-rios.html,hero-2,hero-image-slot,16:9,1920x1080,tres-rios-hero-2.jpg,Hero imagen tres-rios - Por definir,media
+colonias/tres-rios.html,hero-3,hero-image-slot,16:9,1920x1080,tres-rios-hero-3.jpg,Hero imagen tres-rios - Por definir,media
+colonias/tres-rios.html,tarjeta-1,card-image-slot,1:1,400x400,tres-rios-card-1.jpg,Tarjeta tres-rios - Por definir,media
+colonias/tres-rios.html,galeria-1,gallery-image-slot,4:3,800x600,tres-rios-gallery-1.jpg,Galería tres-rios - Por definir,media
+colonias/las-quintas.html,hero,hero-image-slot,16:9,1920x1080,las-quintas-hero-1.jpg,Hero imagen las-quintas - Por definir,media
+colonias/las-quintas.html,hero-2,hero-image-slot,16:9,1920x1080,las-quintas-hero-2.jpg,Hero imagen las-quintas - Por definir,media
+colonias/las-quintas.html,hero-3,hero-image-slot,16:9,1920x1080,las-quintas-hero-3.jpg,Hero imagen las-quintas - Por definir,media
+colonias/las-quintas.html,tarjeta-1,card-image-slot,1:1,400x400,las-quintas-card-1.jpg,Tarjeta las-quintas - Por definir,media
+colonias/las-quintas.html,galeria-1,gallery-image-slot,4:3,800x600,las-quintas-gallery-1.jpg,Galería las-quintas - Por definir,media
+colonias/chapultepec.html,hero,hero-image-slot,16:9,1920x1080,chapultepec-hero-1.jpg,Hero imagen chapultepec - Por definir,media
+colonias/chapultepec.html,hero-2,hero-image-slot,16:9,1920x1080,chapultepec-hero-2.jpg,Hero imagen chapultepec - Por definir,media
+colonias/chapultepec.html,hero-3,hero-image-slot,16:9,1920x1080,chapultepec-hero-3.jpg,Hero imagen chapultepec - Por definir,media
+colonias/chapultepec.html,tarjeta-1,card-image-slot,1:1,400x400,chapultepec-card-1.jpg,Tarjeta chapultepec - Por definir,media
+colonias/chapultepec.html,galeria-1,gallery-image-slot,4:3,800x600,chapultepec-gallery-1.jpg,Galería chapultepec - Por definir,media
