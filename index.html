@@ -9,7 +9,7 @@
 
   <!-- SEO -->
   <title>Cocinas Integrales y Modernas en Culiacán | ZASA</title>
-  <meta name="description" content="Diseñamos, fabricamos e instalamos cocinas a medida en Culiacán. Cuarzo, granito y mármol. Costos claros, instalación puntual y garantía por escrito. Cotiza por WhatsApp.">
+  <meta name="description" content="Cocinas integrales modernas en Culiacán, Sinaloa. Diseño personalizado, fabricación e instalación con materiales premium: cuarzo, granito, mármol. Más de 50 colonias atendidas. Cotización gratuita, garantía escrita y financiamiento disponible. Especialistas en cocinas en L, U, con isla y espacios pequeños.">
   <link rel="canonical" href="https://zasa-kitchen-staging-a7b4c2d.netlify.app/">
 
   <!-- Performance hints -->
@@ -41,7 +41,7 @@
   <meta name="twitter:description" content="Diseñamos, fabricamos e instalamos cocinas a medida en Culiacán. Materiales premium, tiempos claros y garantía por escrito.">
   <meta name="twitter:image" content="/og-image.svg">
 
-  <!-- Schema Negocio de Cocinas -->
+  <!-- Schema Negocio de Cocinas Completo -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -98,12 +98,24 @@
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Servicios de Cocinas Modernas",
+      "name": "Servicios de Cocinas Integrales",
       "itemListElement": [
         {
           "@type": "Service",
-          "name": "Diseño de Cocinas Modernas",
-          "description": "Diseños personalizados de cocinas modernas según tu espacio y estilo.",
+          "name": "Cocinas Integrales Personalizadas",
+          "description": "Diseño, fabricación e instalación de cocinas integrales a medida con materiales premium.",
+          "provider": {"@id": "https://zasakitchen.com/#organization"}
+        },
+        {
+          "@type": "Service", 
+          "name": "Cubiertas de Cocina",
+          "description": "Instalación de cubiertas de cuarzo, granito y mármol para cocinas.",
+          "provider": {"@id": "https://zasakitchen.com/#organization"}
+        },
+        {
+          "@type": "Service",
+          "name": "Closets y Carpintería",
+          "description": "Diseño y fabricación de closets y muebles de carpintería a medida.",
           "provider": {"@id": "https://zasakitchen.com/#organization"}
         },
         {
@@ -600,9 +612,13 @@
         <section id="faq" class="services-intro">
             <div class="container">
                 <h2>Preguntas frecuentes (FAQ)</h2>
-                <div class="faq-item">
-                    <h3>¿Cuánto tarda una cocina a medida?</h3>
-                    <p>Depende del diseño y materiales. Te damos un estimado desde la propuesta y lo confirmamos al aprobar tu proyecto.</p>
+                <div itemscope itemtype="https://schema.org/FAQPage">
+                    <div class="faq-item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+                        <h3 itemprop="name">¿Cuánto tarda una cocina a medida?</h3>
+                        <div itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+                            <p itemprop="text">Depende del diseño y materiales. Te damos un estimado desde la propuesta y lo confirmamos al aprobar tu proyecto.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="faq-item">
                     <h3>¿Qué cubierta me conviene?</h3>

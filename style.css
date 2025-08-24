@@ -23,6 +23,42 @@
   --gradient-overlay: linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 41, 59, 0.8) 100%);
 }
 
+/* === BREADCRUMBS === */
+.breadcrumb {
+    display: flex;
+    list-style: none;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.breadcrumb-item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-item:not(:last-child)::after {
+    content: "›";
+    margin: 0 0.5rem;
+    color: var(--text-muted);
+}
+
+.breadcrumb-item a {
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    color: var(--brand);
+    text-decoration: underline;
+}
+
+.breadcrumb-item.active {
+    color: var(--text);
+    font-weight: 500;
+}
+
 /* === IMAGE SLOTS UNIFICADOS === */
 .image-slot {
     position: relative;
