@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-astro-cid-sckkx6r4>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +9,22 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#ff6600">
+  <meta name="generator" content="Astro v5.12.2">
+
+  <!-- SEO -->
   <title>Proyectos de cocinas en Culiacán | Portafolio ZASA</title>
   <meta name="description" content="Cocinas integrales y modernas realizadas en Culiacán. Antes y después, materiales usados y colonias. Inspírate con casos reales y cotiza por WhatsApp.">
   <link rel="canonical" href="https://www.zasakitchenstudio.mx/proyectos-culiacan/">
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Preload recursos críticos -->
+  <link rel="preload" as="image" href="/img/logo-zasa.jpg">
+  <link rel="preload" as="style" href="/style.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Proyectos de cocinas en Culiacán | Portafolio ZASA">
@@ -53,7 +66,9 @@
     ]
   }
   </script>
+  
   <link rel="stylesheet" href="/style.css">
+  <meta name="theme-color" content="#ED6623">
 <style>body { padding-top: 80px; }</style>
 </head>
 <body>
@@ -90,14 +105,16 @@
     </nav>
     
   <!-- HERO con imagen -->
-  <section class="hero" style="">
-    <div class="hero-content">
+  <header class="hero">
+    <div class="container">
       <h1>Proyectos de cocinas en Culiacán</h1>
       <p>Explora una selección de cocinas integrales y modernas realizadas en Culiacán. Cada caso incluye reto, solución y resultado, además del material utilizado y la colonia donde se instaló.</p>
-      <a class="btn btn-primary" href="tel:+526672256523">LLÁMANOS: 667 225 6523</a>
-      <a class="btn btn-secondary" href="/contacto">COTIZA TU PROYECTO</a>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="https://wa.me/526672256523?text=Hola%20ZASA%2C%20quiero%20cotizar%20mi%20proyecto">Cotizar por WhatsApp</a>
+        <a href="tel:+526672256523" class="hero-microlink">Llamar: 667 225 6523</a>
+      </div>
     </div>
-  </section>
+  </header>
 
   <!-- INTRODUCCIÓN -->
   <section class="services-intro">
