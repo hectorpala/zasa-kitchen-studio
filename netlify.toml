@@ -11,10 +11,13 @@
   to = "/colonias/:slug.html"
   status = 301
 
+# Headers de producción - Sin noindex
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[headers]]
   for = "/*.css"
