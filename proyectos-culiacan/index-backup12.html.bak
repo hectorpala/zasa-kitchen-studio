@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="es" data-astro-cid-sckkx6r4>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="generator" content="Astro v5.12.2">
+
+  <!-- SEO -->
+  <title>Proyectos de Cocinas en Culiacán | Zasa Kitchen Studio</title>
+  <meta name='description' content='Mira cocinas y closets instalados en Culiacán: materiales premium, iluminación y acabados. Inspírate y cotiza tu proyecto hoy.'>
+  <link rel='canonical' href='https://www.zasakitchenstudio.mx/proyectos-culiacan/'>
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <meta name="theme-color" content="#ED6623">
+
+  <!-- Open Graph -->
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Proyectos de Cocinas en Culiacán | Zasa Kitchen Studio'>
+  <meta property='og:description' content='Mira cocinas y closets instalados en Culiacán: materiales premium, iluminación y acabados. Inspírate y cotiza tu proyecto hoy.'>
+  <meta property='og:url' content='https://www.zasakitchenstudio.mx/proyectos-culiacan/'>
+  <meta property='og:image' content='/og-image.svg'>
+
+  <!-- Twitter -->
+  <meta name='twitter:card' content='summary_large_image'>
+  <meta name='twitter:title' content='Proyectos de Cocinas en Culiacán | Zasa Kitchen Studio'>
+  <meta name='twitter:description' content='Mira cocinas y closets instalados en Culiacán: materiales premium, iluminación y acabados. Inspírate y cotiza tu proyecto hoy.'>
+  <meta name='twitter:image' content='/og-image.svg'>
+
+  <!-- Schema Negocio de Cocinas -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "@id": "https://www.zasakitchenstudio.mx/#organization",
+    "name": "Zasa Kitchen Studio",
+    "alternateName": "Cocinas Modernas Zasa",
+    "image": [
+      "https://www.zasakitchenstudio.mx/img/logo.svg",
+      "https://www.zasakitchenstudio.mx/img/showroom.png"
+    ],
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.zasakitchenstudio.mx/img/logo.svg",
+      "width": "200",
+      "height": "80"
+    },
+    "description": "Diseño, fabricación e instalación de cocinas modernas en Culiacán, Sinaloa. Cocinas integrales personalizadas y remodelación de espacios.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "General Rafael Buelna Tenorio 750 Local 5",
+      "addressLocality": "Culiacán Rosales",
+      "addressRegion": "Sinaloa",
+      "postalCode": "80060",
+      "addressCountry": "MX"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "24.812422977960736",
+      "longitude": "-107.38277162380777",
+      "name": "Culiacán Showroom"
+    },
+    "telephone": "+52-667-225-6523",
+    "url": "https://www.zasakitchenstudio.mx",
+    "email": "ventas@zasakitchen.com",
+    "areaServed": {
+      "@type": "City",
+      "name": "Culiacán"
+    },
+    "priceRange": "$",
+    "paymentAccepted": ["Efectivo", "Tarjeta de Crédito", "Transferencia"],
+    "currenciesAccepted": "MXN",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Servicios de Cocinas Modernas",
+      "itemListElement": [
+        {
+          "@type": "Service",
+          "name": "Diseño de Cocinas Modernas",
+          "description": "Diseños personalizados de cocinas modernas según tu espacio y estilo.",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/#organization"}
+        },
+        {
+          "@type": "Service",
+          "name": "Cocinas Integrales",
+          "description": "Fabricación e instalación de cocinas integrales a medida.",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/#organization"}
+        },
+        {
+          "@type": "Service",
+          "name": "Remodelación de Cocinas",
+          "description": "Transforma tu cocina con acabados modernos y funcionales.",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/#organization"}
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "52"
+    },
+    "slogan": "Diseñamos tu cocina, creamos tu espacio",
+    "sameAs": [
+      "https://www.instagram.com/tu_cuenta",
+      "https://www.facebook.com/tu_pagina",
+      "https://www.tiktok.com/@tu_usuario",
+      "https://www.linkedin.com/company/tu_empresa"
+    ]
+  }
+  </script>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"¿Cuánto tarda una cocina integral?","acceptedAnswer":{"@type":"Answer","text":"Entre 2 y 4 semanas desde la medición y firma, según materiales y volumen."}},
+    {"@type":"Question","name":"¿Qué materiales de cubierta manejan?","acceptedAnswer":{"@type":"Answer","text":"Cuarzo, granito, porcelanato y superficies sólidas premium, con garantía."}},
+    {"@type":"Question","name":"¿La medición tiene costo?","acceptedAnswer":{"@type":"Answer","text":"No. La visita y medición en Culiacán son gratuitas y sin compromiso."}}
+  ]
+}
+</script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.zasakitchenstudio.mx/"},
+    {"@type":"ListItem","position":2,"name":"Proyectos","item":"https://www.zasakitchenstudio.mx/proyectos-culiacan/"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "@id": "https://www.zasakitchenstudio.mx/proyectos-culiacan/#local",
+  "name": "Zasa Kitchen Studio",
+  "url": "https://www.zasakitchenstudio.mx/proyectos-culiacan/",
+  "image": "https://www.zasakitchenstudio.mx/og-image.svg",
+  "telephone": "+52-667-225-6523",
+  "email": "ventas@zasakitchen.com",
+  "priceRange": "$$",
+  "hasMap": "https://www.google.com/maps?q=Zasa+Kitchen+Studio+Culiac%C3%A1n",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Álvaro Obregón 1234, Col. Centro",
+    "addressLocality": "Culiacán",
+    "addressRegion": "Sinaloa",
+    "postalCode": "80000",
+    "addressCountry": "MX"
+  },
+  "areaServed": [
+    {"@type":"City","name":"Culiacán"},
+    {"@type":"Place","name":"Centro"},
+    {"@type":"Place","name":"Guadalupe"},
+    {"@type":"Place","name":"Chapultepec"},
+    {"@type":"Place","name":"Las Quintas"},
+    {"@type":"Place","name":"Tres Ríos"},
+    {"@type":"Place","name":"La Primavera"},
+    {"@type":"Place","name":"Country Álamos"},
+    {"@type":"Place","name":"Montebello"},
+    {"@type":"Place","name":"Benevento"},
+    {"@type":"Place","name":"Villas del Río"},
+    {"@type":"Place","name":"Portalegre"},
+    {"@type":"Place","name":"Terranova"},
+    {"@type":"Place","name":"Infonavit Humaya"},
+    {"@type":"Place","name":"Lomas de Guadalupe"},
+    {"@type":"Place","name":"La Conquista"},
+    {"@type":"Place","name":"Horizontes"},
+    {"@type":"Place","name":"Chulavista"}
+  ],
+  "serviceArea": {
+    "@type": "GeoCircle",
+    "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 24.7995, "longitude": -107.3897 },
+    "geoRadius": "50 km"
+  },
+  "makesOffer": [
+    { "@type": "Service", "name": "Cocinas integrales a medida" },
+    { "@type": "Service", "name": "Cocinas modernas" },
+    { "@type": "Service", "name": "Cubiertas de cuarzo y granito" },
+    { "@type": "Service", "name": "Gabinetes y alacenas" },
+    { "@type": "Service", "name": "Iluminación para cocina" }
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "09:00",
+    "closes": "19:00"
+  }
+}
+</script>
+
+<style>
+.image-slot {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.image-slot:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.hero-image-slot {
+    width: 100%;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .hero-image-slot {
+        min-height: 250px;
+    }
+}
+
+.card-image-slot {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 1rem auto;
+}
+
+.gallery-image-slot {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Preparación para lazy loading */
+.image-slot[data-lazy] {
+    background-image: none !important;
+}
+
+.image-slot.loaded {
+    border: none;
+    background: none;
+}
+
+.image-slot.loaded::after {
+    content: none;
+}
+</style>
+
+<style>body { padding-top: 80px; }</style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-wrap">
+            <div class="brand">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+            </div>
+            <ul class='nav-list' id="nav-list">
+              <li class='nav-item'>
+                <a href='/servicios' class='nav-link'>SERVICIOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/proyectos-culiacan' class='nav-link'>PROYECTOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/blog' class='nav-link'>BLOG</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto' class='nav-link'>CONTACTO</a>
+              </li>
+            </ul>
+            <div class="nav-actions">
+              <a href='tel:+526672256523' class='nav-cta' data-phone='header'>
+                <span>LLÁMANOS</span>
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="hero">
+        <div class="container">
+            <h1>Cocinas Integrales en Culiacán</h1>
+            <p>Diseño, fabricación e instalación con materiales de calidad</p>
+            <a href="https://wa.me/526672256523">Cotizar por WhatsApp</a>
+        </div>
+    </header>
+
+<section class="locations-section">
+  <div class="container">
+    <div class="intro-text">
+      <p><strong>Proyectos en Culiacán:</strong> atendemos colonias y fraccionamientos clave con cocinas modernas e integrales, cubiertas de cuarzo/granito y closets a medida. Elige tu zona y cotiza.</p>
+    </div>
+
+    <!-- Zona Centro / Consolidada -->
+    <div class="state-group">
+      <h2 class="state-title">Zona Centro / Consolidada</h2>
+      <div class="location-cards">
+        <div class="location-card" id="centro">
+          <div class="card-header">
+            <h3>Centro</h3><span class="emergency-badge">Proyectos activos</span>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cocinas integrales y modernas</h4>
+            <p>Diseños a medida con cubiertas premium y herrajes de cierre suave.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Centro</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Centro%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="guadalupe">
+          <div class="card-header">
+            <h3>Guadalupe</h3><span class="emergency-badge">Proyectos activos</span>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cocinas integrales</h4>
+            <p>Optimización de espacio, módulos funcionales y acabados modernos.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Guadalupe</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Guadalupe%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="chapultepec">
+          <div class="card-header">
+            <h3>Chapultepec</h3><span class="emergency-badge">Proyectos activos</span>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cocinas modernas</h4>
+            <p>Líneas limpias, iluminación integrada y cubiertas de cuarzo.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Chapultepec</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Chapultepec%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="las-quintas">
+          <div class="card-header">
+            <h3>Las Quintas</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Diseño a medida</h4>
+            <p>Distribuciones eficientes y materiales de alto desempeño.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Las Quintas</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Las%20Quintas%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Zona alto poder adquisitivo -->
+    <div class="state-group">
+      <h2 class="state-title">Zona de alto poder adquisitivo</h2>
+      <div class="location-cards">
+        <div class="location-card" id="tres-rios">
+          <div class="card-header">
+            <h3>Tres Ríos</h3><span class="emergency-badge">Proyectos premium</span>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cocinas con isla</h4>
+            <p>Integración de barra, electrodomésticos empotrados y perfiles Gola.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Tres Ríos</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Tres%20R%C3%ADos%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="la-primavera">
+          <div class="card-header">
+            <h3>La Primavera</h3><span class="emergency-badge">Proyectos premium</span>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Acabados premium</h4>
+            <p>Porcelanato gran formato, cuarzo de alto brillo y herrajes ocultos.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en La Primavera</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20La%20Primavera%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="country-alamos">
+          <div class="card-header">
+            <h3>Country Álamos</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Diseño contemporáneo</h4>
+            <p>Puertas lisas, tonos neutros y luz cálida de tarea y ambiente.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Country Álamos</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Country%20%C3%81lamos%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="montebello">
+          <div class="card-header">
+            <h3>Montebello</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cocinas modernas</h4>
+            <p>Altura a plafón, zócalos ocultos y módulos organizadores.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Montebello</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Montebello%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desarrollos residenciales recientes -->
+    <div class="state-group">
+      <h2 class="state-title">Desarrollos residenciales recientes</h2>
+      <div class="location-cards">
+        <div class="location-card" id="benevento">
+          <div class="card-header">
+            <h3>Benevento</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cocinas integrales</h4>
+            <p>Proyectos llave en mano con instalación y garantía por escrito.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Benevento</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Benevento%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="villas-del-rio">
+          <div class="card-header">
+            <h3>Villas del Río</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Optimización de espacio</h4>
+            <p>Cocinas modernas pequeñas con máxima capacidad y orden.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Villas del Río</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Villas%20del%20R%C3%ADo%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="portalegre">
+          <div class="card-header">
+            <h3>Portalegre</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Carpintería a medida</h4>
+            <p>Gabinetes y alacenas con herrajes de cierre suave.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Portalegre</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Portalegre%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="terranova">
+          <div class="card-header">
+            <h3>Terranova</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cubiertas</h4>
+            <p>Cuarzo, granito y porcelanato con instalación profesional.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Terranova</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Terranova%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Otras zonas estratégicas -->
+    <div class="state-group">
+      <h2 class="state-title">Otras zonas estratégicas</h2>
+      <div class="location-cards">
+        <div class="location-card" id="infonavit-humaya">
+          <div class="card-header">
+            <h3>Infonavit Humaya</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cocinas modernas</h4>
+            <p>Soluciones funcionales y estéticas para espacios compactos.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Infonavit Humaya</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Infonavit%20Humaya%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="lomas-de-guadalupe">
+          <div class="card-header">
+            <h3>Lomas de Guadalupe</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cocinas integrales</h4>
+            <p>Proyecto completo con medición, diseño e instalación.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Lomas de Guadalupe</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Lomas%20de%20Guadalupe%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="la-conquista">
+          <div class="card-header">
+            <h3>La Conquista</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Diseño y render</h4>
+            <p>Visualiza tu cocina antes de fabricarla con renders realistas.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en La Conquista</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20La%20Conquista%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="horizontes">
+          <div class="card-header">
+            <h3>Horizontes</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Cocinas con isla</h4>
+            <p>Integración de barras funcionales y almacenamiento oculto.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Horizontes</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Horizontes%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card" id="chulavista">
+          <div class="card-header">
+            <h3>Chulavista</h3>
+          </div>
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+          <div class="service-areas">
+            <h4>Closets & almacenamiento</h4>
+            <p>Vestidores, pantaloneros y organizadores a medida.</p>
+          </div>
+          <div class="card-footer">
+            <span class="cta-text">Cotiza en Chulavista</span>
+            <div>
+              <a class="nav-link" href="https://wa.me/526672256523?text=Quiero%20cotizar%20mi%20cocina%20en%20Chulavista%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WhatsApp</a>
+              &nbsp;|&nbsp;
+              <a class="nav-link" href="/contacto/?utm_source=site&utm_medium=cta&utm_campaign=contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA Final -->
+    <div class="location-cta">
+      <p>¿Tu colonia no aparece? También atendemos alrededores hasta 50 km de Culiacán.</p>
+      <a class="btn btn-primary" href="tel:+526672256523">LLAMAR 667 225 6523</a>
+      &nbsp;
+      <a class="btn btn-secondary" href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">WHATSAPP</a>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 225 6523</a></p>
+        <p>Teléfono: <a href="tel:+526672256523">667 225 6523</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
+    </footer>
+
+    <script type="module">
+document.addEventListener("DOMContentLoaded", () => {
+  // Menú hamburguesa premium
+  const hamburger = document.getElementById('hamburger');
+  const navList = document.getElementById('nav-list');
+  
+  if (hamburger && navList) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+    
+    // Cerrar menú al hacer clic en enlaces
+    navList.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navList.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  }
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Clics en teléfono
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener("click", function () {
+      const number = this.href.replace("tel:", "");
+      if (typeof gtag !== "undefined") {
+        gtag("event", "phone_call_click", {
+          event_category: "engagement",
+          event_label: number,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+
+  // Clics en WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener("click", function () {
+      if (typeof gtag !== "undefined") {
+        gtag("event", "whatsapp_click", {
+          event_category: "engagement",
+          event_label: this.href,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+});
+</script>
+
+<script src="/lazy-loading.js"></script>
+</body>
+</html>

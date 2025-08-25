@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- SEO Específico por Colonia -->
+  <title>Cocinas Universitarios | ZASA</title>
+  <meta name="description" content="Cocinas integrales y modernas en Universitarios, Culiacán. Diseño, fabricación e instalación. Cuarzo, granito y mármol. Cotiza por WhatsApp 667 225 6523.">
+  <link rel="canonical" href="https://www.zasakitchenstudio.mx/colonias/universitarios/"/>
+
+  <!-- Performance hints -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="../img/optimized/hero-optimized.jpg">
+  <link rel="preload" as="style" href="../style.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cocinas Integrales en Universitarios | ZASA Kitchen Studio">
+  <meta property="og:description" content="Diseñamos, fabricamos e instalamos cocinas a medida en Universitarios, Culiacán. Materiales premium y garantía por escrito.">
+  <meta property="og:image" content="/og-image.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.zasakitchenstudio.mx/colonias/universitarios/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cocinas Integrales en Universitarios | ZASA Kitchen Studio">
+  <meta name="twitter:description" content="Cocinas a medida en Universitarios. Cuarzo, granito y mármol. Cotiza por WhatsApp.">
+  <meta name="twitter:image" content="/og-image.svg">
+
+  <!-- Schema.org Local Business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.zasakitchenstudio.mx/colonias/universitarios/#business",
+    "name": "ZASA Kitchen Studio - Cocinas Integrales Universitarios",
+    "alternateName": "Cocinas Integrales Universitarios",
+    "description": "Diseño, fabricación e instalación de cocinas integrales en Universitarios, Culiacán. Especialistas en cuarzo, granito y mármol.",
+    "url": "https://www.zasakitchenstudio.mx/colonias/universitarios/",
+    "logo": "https://www.zasakitchenstudio.mx/img/logo-zasa.jpg",
+    "image": "https://www.zasakitchenstudio.mx/img/optimized/hero-optimized.jpg",
+    "telephone": "+52-667-225-6523",
+    "email": "ventas@zasakitchen.com",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "General Rafael Buelna Tenorio 750 Local 5",
+      "addressLocality": "Culiacán Rosales",
+      "addressRegion": "Sinaloa",
+      "postalCode": "80060",
+      "addressCountry": "MX"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "24.812422977960736",
+      "longitude": "-107.38277162380777"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Universitarios, Culiacán, Sinaloa"
+    },
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "24.812422977960736",
+        "longitude": "-107.38277162380777"
+      },
+      "geoRadius": "50000"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Servicios de Cocinas en Universitarios",
+      "itemListElement": [
+        {
+          "@type": "Service",
+          "name": "Cocinas Integrales Universitarios",
+          "description": "Diseño e instalación de cocinas integrales a medida en Universitarios",
+          "areaServed": "Universitarios, Culiacán",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/colonias/universitarios/#business"}
+        },
+        {
+          "@type": "Service", 
+          "name": "Cubiertas de Cuarzo Universitarios",
+          "description": "Instalación de cubiertas de cuarzo premium en Universitarios",
+          "areaServed": "Universitarios, Culiacán",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/colonias/universitarios/#business"}
+        },
+        {
+          "@type": "Service",
+          "name": "Closets a Medida Universitarios", 
+          "description": "Diseño e instalación de closets personalizados en Universitarios",
+          "areaServed": "Universitarios, Culiacán",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/colonias/universitarios/#business"}
+        }
+      ]
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "52"
+    },
+    "sameAs": [
+      "https://www.instagram.com/zasakitchen",
+      "https://www.facebook.com/zasakitchen"
+    ]
+  }
+  </script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://www.zasakitchenstudio.mx/"
+      },
+      {
+        "@type": "ListItem", 
+        "position": 2,
+        "name": "Colonias",
+        "item": "https://www.zasakitchenstudio.mx/#colonias"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Universitarios",
+        "item": "https://www.zasakitchenstudio.mx/colonias/universitarios/"
+      }
+    ]
+  }
+  </script>
+
+<style>
+.image-slot {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.image-slot:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.hero-image-slot {
+    width: 100%;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .hero-image-slot {
+        min-height: 250px;
+    }
+}
+
+.card-image-slot {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 1rem auto;
+}
+
+.gallery-image-slot {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Preparación para lazy loading */
+.image-slot[data-lazy] {
+    background-image: none !important;
+}
+
+.image-slot.loaded {
+    border: none;
+    background: none;
+}
+
+.image-slot.loaded::after {
+    content: none;
+}
+</style>
+
+<style>body { padding-top: 80px; }</style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-wrap">
+            <div class="brand">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+            </div>
+            <ul class='nav-list' id="nav-list">
+              <li class='nav-item'>
+                <a href='/servicios' class='nav-link'>SERVICIOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/proyectos-culiacan' class='nav-link'>PROYECTOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/blog' class='nav-link'>BLOG</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto' class='nav-link'>CONTACTO</a>
+              </li>
+            </ul>
+            <div class="nav-actions">
+              <a href='tel:+526672256523' class='nav-cta' data-phone='header'>
+                <span>LLÁMANOS</span>
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="hero">
+        <div class="container">
+            <div class="hero-logo">
+                <div class="image-slot hero-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Hero 16:9</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+            </div>
+            <h1>Cocinas integrales en Universitarios</h1>
+            <p>Especialistas en diseño, fabricación e instalación de cocinas a medida en Universitarios, Culiacán. Trabajamos con cuarzo, granito y mármol, optimizando tu espacio con materiales premium y garantía por escrito.</p>
+            <div class="hero-ctas">
+                <a href="https://wa.me/526672256523?text=Hola%20ZASA%2C%20quiero%20cotizar%20mi%20cocina%20en%20Universitarios" class="btn btn-primary">Cotizar por WhatsApp</a>
+                <a href="tel:+526672256523" class="hero-microlink">Llamar: 667 225 6523</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="subnav">
+        <div class="container">
+            <ul class="subtabs">
+                <li><a href="#servicios">Servicios en Universitarios</a></li>
+                <li><a href="#materiales">Materiales</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <main>
+        <!-- Servicios en la colonia -->
+        <section id="servicios" class="services-intro">
+            <div class="container">
+                <h2>Servicios de cocinas en Universitarios</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Cocinas integrales Universitarios</h3>
+                        <p>Diseño a medida para espacios en Universitarios. Distribución eficiente, ergonomía y almacenamiento inteligente adaptado a tu hogar.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Cocinas modernas Universitarios</h3>
+                        <p>Líneas limpias, iluminación funcional y herrajes de alta calidad. Perfectas para el estilo de vida en Universitarios.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Closets a medida Universitarios</h3>
+                        <p>Organización por módulos, acabados durables y fácil mantenimiento. Maximizamos el espacio en Universitarios.</p>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/526672256523?text=Quiero%20cotizar%20una%20cocina%20integral%20en%20Universitarios" class="btn btn-primary">Cotizar cocina en Universitarios</a>
+                    <a href="tel:+526672256523" class="btn btn-secondary">Agendar visita en Universitarios</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Materiales premium -->
+        <section id="materiales" class="about">
+            <div class="container">
+                <h2>Materiales premium para Universitarios</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Cubiertas de cuarzo</h3>
+                        <p>Resistencia y uniformidad. Perfectas para cocinas en Universitarios que buscan durabilidad y estilo moderno.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Cubiertas de granito</h3>
+                        <p>Natural y durable. Ideales para hogares en Universitarios que valoran la elegancia clásica y la resistencia.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Cubiertas de mármol</h3>
+                        <p>Elegancia con cuidados específicos. Para cocinas exclusivas en Universitarios que buscan sofisticación.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Complementos premium</h3>
+                        <p>Islas, barras, despensas extraíbles, organizadores e iluminación bajo alacena para cocinas en Universitarios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proceso de trabajo -->
+        <section id="proceso" class="services-intro">
+            <div class="container">
+                <h2>Cómo trabajamos en Universitarios</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>1. Visita a Universitarios</h3>
+                        <p>Visitamos tu hogar en Universitarios para tomar medidas exactas y entender tus necesidades específicas.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>2. Diseño personalizado</h3>
+                        <p>Creamos un diseño único para tu espacio en Universitarios, con materiales y distribución optimizada.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>3. Fabricación de calidad</h3>
+                        <p>Fabricamos tu cocina con materiales premium y control de calidad en cada etapa del proceso.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>4. Instalación en Universitarios</h3>
+                        <p>Instalación profesional en tu hogar en Universitarios, cuidando cada detalle y respetando tu espacio.</p>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="tel:+526672256523" class="btn btn-primary">Agendar visita gratuita en Universitarios</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ventajas de elegir ZASA en tu colonia -->
+        <section id="ventajas" class="about">
+            <div class="container">
+                <h2>¿Por qué elegir ZASA en Universitarios?</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Conocemos Universitarios</h3>
+                        <p>Experiencia trabajando en Universitarios. Conocemos los estilos arquitectónicos y preferencias de la zona.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Servicio local</h3>
+                        <p>Atención personalizada y servicio de proximidad para clientes en Universitarios. Estamos cerca cuando nos necesites.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Instalación cuidadosa</h3>
+                        <p>Respetamos tu hogar en Universitarios. Instalación limpia, puntual y cuidando cada detalle de tu propiedad.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Garantía local</h3>
+                        <p>Garantía por escrito y soporte postventa. Estamos disponibles para cualquier ajuste en Universitarios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimoniales locales -->
+        <section id="testimonios" class="services-intro">
+            <div class="container">
+                <h2>Clientes satisfechos en Universitarios</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p>"Excelente trabajo en nuestra cocina. El equipo de ZASA respetó nuestro hogar y los tiempos acordados."</p>
+                        <cite>— Cliente en Universitarios</cite>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"La calidad de los materiales y la instalación superó nuestras expectativas. Muy recomendados en Universitarios."</p>
+                        <cite>— Cliente en Universitarios</cite>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/526672256523?text=Quiero%20ver%20trabajos%20realizados%20en%20Universitarios" class="btn btn-secondary">Ver más trabajos en Universitarios</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto específico -->
+        <section id="contacto" class="about">
+            <div class="container">
+                <h2>Contacto para Universitarios</h2>
+                <div class="service-card" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <h3>ZASA Kitchen Studio</h3>
+                    <p><strong>Especialistas en Universitarios</strong></p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/526672256523?text=Hola%20ZASA%2C%20quiero%20cotizar%20mi%20cocina%20en%20Universitarios">667 225 6523</a></p>
+                    <p><strong>Teléfono:</strong> <a href="tel:+526672256523">667 225 6523</a></p>
+                    <p><strong>Dirección:</strong> General Rafael Buelna Tenorio 750 Local 5, Culiacán</p>
+                    <p><strong>Horario:</strong> Lunes a Viernes 9:00–19:00</p>
+                    <p><strong>Área de servicio:</strong> Universitarios y colonias cercanas</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/526672256523?text=Quiero%20cotizar%20una%20cocina%20en%20Universitarios" class="btn btn-primary">Cotizar cocina en Universitarios</a>
+                    <a href="tel:+526672256523" class="btn btn-secondary">Llamar ahora</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 225 6523</a></p>
+        <p>Teléfono: <a href="tel:+526672256523">667 225 6523</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
+    </footer>
+
+    <script type="module">
+document.addEventListener("DOMContentLoaded", () => {
+  // Menú hamburguesa premium
+  const hamburger = document.getElementById('hamburger');
+  const navList = document.getElementById('nav-list');
+  
+  if (hamburger && navList) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+    
+    // Cerrar menú al hacer clic en enlaces
+    navList.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navList.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  }
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Clics en teléfono
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener("click", function () {
+      const number = this.href.replace("tel:", "");
+      if (typeof gtag !== "undefined") {
+        gtag("event", "phone_call_click", {
+          event_category: "engagement",
+          event_label: number,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+
+  // Clics en WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener("click", function () {
+      if (typeof gtag !== "undefined") {
+        gtag("event", "whatsapp_click", {
+          event_category: "engagement",
+          event_label: this.href,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+});
+</script>
+
+<script src="/lazy-loading.js"></script>
+</body>
+</html>

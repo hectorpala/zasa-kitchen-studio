@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>Cocinas con isla en Culiacán | Espacios y medidas</title>
+  <meta name="description" content="Diseñamos cocinas con isla en Culiacán: espacios mínimos, pasillos, conexiones (agua, gas, eléctrica, ventilación), configuraciones típicas y errores a evitar. Costos claros y garantía.">
+  <link rel="canonical" href="https://www.zasakitchenstudio.mx/servicios/cocinas/integrales-con-isla/">
+  <link rel="stylesheet" href="../../style.css">
+
+<style>
+.image-slot {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.image-slot:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.hero-image-slot {
+    width: 100%;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .hero-image-slot {
+        min-height: 250px;
+    }
+}
+
+.card-image-slot {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 1rem auto;
+}
+
+.gallery-image-slot {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Preparación para lazy loading */
+.image-slot[data-lazy] {
+    background-image: none !important;
+}
+
+.image-slot.loaded {
+    border: none;
+    background: none;
+}
+
+.image-slot.loaded::after {
+    content: none;
+}
+</style>
+
+<style>body { padding-top: 80px; }</style>
+</head>
+<body>
+<nav class="navbar">
+        <div class="container nav-wrap">
+            <div class="brand">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+            </div>
+            <ul class='nav-list' id="nav-list">
+              <li class='nav-item'>
+                <a href='/servicios' class='nav-link'>SERVICIOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/proyectos-culiacan' class='nav-link'>PROYECTOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/blog' class='nav-link'>BLOG</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto' class='nav-link'>CONTACTO</a>
+              </li>
+            </ul>
+            <div class="nav-actions">
+              <a href='tel:+526672256523' class='nav-cta' data-phone='header'>
+                <span>LLÁMANOS</span>
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+        </div>
+    </nav>
+
+
+  <section class="hero">
+    <div class="container">
+      <h1>Cocinas integrales con isla en Culiacán</h1>
+      <p>← <a href="/servicios/cocinas/cocinas-integrales.html" style="color:#fff;text-decoration:underline;">Volver a Cocinas integrales</a></p>
+      <p>La isla aporta superficie, almacenamiento y convivencia. Definimos espacios mínimos, pasillos correctos, conexiones (agua, desagüe, gas y eléctrica) y la configuración ideal según tu forma de cocinar, con materiales y costos claros de inicio a fin.</p>
+      <a href="https://wa.me/526672256523?text=Hola%20ZASA%2C%20quiero%20cotizar%20una%20cocina%20integral%20con%20isla%20en%20Culiacán" class="btn btn-primary">Cotizar por WhatsApp</a>
+      <a href="tel:+526672256523" class="btn btn-secondary">Llamar: 667 225 6523</a>
+    </div>
+  </section>
+  
+  <section class="services-intro">
+    <div class="container">
+      <h2>¿Cuándo conviene una isla?</h2>
+      <ul>
+        <li>Ambientes medianos a grandes o cocina abierta a sala/comedor.</li>
+        <li>Si buscas zona social/servicio adicional sin perder circulación.</li>
+        <li>Cuando puedes mantener pasillos ≥100–120 cm alrededor.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="container">
+      <h2>Espacios mínimos y pasillos</h2>
+      <ul>
+        <li>Pasillos alrededor de la isla: mínimo 100 cm (ideal 110–120 cm).</li>
+        <li>Isla de preparación (sin sillas): desde 90 × 60 cm.</li>
+        <li>Isla con tarja o cocción: preferible ≥120 × 80/90 cm.</li>
+        <li>Volado para sillas: 25–30 cm; 60 cm de ancho por asiento.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="container">
+      <h2>Conexiones y ventilación</h2>
+      <ul>
+        <li>Agua y desagüe (si hay tarja): prever caída y ventilación sanitaria.</li>
+        <li>Gas (si hay parrilla): línea dedicada y ventilación adecuada.</li>
+        <li>Eléctrica: contactos empotrados en isla y circuitos para horno/parrilla.</li>
+        <li>Campana: de isla o de techo con extracción o filtros de alta eficiencia.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="container">
+      <h2>Configuraciones típicas</h2>
+      <ul>
+        <li>Isla de preparación: superficie libre + cajones profundos; LED de tarea.</li>
+        <li>Isla con tarja: lavaplatos integrado y secuencia lavar–preparar–cocinar.</li>
+        <li>Isla de cocción: parrilla con campana superior y claros laterales ≥30 cm.</li>
+        <li>Península: cuando uno de los lados puede anclarse a muro/columna.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="container">
+      <h2>Materiales recomendados</h2>
+      <ul>
+        <li>Cuarzo: baja porosidad y mantenimiento simple (uso diario).</li>
+        <li>Granito: natural y durable, vetas únicas.</li>
+        <li>Mármol: look premium; requiere sellado y cuidados.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="container">
+      <h2>Errores comunes a evitar</h2>
+      <ul>
+        <li>Pasillos <100 cm que bloquean aperturas y cruces.</li>
+        <li>Colocar cocción sin campana adecuada o sin claros laterales.</li>
+        <li>Volados insuficientes para sillas (<25 cm) o sin soporte.</li>
+        <li>Sobrecargar la isla (tarja + parrilla + horno) en formatos pequeños.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="container">
+      <h2>Medidas rápidas (guía)</h2>
+      <p>Altura cubierta 88–92 cm · Profundidad bases 60 cm · superiores 30–35 cm.</p>
+      <p>Entre cubierta y superiores 50–60 cm · Claros laterales de estufa ≥30 cm.</p>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="container">
+      <h2>Mini-casos</h2>
+      <ul>
+        <li><strong>Isla social 1.8 × 0.9 m:</strong> pasillos 110–120 cm + 3 asientos → prepara y convive sin choques.</li>
+        <li><strong>Isla con tarja 1.4 × 0.8 m:</strong> lavavajillas contiguo y LED bajo alacena → flujo lavar–preparar optimizado.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="services-intro">
+    <div class="container">
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq-item">
+        <h3>¿Cabe una isla en mi cocina?</h3>
+        <p>Sí, si mantienes pasillos ≥100 cm alrededor.</p>
+      </div>
+      <div class="faq-item">
+        <h3>¿Se puede poner lavavajillas?</h3>
+        <p>Sí, junto a la tarja con frente libre ≥120 cm.</p>
+      </div>
+      <div class="faq-item">
+        <h3>¿Qué cubierta conviene?</h3>
+        <p>Cuarzo por su baja porosidad y fácil limpieza.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="text-align:center; padding:60px 0;">
+    <div class="container">
+      <h2>¿Listo para tu cocina con isla?</h2>
+      <p>Diseño con conexiones correctas • Cotización gratuita • Garantía por escrito</p>
+      <a href="https://wa.me/526672256523?text=Hola%20ZASA%2C%20quiero%20cotizar%20una%20cocina%20integral%20con%20isla%20en%20Culiacán" style="display:inline-block; background:#25D366; color:#fff; padding:16px 32px; border-radius:8px; text-decoration:none; font-weight:600; margin:8px;">Cotizar por WhatsApp</a>
+      <a href="tel:+526672256523" style="display:inline-block; background:#E36414; color:#fff; padding:16px 32px; border-radius:8px; text-decoration:none; font-weight:600; margin:8px;">Llamar: 667 225 6523</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <p><strong>Enlaces internos:</strong> <a href="/servicios/cocinas/cocinas-integrales.html">Cocinas integrales</a>, <a href="/servicios/cocinas/cocinas-modernas.html">Cocinas modernas</a>, <a href="/servicios/cubiertas/cubiertas-cuarzo-culiacan.html">Cubiertas de cuarzo</a>, <a href="/proyectos-culiacan">Proyectos</a>, <a href="/contacto">Contacto</a>.</p>
+    </div>
+  </section>
+
+  <footer id="contacto">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 225 6523</a></p>
+        <p>Teléfono: <a href="tel:+526672256523">667 225 6523</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
+    </footer>
+<script src="/lazy-loading.js"></script>
+
+    <script type="module">
+document.addEventListener("DOMContentLoaded", () => {
+  // Menú hamburguesa premium
+  const hamburger = document.getElementById('hamburger');
+  const navList = document.getElementById('nav-list');
+  
+  if (hamburger && navList) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+    
+    // Cerrar menú al hacer clic en enlaces
+    navList.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navList.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  }
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Clics en teléfono
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener("click", function () {
+      const number = this.href.replace("tel:", "");
+      if (typeof gtag !== "undefined") {
+        gtag("event", "phone_call_click", {
+          event_category: "engagement",
+          event_label: number,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+
+  // Clics en WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener("click", function () {
+      if (typeof gtag !== "undefined") {
+        gtag("event", "whatsapp_click", {
+          event_category: "engagement",
+          event_label: this.href,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>

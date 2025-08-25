@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <title>Cocina Integral Fraccionamiento Terranova Culiacán, Sinaloa | Zasa Kitchen Studio</title>
+  <meta name="description" content="Cocina integral moderna y accesible en Fraccionamiento Terranova, Culiacán Rosales, Sinaloa. Diseño equilibrado con calidad-precio excepcional para familias sinaloenses.">
+  <link rel="canonical" href="https://www.zasakitchenstudio.mx/proyectos-culiacan/terranova/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cocina Integral Fraccionamiento Terranova Culiacán, Sinaloa | Zasa Kitchen Studio">
+  <meta property="og:description" content="Cocina integral moderna y accesible en Fraccionamiento Terranova, Culiacán Rosales, Sinaloa con diseño equilibrado.">
+  <meta property="og:image" content="/img/proyectos/terranova-01.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.zasakitchenstudio.mx/proyectos-culiacan/terranova/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cocina Accesible Terranova Culiacán, Sinaloa">
+  <meta name="twitter:description" content="Diseño equilibrado con calidad-precio excepcional para familias en Culiacán, Sinaloa.">
+  <meta name="twitter:image" content="/img/proyectos/terranova-01.jpg">
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Proyecto Cocina Integral Fraccionamiento Terranova Culiacán",
+    "description": "Cocina integral moderna y accesible en Fraccionamiento Terranova, Culiacán Rosales, Sinaloa - desarrollo familiar de interés social",
+    "creator": {
+      "@type": "Organization",
+      "name": "Zasa Kitchen Studio",
+      "url": "https://www.zasakitchenstudio.mx"
+    },
+    "image": [
+      "https://www.zasakitchenstudio.mx/img/proyectos/terranova-01.jpg",
+      "https://www.zasakitchenstudio.mx/img/proyectos/terranova-02.jpg",
+      "https://www.zasakitchenstudio.mx/img/proyectos/terranova-03.jpg"
+    ],
+    "locationCreated": {
+      "@type": "Place",
+      "name": "Fraccionamiento Terranova, Culiacán, Sinaloa",
+      "address": "Terranova, Culiacán Rosales, Sinaloa, México"
+    }
+  }
+  </script>
+  <link rel="stylesheet" href="../style.css">
+
+<style>
+.image-slot {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.image-slot:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.hero-image-slot {
+    width: 100%;
+    min-height: 400px;
+}
+
+@media (max-width: 768px) {
+    .hero-image-slot {
+        min-height: 250px;
+    }
+}
+
+.card-image-slot {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 1rem auto;
+}
+
+.gallery-image-slot {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Preparación para lazy loading */
+.image-slot[data-lazy] {
+    background-image: none !important;
+}
+
+.image-slot.loaded {
+    border: none;
+    background: none;
+}
+
+.image-slot.loaded::after {
+    content: none;
+}
+</style>
+
+<style>body { padding-top: 80px; }</style>
+</head>
+<body>
+<nav class="navbar">
+        <div class="container nav-wrap">
+            <div class="brand">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+            </div>
+            <ul class='nav-list' id="nav-list">
+              <li class='nav-item'>
+                <a href='/servicios' class='nav-link'>SERVICIOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/proyectos-culiacan' class='nav-link'>PROYECTOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/blog' class='nav-link'>BLOG</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto' class='nav-link'>CONTACTO</a>
+              </li>
+            </ul>
+            <div class="nav-actions">
+              <a href='tel:+526672256523' class='nav-cta' data-phone='header'>
+                <span>LLÁMANOS</span>
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+        </div>
+    </nav>
+
+
+  <!-- HERO con imagen del proyecto -->
+  <section class="hero" style="">
+    <div class="hero-content">
+      <h1>Cocina Integral Fraccionamiento Terranova</h1>
+      
+      <div style="background:#f9f9f9;padding:20px;margin:20px 0;border-left:4px solid var(--brand);">
+        <h3>Resumen del proyecto</h3>
+        <p><strong>Reto:</strong> Familia con presupuesto ajustado requería cocina moderna sin comprometer calidad ni funcionalidad.</p>
+        <p><strong>Solución:</strong> Diseño equilibrado con materiales de calidad media-alta y máximo valor por inversión.</p>
+        <p><strong>Resultado:</strong> Calidad accesible perfecta con excelente relación precio-valor y acabados duraderos.</p>
+        
+        <h3>Ficha técnica</h3>
+        <p><strong>Colonia:</strong> <a href="/colonias/terranova.html">Terranova</a></p>
+        <p><strong>Material de cubierta:</strong> <a href="/servicios/cubiertas/cubiertas-cuarzo-culiacan.html">Cuarzo</a> sintético gris neutro</p>
+        <p><strong>Frentes/Herrajes:</strong> Melamina blanco nieve, tiradores aluminio mate soft-close</p>
+        
+        <div style="margin-top:20px;">
+          <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20me%20interesa%20un%20proyecto%20como%20Terranova" style="display:inline-block; background:#25D366; color:#fff; padding:12px 24px; border-radius:8px; text-decoration:none; margin-right:10px;">Cotizar por WhatsApp</a>
+          <a href="tel:+526672256523" style="display:inline-block; background:#E36414; color:#fff; padding:12px 24px; border-radius:8px; text-decoration:none;">Llamar: 667 225 6523</a>
+        </div>
+        
+        <p><strong>Enlaces internos:</strong> <a href="/servicios/cocinas/cocinas-integrales.html">Cocinas integrales</a> · <a href="/servicios/cocinas/cocinas-modernas.html">Cocinas modernas</a> · <a href="/#colonias">Colonias donde trabajamos</a> · <a href="/contacto">Contacto</a></p>
+      </div>
+      
+      <p>Cocina integral moderna y accesible con diseño equilibrado y calidad-precio excepcional para familias sinaloenses.</p>
+      <p>Ubicación: Fraccionamiento Terranova, Culiacán Rosales, Sinaloa - Desarrollo residencial familiar de interés social.</p>
+      <a class="btn btn-primary" href="tel:+526672256523">COTIZAR ACCESIBLE</a>
+      <a class="btn btn-secondary" href="/proyectos-culiacan">VER MÁS PROYECTOS</a>
+    </div>
+  </section>
+
+  <!-- DETALLES DEL PROYECTO -->
+  <section class="services-intro">
+    <div class="container">
+      <h2>Detalles del Proyecto</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Ubicación</h3>
+          <p>Fraccionamiento Terranova, Culiacán Rosales, Sinaloa - Desarrollo familiar con casas de interés social y acceso a servicios completos.</p>
+        </div>
+        <div class="service-card">
+          <h3>Estilo</h3>
+          <p>Cocina moderna accesible que maximiza calidad sin comprometer el presupuesto.</p>
+        </div>
+        <div class="service-card">
+          <h3>Materiales</h3>
+          <p>Materiales de calidad media-alta, duraderos y con excelente relación precio-calidad.</p>
+        </div>
+        <div class="service-card">
+          <h3>Duración</h3>
+          <p>Proyecto completado en 2 semanas con instalación eficiente y limpia.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA DE IMÁGENES -->
+  <section class="about">
+    <div class="container">
+      <h2>Galería del Proyecto</h2>
+      <div class="gallery-grid">
+        <picture>
+          <source media="(max-width: 480px)" srcset="../img/proyectos/terranova-01-480.jpg">
+          <source media="(max-width: 800px)" srcset="../img/proyectos/terranova-01-800.jpg">
+          <source media="(max-width: 1200px)" srcset="../img/proyectos/terranova-01-1200.jpg">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+        </picture>
+        
+        <picture>
+          <source media="(max-width: 480px)" srcset="../img/proyectos/terranova-02-480.jpg">
+          <source media="(max-width: 800px)" srcset="../img/proyectos/terranova-02-800.jpg">
+          <source media="(max-width: 1200px)" srcset="../img/proyectos/terranova-02-1200.jpg">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+        </picture>
+        
+        <picture>
+          <source media="(max-width: 480px)" srcset="../img/proyectos/terranova-03-480.jpg">
+          <source media="(max-width: 800px)" srcset="../img/proyectos/terranova-03-800.jpg">
+          <source media="(max-width: 1200px)" srcset="../img/proyectos/terranova-03-1200.jpg">
+          <div class="image-slot gallery-image-slot" data-lazy="true">
+                <div class="placeholder-content">
+                    <div class="placeholder-title">Galería 4:3</div>
+                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
+                </div>
+            </div>
+        </picture>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARACTERÍSTICAS DEL PROYECTO -->
+  <section class="services-intro">
+    <div class="container">
+      <h2>Características Equilibradas</h2>
+      <ul>
+        <li><strong>Distribución en L eficiente:</strong> Diseño que optimiza espacios pequeños sin sacrificar funcionalidad.</li>
+        <li><strong>Cubierta de cuarzo sintético:</strong> Color gris neutro con acabado satinado resistente a manchas.</li>
+        <li><strong>Gabinetes de melamina calidad:</strong> Acabado blanco nieve con cantos de ABS duraderos.</li>
+        <li><strong>Electrodomésticos estándar plus:</strong> Línea media-alta con garantía extendida y eficiencia energética.</li>
+        <li><strong>Iluminación LED económica:</strong> Tira LED básica bajo gabinetes con interruptor independiente.</li>
+        <li><strong>Campana extractora estándar:</strong> Modelo piramidal 60cm en acero pintado blanco.</li>
+        <li><strong>Salpicadero cerámico moderno:</strong> Subway tile blanco 10x20 con juntas grises.</li>
+        <li><strong>Hardware funcional:</strong> Tiradores de aluminio en acabado mate con bisagras soft-close.</li>
+        <li><strong>Almacenamiento inteligente:</strong> Organizadores básicos y aprovechamiento máximo de espacios.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL SIMULADO -->
+  <section class="about">
+    <div class="container">
+      <h2>Resultado del Cliente</h2>
+      <blockquote style="background:#f9f9f9;padding:20px;border-left:4px solid var(--brand);margin:20px 0;">
+        <p style="font-style:italic;font-size:18px;line-height:1.6;">"Perfecta relación calidad-precio para nuestra casa en Terranova. La cocina se ve moderna y los materiales son buenos y duraderos. El diseño aprovecha muy bien el espacio y cumple con todas nuestras necesidades familiares en Culiacán."</p>
+        <footer id="contacto">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 225 6523</a></p>
+        <p>Teléfono: <a href="tel:+526672256523">667 225 6523</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
+    </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- PROYECTOS RELACIONADOS -->
+  <section class="services-intro">
+    <div class="container">
+      <h2>Proyectos Accesibles Similares</h2>
+      <div class="services-grid">
+        <div class="service-card bg" style="">
+          <h3><a href="infonavit-humaya.html" style="color:inherit;text-decoration:none;">Infonavit Humaya</a></h3>
+          <p>Solución completa calidad-precio.</p>
+        </div>
+        <div class="service-card bg" style="">
+          <h3><a href="horizontes.html" style="color:inherit;text-decoration:none;">Horizontes</a></h3>
+          <p>Diseño funcional optimizado.</p>
+        </div>
+        <div class="service-card bg" style="">
+          <h3><a href="benevento.html" style="color:inherit;text-decoration:none;">Benevento</a></h3>
+          <p>Cocina moderna para familias.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta">
+    <div class="container">
+      <h2>¿Buscas Equilibrio Perfecto?</h2>
+      <p>Cotiza una cocina moderna accesible similar para tu hogar en Culiacán</p>
+      <a class="btn btn-primary" href="tel:+526672256523">LLAMAR AHORA</a>
+      <a class="btn btn-primary" href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20me%20gusta%20el%20proyecto%20equilibrado%20de%20Terranova%2C%20quiero%20cotizar%20algo%20similar">WHATSAPP</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contacto">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 225 6523</a></p>
+        <p>Teléfono: <a href="tel:+526672256523">667 225 6523</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
+    </footer>
+
+<script src="/lazy-loading.js"></script>
+
+    <script type="module">
+document.addEventListener("DOMContentLoaded", () => {
+  // Menú hamburguesa premium
+  const hamburger = document.getElementById('hamburger');
+  const navList = document.getElementById('nav-list');
+  
+  if (hamburger && navList) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+    
+    // Cerrar menú al hacer clic en enlaces
+    navList.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navList.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  }
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Clics en teléfono
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener("click", function () {
+      const number = this.href.replace("tel:", "");
+      if (typeof gtag !== "undefined") {
+        gtag("event", "phone_call_click", {
+          event_category: "engagement",
+          event_label: number,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+
+  // Clics en WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener("click", function () {
+      if (typeof gtag !== "undefined") {
+        gtag("event", "whatsapp_click", {
+          event_category: "engagement",
+          event_label: this.href,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>
