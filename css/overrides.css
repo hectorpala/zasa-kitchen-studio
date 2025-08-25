@@ -1,0 +1,45 @@
+.hero{
+  position: relative;
+  display: grid;
+  place-items: center;              /* centra el bloque de texto */
+  min-height: clamp(420px, 72vh, 820px); /* más alto en desktop, móvil queda igual */
+  background-size: cover;
+  background-position: center 85%;  /* mantener el foco actual que ya funciona mejor */
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.hero::before{
+  content:"";
+  position:absolute; inset:0;
+  background: linear-gradient(180deg, rgba(0,0,0,.28), rgba(0,0,0,.28)); /* legibilidad */
+  z-index:0;
+  pointer-events:none;
+}
+.hero > *{
+  position: relative;
+  z-index: 1;                       /* el texto por encima del overlay */
+}
+/* Contenedor de texto dentro del hero; si existe .hero-content, usarlo;
+   si no, aplicar a .hero .container para bootstrap-like */
+.hero-content, .hero .container{
+  max-width: 1100px;
+  margin-inline: auto;
+  padding: clamp(16px, 3vw, 48px);
+  text-align: center;               /* o left si tu diseño lo pide */
+}
+.hero h1{
+  margin: 0 0 .5em;
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  line-height: 1.15;
+  word-break: normal;
+}
+.hero .lead, .hero p{
+  margin: 0 0 1rem;
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  line-height: 1.4;
+}
+
+/* Ajustes sólo para desktop grande si se necesita un poco más de altura */
+@media (min-width: 1200px){
+  .hero{ min-height: 78vh; }
+}
