@@ -3,7 +3,7 @@
 echo "🔗 Actualizando URLs canónicas para producción..."
 
 # Dominio final de producción
-DOMAIN="https://zasakitchen.com"
+DOMAIN="https://zasakitchenstudio.mx"
 
 # Función para actualizar URLs canónicas en un archivo
 update_canonical() {

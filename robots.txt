@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap principal
-Sitemap: https://zasakitchen.com/sitemap.xml
+Sitemap: https://zasakitchenstudio.mx/sitemap.xml
 
 # Directivas específicas para mejor crawling
 Crawl-delay: 1
