@@ -3,18 +3,10 @@
   display: grid;
   place-items: center;              /* centra el bloque de texto */
   min-height: clamp(420px, 72vh, 820px); /* más alto en desktop, móvil queda igual */
-  background-size: cover;
-  background-position: center 85%;  /* mantener el foco actual que ya funciona mejor */
-  background-repeat: no-repeat;
+  background-color: var(--bg-soft); /* fondo neutro */
   overflow: hidden;
 }
-.hero::before{
-  content:"";
-  position:absolute; inset:0;
-  background: linear-gradient(180deg, rgba(0,0,0,.28), rgba(0,0,0,.28)); /* legibilidad */
-  z-index:0;
-  pointer-events:none;
-}
+/* Overlay removido - no necesario sin imagen de fondo */
 .hero > *{
   position: relative;
   z-index: 1;                       /* el texto por encima del overlay */
