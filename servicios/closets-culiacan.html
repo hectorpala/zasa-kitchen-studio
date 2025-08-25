@@ -59,7 +59,102 @@
     }
   }
   </script>
-  <link rel="stylesheet" href="../style.css">
+  <!-- Preload recursos críticos -->
+  <link rel="preload" as="image" href="../img/optimized/home-hero/foto-principal-1920.jpg">
+  <link rel="preload" as="style" href="../style.min.css?v=31">
+  
+  <!-- Critical CSS inline -->
+  <style>
+    /* Hero con imagen de cocina - igual que homepage */
+    .hero {
+      background-image: url('../img/optimized/home-hero/foto-principal-1920.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      min-height: 85vh;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 140px 16px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg,rgba(15,23,42,0.4) 0%,rgba(30,41,59,0.3) 100%);
+    }
+
+    .hero .hero-content, .hero .container {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      font-weight: 800;
+      font-size: clamp(3rem,7vw,5rem);
+      line-height: 1.1;
+      margin-bottom: 2rem;
+      color: #FFFFFF;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    .hero p {
+      font-size: clamp(1.125rem,2.5vw,1.375rem);
+      color: #FFFFFF;
+      margin-bottom: 3rem;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+      animation: fadeInUp 0.8s ease-out 0.2s both;
+    }
+
+    .hero .btn {
+      margin: 0.5rem;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Móvil - overlay más fuerte */
+    @media (max-width: 640px) {
+      .hero::after {
+        background: linear-gradient(135deg,rgba(15,23,42,0.6) 0%,rgba(30,41,59,0.5) 100%) !important;
+      }
+      
+      .hero {
+        padding: 80px 20px;
+        min-height: 75vh;
+      }
+      
+      .hero h1 {
+        font-size: clamp(2rem,8vw,3rem);
+        line-height: 1.15;
+        margin-bottom: 1.5rem;
+        color: #FFFFFF !important;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.8) !important;
+      }
+      
+      .hero p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+        color: #FFFFFF !important;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.7) !important;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="../style.min.css?v=31">
 
 <style>
 .image-slot {
@@ -146,13 +241,15 @@
         </div>
     </nav>
 
-  
-    
-    <header class="hero">
-        <div class="container">
-            <!-- Hero content será definido por cada página -->
-        </div>
-    </header>
+  <section class="hero">
+    <div class="container">
+      <h1>Closets a medida en Culiacán</h1>
+      <p>← <a href="/servicios" style="color:#fff;text-decoration:underline;">Volver a Servicios</a></p>
+      <p>Closets diseñados y fabricados a medida para optimizar tu espacio. Organización inteligente, herrajes de calidad y acabados durables. Medición, diseño en 3D y cotización gratuitas.</p>
+      <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20un%20closet%20a%20medida%20en%20Culiac%C3%A1n" class="btn btn-primary">Cotizar por WhatsApp</a>
+      <a href="tel:+526672256523" class="btn btn-secondary">Llamar: 667 225 6523</a>
+    </div>
+  </section>
 <main class="container">
     <!-- TIPOS DE FRENTES -->
     <section>
