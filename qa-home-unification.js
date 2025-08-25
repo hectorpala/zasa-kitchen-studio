@@ -89,7 +89,7 @@ function qaPageUnification(filePath) {
         }
         
         // 10. Verificar CTAs y botones unificados
-        if (content.includes('btn btn-primary') || content.includes('wa.me/526671234567')) {
+        if (content.includes('btn btn-primary') || content.includes('wa.me/526672256523')) {
             checks.push('✅ CTAs/botones WhatsApp presentes');
         } else {
             checks.push('⚠️  Sin CTAs principales detectados');

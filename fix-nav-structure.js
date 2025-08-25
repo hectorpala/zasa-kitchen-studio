@@ -40,7 +40,7 @@ function fixNavStructure(filePath) {
               </li>
             </ul>
             <div class="nav-actions">
-              <a href='tel:+526671234567' class='nav-cta' data-phone='header'>
+              <a href='tel:+526672256523' class='nav-cta' data-phone='header'>
                 <span>LLÁMANOS</span>
               </a>
               <button class="hamburger" id="hamburger" aria-label="Menú">
