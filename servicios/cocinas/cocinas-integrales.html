@@ -18,11 +18,12 @@
   <!-- Performance hints -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="image" href="img/optimized/hero-optimized.jpg">
-  <link rel="preload" as="style" href="../../style.css">
+  <link rel="preload" as="image" href="../../img/optimized/home-hero/foto-principal-1920.jpg">
+  <link rel="preload" as="style" href="../../style.min.css?v=31">
   
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../style.min.css?v=31">
+  <link rel="stylesheet" href="../../mobile-premium.css?v=31">
 
   <!-- FAQ Schema -->
   <script type="application/ld+json">
@@ -135,51 +136,108 @@
   </script>
 
 <style>
-.image-slot {
+/* Hero con imagen de cocina - igual que homepage */
+.hero {
+    background-image: url('../../img/optimized/home-hero/foto-principal-1920.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 85vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 140px 16px;
     position: relative;
     overflow: hidden;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg,rgba(15,23,42,0.4) 0%,rgba(30,41,59,0.3) 100%);
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-weight: 800;
+    font-size: clamp(3rem,7vw,5rem);
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.hero p {
+    font-size: clamp(1.125rem,2.5vw,1.375rem);
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.hero-ctas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-microlink {
+    color: rgba(255,255,255,0.9);
+    text-decoration: underline;
+    font-size: 0.9rem;
     transition: all 0.3s ease;
+    font-weight: 500;
 }
 
-.image-slot:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+.hero-microlink:hover {
+    color: white;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
-.hero-image-slot {
-    width: 100%;
-    min-height: 400px;
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
-@media (max-width: 768px) {
-    .hero-image-slot {
-        min-height: 250px;
+/* Móvil - overlay más fuerte */
+@media (max-width: 640px) {
+    .hero::after {
+        background: linear-gradient(135deg,rgba(15,23,42,0.6) 0%,rgba(30,41,59,0.5) 100%) !important;
     }
-}
-
-.card-image-slot {
-    width: 100%;
-    max-width: 200px;
-    margin: 0 auto 1rem auto;
-}
-
-.gallery-image-slot {
-    width: 100%;
-    max-width: 100%;
-}
-
-/* Preparación para lazy loading */
-.image-slot[data-lazy] {
-    background-image: none !important;
-}
-
-.image-slot.loaded {
-    border: none;
-    background: none;
-}
-
-.image-slot.loaded::after {
-    content: none;
+    
+    .hero {
+        padding: 80px 20px;
+        min-height: 75vh;
+    }
+    
+    .hero h1 {
+        font-size: clamp(2rem,8vw,3rem);
+        line-height: 1.15;
+        margin-bottom: 1.5rem;
+        color: #FFFFFF !important;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.8) !important;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+        color: #FFFFFF !important;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.7) !important;
+    }
 }
 </style>
 
@@ -221,14 +279,6 @@
     <!-- 2) Hero (primer bloque) -->
     <header class="hero">
         <div class="container">
-            <div class="hero-logo">
-                <div class="image-slot hero-image-slot" data-lazy="true">
-                <div class="placeholder-content">
-                    <div class="placeholder-title">Hero 16:9</div>
-                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
-                </div>
-            </div>
-            </div>
             <h1>Cocinas integrales en Culiacán</h1>
             <p>En ZASA Kitchen Studio diseñamos, fabricamos e instalamos cocinas integrales a medida. Usamos cuarzo, granito y mármol, herrajes confiables y acabados durables. Te damos costos claros, tiempos definidos y garantía por escrito.</p>
             <div class="hero-ctas">
