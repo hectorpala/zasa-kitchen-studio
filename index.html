@@ -22,12 +22,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
   <!-- Preload recursos críticos -->
-  <link rel="preload" as="image" href="/img/optimized/cocina-hero/cocina-hero-480.jpg" media="(max-width: 480px)">
-  <link rel="preload" as="image" href="/img/optimized/cocina-hero/cocina-hero-800.jpg" media="(max-width: 800px)">
-  <link rel="preload" as="image" href="/img/optimized/cocina-hero/cocina-hero-1200.jpg" media="(max-width: 1200px)">
-  <link rel="preload" as="image" href="/img/optimized/cocina-hero/cocina-hero-optimized.jpg">
+  <link rel="preload" as="image" href="img/optimized/cocina-hero/cocina-hero-1920.jpg" imagesrcset="img/optimized/cocina-hero/cocina-hero-480.jpg 480w, img/optimized/cocina-hero/cocina-hero-800.jpg 800w, img/optimized/cocina-hero/cocina-hero-1200.jpg 1200w, img/optimized/cocina-hero/cocina-hero-1920.jpg 1920w" imagesizes="100vw">
   <link rel="preload" as="image" href="img/logo-zasa.jpg">
-  <link rel="preload" as="style" href="style.min.css">
+  <link rel="preload" as="style" href="style.min.css?v=7">
   
   <!-- Critical CSS inline -->
   <style>
@@ -38,8 +35,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
   
   <!-- Main styles (deferred) -->
-  <link rel="preload" href="style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="style.min.css"></noscript>
+  <link rel="preload" href="style.min.css?v=7" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="style.min.css?v=7"></noscript>
   <link rel="preload" href="mobile-premium.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="mobile-premium.css"></noscript>
 
