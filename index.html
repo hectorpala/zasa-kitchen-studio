@@ -22,15 +22,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
   <!-- Preload recursos críticos -->
-  <link rel="preload" as="image" href="img/optimized/hero-800.jpg" media="(max-width: 800px)">
-  <link rel="preload" as="image" href="img/optimized/hero-1200.jpg" media="(max-width: 1200px)">
-  <link rel="preload" as="image" href="img/optimized/hero-optimized.jpg">
+  <link rel="preload" as="image" href="img/optimized/cocina-hero/cocina-hero-480.jpg" media="(max-width: 480px)">
+  <link rel="preload" as="image" href="img/optimized/cocina-hero/cocina-hero-800.jpg" media="(max-width: 800px)">
+  <link rel="preload" as="image" href="img/optimized/cocina-hero/cocina-hero-1200.jpg" media="(max-width: 1200px)">
+  <link rel="preload" as="image" href="img/optimized/cocina-hero/cocina-hero-optimized.jpg">
   <link rel="preload" as="image" href="img/logo-zasa.jpg">
-  <link rel="preload" as="style" href="style.css">
+  <link rel="preload" as="style" href="style.min.css">
   
+  <!-- Critical CSS inline -->
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--bg:#FFFFFF;--bg-soft:#F8FAFC;--border:#E2E8F0;--gradient-brand:linear-gradient(135deg,#F97316 0%,#E36414 100%)}body{font-family:'Inter',sans-serif;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px}.navbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0}.container{max-width:1200px;margin:0 auto;padding:0 24px}.nav-wrap{display:flex;align-items:center;justify-content:space-between}.logo-navbar{height:65px;width:auto;display:block}.nav-list{display:flex;gap:24px;list-style:none;margin:0}.hero{background-image:url('img/optimized/cocina-hero/cocina-hero-optimized.jpg');background-size:cover;background-position:center;min-height:85vh;display:grid;place-items:center;text-align:center;position:relative}.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,0.9) 0%,rgba(30,41,59,0.8) 100%)}.hero .container{position:relative;z-index:1}
+  </style>
+  
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="mobile-premium.css">
+  
+  <!-- Main styles (deferred) -->
+  <link rel="preload" href="style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="style.min.css"></noscript>
+  <link rel="preload" href="mobile-premium.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="mobile-premium.css"></noscript>
 
   <meta name="theme-color" content="#ED6623">
 
@@ -39,7 +50,7 @@
   <meta property="og:description" content="Diseñamos, fabricamos e instalamos cocinas a medida en Culiacán. Materiales premium (cuarzo, granito), tiempos claros y garantía por escrito.">
   <meta property="og:image" content="/og-image.svg">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://zasa-kitchen-staging-a7b4c2d.netlify.app/">
+  <meta property="og:url" content="https://www.zasakitchenstudio.mx/">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -251,12 +262,17 @@
                 <div class="services-grid">
                     <a href="/servicios/cocinas/cocinas-integrales.html" class="service-card service-card-featured">
                         <div class="service-image">
-                            <div class="image-slot gallery-image-slot" data-lazy="true">
-                <div class="placeholder-content">
-                    <div class="placeholder-title">Galería 4:3</div>
-                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
-                </div>
-            </div>
+                            <picture class="service-image">
+                                <source media="(max-width: 480px)" srcset="img/optimized/cocina-hero/cocina-hero-480.jpg">
+                                <source media="(max-width: 800px)" srcset="img/optimized/cocina-hero/cocina-hero-800.jpg">
+                                <source media="(max-width: 1200px)" srcset="img/optimized/cocina-hero/cocina-hero-1200.jpg">
+                                <img src="img/optimized/cocina-hero/cocina-hero-optimized.jpg" 
+                                     alt="Cocina integral moderna ZASA - Diseño personalizado en Culiacán" 
+                                     loading="lazy"
+                                     width="400" 
+                                     height="300"
+                                     style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                            </picture>
                         </div>
                         <div class="service-content">
                             <h3>Cocinas integrales</h3>
@@ -524,7 +540,7 @@
         </nav>
     </footer>
 
-    <script type="module">
+    <script type="module" defer>
 document.addEventListener("DOMContentLoaded", () => {
   // Menú hamburguesa premium
   const hamburger = document.getElementById('hamburger');
@@ -597,6 +613,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
-<script src="/lazy-loading.js"></script>
+<script src="/app-consolidated.min.js" defer></script>
 </body>
 </html>
