@@ -22,13 +22,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
   <!-- Preload recursos críticos -->
-  <link rel="preload" as="image" href="img/optimized/home-hero/imagen-cocina-integral-1920.jpg" imagesrcset="img/optimized/home-hero/imagen-cocina-integral-480.jpg 480w, img/optimized/home-hero/imagen-cocina-integral-800.jpg 800w, img/optimized/home-hero/imagen-cocina-integral-1200.jpg 1200w, img/optimized/home-hero/imagen-cocina-integral-1920.jpg 1920w" imagesizes="100vw">
+  <link rel="preload" as="image" href="img/optimized/home-hero/hero-desktop-1920x874.jpg">
   <link rel="preload" as="image" href="img/logo-zasa.jpg">
   <link rel="preload" as="style" href="style.min.css?v=7">
   
   <!-- Critical CSS inline -->
   <style>
-    *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--bg:#FFFFFF;--bg-soft:#F8FAFC;--border:#E2E8F0;--gradient-brand:linear-gradient(135deg,#F97316 0%,#E36414 100%)}body{font-family:'Inter',sans-serif;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px}.navbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0}.container{max-width:1200px;margin:0 auto;padding:0 24px}.nav-wrap{display:flex;align-items:center;justify-content:space-between}.logo-navbar{height:65px;width:auto;display:block}.nav-list{display:flex;gap:24px;list-style:none;margin:0}.hero{background-image:url('img/optimized/home-hero/imagen-cocina-integral-1920.jpg');background-size:cover;background-position:center center;background-repeat:no-repeat;min-height:85vh;display:grid;place-items:center;text-align:center;position:relative}.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,0.9) 0%,rgba(30,41,59,0.8) 100%)}.hero .container{position:relative;z-index:1}
+    *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--bg:#FFFFFF;--bg-soft:#F8FAFC;--border:#E2E8F0;--gradient-brand:linear-gradient(135deg,#F97316 0%,#E36414 100%)}body{font-family:'Inter',sans-serif;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px}.navbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0}.container{max-width:1200px;margin:0 auto;padding:0 24px}.nav-wrap{display:flex;align-items:center;justify-content:space-between}.logo-navbar{height:65px;width:auto;display:block}.nav-list{display:flex;gap:24px;list-style:none;margin:0}.hero{position:relative;min-height:60vh;display:grid;place-items:center;text-align:center;overflow:hidden}.hero-media{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0}.hero-img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 60%}.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,0.9) 0%,rgba(30,41,59,0.8) 100%)}.hero .container{position:relative;z-index:1}
   </style>
   
   <!-- Fonts -->
@@ -227,18 +227,25 @@
          - class="hero hero-contain": Uses background-size: contain - shows complete image with black background -->
     <header class="hero">
         <div class="container">
-            <div class="hero-logo">
-                <img src="img/optimized/home-hero/imagen-cocina-integral-1920.jpg"
-                     srcset="img/optimized/home-hero/imagen-cocina-integral-480.jpg 480w,
-                             img/optimized/home-hero/imagen-cocina-integral-800.jpg 800w,
-                             img/optimized/home-hero/imagen-cocina-integral-1200.jpg 1200w,
-                             img/optimized/home-hero/imagen-cocina-integral-1920.jpg 1920w"
-                     sizes="100vw"
-                     alt="Cocina integral moderna en Culiacán"
-                     width="1920" height="1080"
-                     loading="eager" fetchpriority="high"
-                     style="width: 100%; height: 400px; object-fit: cover; object-position: center; border-radius: 12px;">
-            </div>
+            <picture class="hero-media">
+                <!-- Desktop ≥ 1024px -->
+                <source
+                    srcset="img/optimized/home-hero/hero-desktop-1920x874.jpg"
+                    media="(min-width: 1024px)" />
+                
+                <!-- Tablet ≥ 768px -->
+                <source
+                    srcset="img/optimized/home-hero/hero-tablet-1200x675.jpg"
+                    media="(min-width: 768px)" />
+                
+                <!-- Mobile default -->
+                <img
+                    class="hero-img"
+                    src="img/optimized/home-hero/hero-mobile-800x1000.jpg"
+                    alt="Cocina integral moderna en Culiacán"
+                    width="800" height="1000"
+                    loading="eager" fetchpriority="high" />
+            </picture>
             <h1>Cocinas integrales y modernas en Culiacán</h1>
             <p>En ZASA Kitchen Studio diseñamos, fabricamos e instalamos cocinas a medida que combinan estética y funcionalidad. Trabajamos con cuarzo, granito y mármol, optimizamos tu espacio y cuidamos cada detalle desde la asesoría hasta la instalación. Cotiza por WhatsApp y recibe propuestas claras, tiempos definidos y garantía por escrito.</p>
             <div class="hero-ctas">
