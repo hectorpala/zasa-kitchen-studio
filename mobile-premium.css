@@ -197,27 +197,22 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: var(--gradient-brand);
+    background-image: url('../img/optimized/home-hero/foto-principal-1920.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
   }
 
-  .hero::before {
+  .hero::after {
     content: '';
     position: absolute;
-    top: -50%;
-    right: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
-    background-size: 20px 20px;
-    animation: float 20s infinite linear;
+    inset: 0;
+    background: linear-gradient(135deg,rgba(15,23,42,0.6) 0%,rgba(30,41,59,0.5) 100%);
+    z-index: 0;
   }
 
-  @keyframes float {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(20px, 20px); }
-  }
 
   .hero .container {
     width: 100%;
