@@ -11,10 +11,6 @@
   to = "/colonias/:slug.html"
   status = 301
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
 
 [[headers]]
   for = "/*.css"

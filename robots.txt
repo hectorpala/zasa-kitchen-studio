@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /
-# Staging environment - Do not index
+Allow: /
+
+Sitemap: https://www.zasakitchenstudio.mx/sitemap.xml

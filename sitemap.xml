@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage - Máxima prioridad -->
   <url>
-    <loc>https://zasakitchen.com/</loc>
+    <loc>https://www.zasakitchenstudio.mx/</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -10,21 +10,21 @@
   
   <!-- Páginas principales de servicios -->
   <url>
-    <loc>https://zasakitchen.com/servicios/</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/servicios/cocinas/cocinas-integrales.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/cocinas/cocinas-integrales.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/servicios/cocinas/cocinas-modernas.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/cocinas/cocinas-modernas.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -32,28 +32,28 @@
   
   <!-- Servicios de cocinas especializadas -->
   <url>
-    <loc>https://zasakitchen.com/servicios/cocinas/integrales-con-isla.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/cocinas/integrales-con-isla.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/servicios/cocinas/integrales-en-l.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/cocinas/integrales-en-l.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/servicios/cocinas/integrales-en-u.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/cocinas/integrales-en-u.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/servicios/cocinas/integrales-pequenas.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/cocinas/integrales-pequenas.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -61,21 +61,21 @@
   
   <!-- Servicios de cubiertas -->
   <url>
-    <loc>https://zasakitchen.com/servicios/cubiertas/cubiertas-cuarzo-culiacan.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/cubiertas/cubiertas-cuarzo-culiacan.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/servicios/cubiertas/cubiertas-granito-culiacan.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/cubiertas/cubiertas-granito-culiacan.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/servicios/cubiertas/cubiertas-marmol-culiacan.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/cubiertas/cubiertas-marmol-culiacan.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -83,7 +83,7 @@
   
   <!-- Closets -->
   <url>
-    <loc>https://zasakitchen.com/servicios/closets-culiacan.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/servicios/closets-culiacan.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -91,35 +91,35 @@
   
   <!-- Proyectos principales -->
   <url>
-    <loc>https://zasakitchen.com/proyectos-culiacan/</loc>
+    <loc>https://www.zasakitchenstudio.mx/proyectos-culiacan/</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/proyectos-culiacan/tres-rios.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/proyectos-culiacan/tres-rios.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/proyectos-culiacan/benevento.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/proyectos-culiacan/benevento.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/proyectos-culiacan/la-primavera.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/proyectos-culiacan/la-primavera.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/proyectos-culiacan/chapultepec.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/proyectos-culiacan/chapultepec.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -127,63 +127,63 @@
   
   <!-- Colonias principales (alta demanda) -->
   <url>
-    <loc>https://zasakitchen.com/colonias/</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/tres-rios.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/tres-rios.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/country-alamos.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/country-alamos.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/la-primavera.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/la-primavera.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/chapultepec.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/chapultepec.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/centro.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/centro.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/las-quintas.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/las-quintas.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/benevento.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/benevento.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/guadalupe.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/guadalupe.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -191,7 +191,7 @@
   
   <!-- Blog y contenido -->
   <url>
-    <loc>https://zasakitchen.com/blog/</loc>
+    <loc>https://www.zasakitchenstudio.mx/blog/</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -199,7 +199,7 @@
   
   <!-- Contacto -->
   <url>
-    <loc>https://zasakitchen.com/contacto/</loc>
+    <loc>https://www.zasakitchenstudio.mx/contacto/</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -207,21 +207,21 @@
   
   <!-- Páginas de colonias adicionales (prioridad media) -->
   <url>
-    <loc>https://zasakitchen.com/colonias/infonavit-humaya.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/infonavit-humaya.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/horizontes.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/horizontes.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/villas-del-rio.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/villas-del-rio.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -229,28 +229,28 @@
   
   <!-- Otras colonias (prioridad baja) -->
   <url>
-    <loc>https://zasakitchen.com/colonias/loma-linda.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/loma-linda.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/brisas-de-humaya.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/brisas-de-humaya.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/musala-isla-bonita.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/musala-isla-bonita.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   
   <url>
-    <loc>https://zasakitchen.com/colonias/lomas-del-magisterio.html</loc>
+    <loc>https://www.zasakitchenstudio.mx/colonias/lomas-del-magisterio.html</loc>
     <lastmod>2025-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
