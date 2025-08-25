@@ -9,7 +9,11 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Bash(git check-ignore:*)",
-      "Bash(true)"
+      "Bash(true)",
+      "Bash(__NEW_LINE__ echo \"Verificando remote URL:\")",
+      "Bash(__NEW_LINE__ echo \"Verificando branch actual y remoto:\")",
+      "Bash(__NEW_LINE__ echo \"Verificando último commit:\")",
+      "Bash(__NEW_LINE__ git add -A)"
     ],
     "deny": [],
     "ask": []
