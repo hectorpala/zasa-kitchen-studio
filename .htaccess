@@ -4,8 +4,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^colonias/([^/]+)/?$ /colonias/$1.html [R=301,L]
 
-# Staging - No indexing
-Header always set X-Robots-Tag "noindex, nofollow"
+# Producción - Permitir indexación
 
 # Cache headers for static assets
 <IfModule mod_expires.c>
