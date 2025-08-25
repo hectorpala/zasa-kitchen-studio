@@ -41,7 +41,7 @@ function createGallerySlot(alt = "Por definir", caption = "") {
 
 // Función para procesar un archivo HTML
 function processHTMLFile(filePath) {
-    console.log(`Procesando: ${filePath}`);
+    // Procesando archivo
     
     let content = fs.readFileSync(filePath, 'utf8');
     
@@ -135,7 +135,7 @@ function processHTMLFile(filePath) {
     
     // Escribir archivo actualizado
     fs.writeFileSync(filePath, content, 'utf8');
-    console.log(`✓ Actualizado: ${filePath}`);
+    // Archivo actualizado
 }
 
 // Función para encontrar todos los archivos HTML
@@ -160,10 +160,10 @@ function findHTMLFiles(dir, fileList = []) {
 }
 
 // Ejecutar el proceso
-console.log('🚀 Iniciando unificación de diseño...\n');
+// Iniciando unificación de diseño
 
 const htmlFiles = findHTMLFiles('.');
-console.log(`📁 Encontrados ${htmlFiles.length} archivos HTML para procesar\n`);
+// Archivos HTML encontrados para procesar
 
 let processedFiles = 0;
 let errorFiles = [];
@@ -173,18 +173,18 @@ htmlFiles.forEach(filePath => {
         processHTMLFile(filePath);
         processedFiles++;
     } catch (error) {
-        console.error(`❌ Error procesando ${filePath}:`, error.message);
+        // Error procesando archivo
         errorFiles.push(filePath);
     }
 });
 
-console.log('\n📊 Resumen de unificación:');
-console.log(`✅ Archivos procesados exitosamente: ${processedFiles}`);
-console.log(`❌ Archivos con errores: ${errorFiles.length}`);
+// Resumen de unificación
+// Archivos procesados exitosamente
+// Archivos con errores
 
 if (errorFiles.length > 0) {
-    console.log('\n📋 Archivos con errores:');
-    errorFiles.forEach(file => console.log(`  - ${file}`));
+    // Archivos con errores:
+    // Lista de archivos con errores
 }
 
 console.log('\n🎉 Unificación de diseño completada!');
