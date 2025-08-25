@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="es" data-astro-cid-sckkx6r4>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -20,31 +18,57 @@
   <!-- Performance hints -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="img/optimized/home-hero/foto-principal-1920.jpg">
+  <link rel="preload" as="style" href="style.min.css?v=31">
   
-  <!-- Preload recursos críticos -->
-  <link rel="preload" as="image" href="img/optimized/cocina-hero/cocina-hero-1920.jpg" imagesrcset="img/optimized/cocina-hero/cocina-hero-480.jpg 480w, img/optimized/cocina-hero/cocina-hero-800.jpg 800w, img/optimized/cocina-hero/cocina-hero-1200.jpg 1200w, img/optimized/cocina-hero/cocina-hero-1920.jpg 1920w" imagesizes="100vw">
-  <link rel="preload" as="image" href="/img/logo-zasa.jpg">
-  <link rel="preload" as="style" href="style.min.css?v=7">
-  
-  <!-- Critical CSS inline -->
-  <style>
-    *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--bg:#FFFFFF;--bg-soft:#F8FAFC;--border:#E2E8F0;--gradient-brand:linear-gradient(135deg,#F97316 0%,#E36414 100%)}body{font-family:'Inter',sans-serif;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px}.navbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0}.container{max-width:1200px;margin:0 auto;padding:0 24px}.nav-wrap{display:flex;align-items:center;justify-content:space-between}.logo-navbar{height:65px;width:auto;display:block}.nav-list{display:flex;gap:24px;list-style:none;margin:0}.hero{background-image:url('img/optimized/cocina-hero/cocina-hero-optimized.jpg');background-size:cover;background-position:center;min-height:85vh;display:grid;place-items:center;text-align:center;position:relative}@media (max-width:480px){.hero{background-image:url('img/optimized/cocina-hero/cocina-hero-480.jpg')}}@media (min-width:481px) and (max-width:800px){.hero{background-image:url('img/optimized/cocina-hero/cocina-hero-800.jpg')}}@media (min-width:801px) and (max-width:1200px){.hero{background-image:url('img/optimized/cocina-hero/cocina-hero-1200.jpg')}}.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,0.9) 0%,rgba(30,41,59,0.8) 100%)}.hero .container{position:relative;z-index:1}
-  </style>
-  
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet"></noscript>
-  
-  <!-- Main styles (deferred) -->
-  <link rel="preload" href="style.min.css?v=7" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="style.min.css?v=7"></noscript>
-  <link rel="preload" href="mobile-premium.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="mobile-premium.css"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.min.css?v=31">
+  <link rel="stylesheet" href="mobile-premium.css?v=31">
 
-  <meta name="theme-color" content="#ED6623">
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué distribución es más económica?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Generalmente la lineal, por menor metraje y herrajes."
+        }
+      },
+      {
+        "@type": "Question", 
+        "name": "¿Puedo tener isla en un espacio mediano?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí, si garantizamos 90 cm de circulación por lado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto tardan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Diseño 48–72 h, fabricación 2–4 semanas según materiales."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Dan garantía?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí, garantía por escrito en herrajes y fabricación."
+        }
+      }
+    ]
+  }
+  </script>
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Cocinas a Medida en Culiacán | Lineal, L, U y con Isla – Sasa Kitchen">
+  <meta property="og:title" content="Cocinas a Medida en Culiacán | Lineal, L, U y con Isla">
   <meta property="og:description" content="Compara cocinas lineales, en L, en U y con isla. Medidas recomendadas, pros y contras, renders y materiales. Diseñamos y fabricamos a medida en Culiacán.">
   <meta property="og:image" content="/og-image.svg">
   <meta property="og:type" content="website">
@@ -52,69 +76,240 @@
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Cocinas a Medida en Culiacán | Lineal, L, U y con Isla – Sasa Kitchen">
-  <meta name="twitter:description" content="Compara cocinas lineales, en L, en U y con isla. Medidas recomendadas, pros y contras, renders y materiales.">
+  <meta name="twitter:title" content="Cocinas a Medida en Culiacán | Lineal, L, U y con Isla">
+  <meta name="twitter:description" content="Compara cocinas lineales, en L, en U y con isla. Medidas recomendadas, pros y contras, renders y materiales. Diseñamos y fabricamos a medida en Culiacán.">
   <meta name="twitter:image" content="/og-image.svg">
 
-  <!-- Schema Markup -->
+  <!-- Schema.org para Diseño de Cocinas -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Diseño de Cocinas a Medida - Sasa Kitchen",
-    "description": "Comparativa de cocinas lineales, en L, en U y con isla. Medidas recomendadas y materiales premium.",
-    "url": "https://www.zasakitchenstudio.mx/diseno-cocinas-medida.html",
-    "mainEntity": {
-      "@type": "Organization",
-      "name": "Sasa Kitchen Studio",
+    "@type": "Service",
+    "@id": "https://www.zasakitchenstudio.mx/diseno-cocinas-medida.html#service",
+    "name": "Diseño de Cocinas a Medida en Culiacán",
+    "alternateName": "Cocinas Lineal, L, U y con Isla",
+    "description": "Servicio de diseño y fabricación de cocinas a medida en todas las distribuciones: lineal, en L, en U y con isla. Especialistas en optimización de espacios.",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "ZASA Kitchen Studio",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "General Rafael Buelna Tenorio 750 Local 5",
+        "addressLocality": "Culiacán Rosales",
+        "addressRegion": "Sinaloa",
+        "postalCode": "80060",
+        "addressCountry": "MX"
+      },
+      "telephone": "+52-667-225-6523",
       "url": "https://www.zasakitchenstudio.mx"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Culiacán, Sinaloa"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "52"
     }
   }
   </script>
-</head>
 
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://www.zasakitchenstudio.mx/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Servicios",
+        "item": "https://www.zasakitchenstudio.mx/servicios"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Diseño de Cocinas a Medida",
+        "item": "https://www.zasakitchenstudio.mx/diseno-cocinas-medida.html"
+      }
+    ]
+  }
+  </script>
+
+<style>
+/* Hero con imagen de cocina - igual que homepage */
+.hero {
+    background-image: url('img/optimized/home-hero/foto-principal-1920.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 85vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 140px 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg,rgba(15,23,42,0.4) 0%,rgba(30,41,59,0.3) 100%);
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-weight: 800;
+    font-size: clamp(3rem,7vw,5rem);
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.hero p {
+    font-size: clamp(1.125rem,2.5vw,1.375rem);
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.hero-ctas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-microlink {
+    color: rgba(255,255,255,0.9);
+    text-decoration: underline;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.hero-microlink:hover {
+    color: white;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Móvil - overlay más fuerte */
+@media (max-width: 640px) {
+    .hero::after {
+        background: linear-gradient(135deg,rgba(15,23,42,0.6) 0%,rgba(30,41,59,0.5) 100%) !important;
+    }
+    
+    .hero {
+        padding: 80px 20px;
+        min-height: 75vh;
+    }
+    
+    .hero h1 {
+        font-size: clamp(2rem,8vw,3rem);
+        line-height: 1.15;
+        margin-bottom: 1.5rem;
+        color: #FFFFFF !important;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.8) !important;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+        color: #FFFFFF !important;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.7) !important;
+    }
+}
+</style>
+
+<style>body { padding-top: 80px; }</style>
+</head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container">
-            <div class="nav-wrap">
-                <a href="/" class="brand">
-                    <img src="/img/logo-zasa.jpg" alt="Sasa Kitchen Studio - Cocinas integrales" class="logo-navbar">
-                </a>
-                
-                <ul class="nav-list" id="nav-list">
-                    <li><a href="/" class="nav-link">Inicio</a></li>
-                    <li><a href="/servicios" class="nav-link">Servicios</a></li>
-                    <li><a href="/proyectos-culiacan" class="nav-link">Proyectos</a></li>
-                    <li><a href="/contacto" class="nav-link">Contacto</a></li>
-                </ul>
-                
-                <div class="nav-actions">
-                    <a href="tel:+526672256523" class="nav-cta">Llamar Ahora</a>
-                    <button class="hamburger" id="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
+    <nav class="navbar">
+        <div class="container nav-wrap">
+            <div class="brand">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar">
+            </div>
+            <ul class='nav-list' id="nav-list">
+              <li class='nav-item'>
+                <a href='/servicios' class='nav-link'>SERVICIOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/proyectos-culiacan' class='nav-link'>PROYECTOS</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/blog' class='nav-link'>BLOG</a>
+              </li>
+              <li class='nav-item'>
+                <a href='/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto' class='nav-link'>CONTACTO</a>
+              </li>
+            </ul>
+            <div class="nav-actions">
+              <a href='tel:+526672256523' class='nav-cta' data-phone='header'>
+                <span>LLÁMANOS</span>
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
             </div>
         </div>
     </nav>
+    
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container">
+            <h1>Diseño de cocinas a medida: lineal, en L, en U y con isla</h1>
+            <p>Te ayudamos a elegir la distribución perfecta para tu espacio.</p>
+            <div class="hero-ctas">
+                <a href="https://wa.me/526672256523?text=Hola%20ZASA%2C%20quiero%20cotizar%20una%20cocina%20a%20medida.%20Me%20interesa%20conocer%20las%20opciones%20de%20dise%C3%B1o%20lineal%2C%20en%20L%2C%20U%20o%20con%20isla." class="btn btn-primary">Cotizar por WhatsApp</a>
+                <a href="tel:+526672256523" class="hero-microlink">Agendar visita al showroom</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="subnav">
+        <div class="container">
+            <ul class="subtabs">
+                <li><a href="#comparativa">Comparativa</a></li>
+                <li><a href="#medidas">Medidas</a></li>
+                <li><a href="#materiales">Materiales</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </section>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <h1>Diseño de cocinas a medida: lineal, en L, en U y con isla</h1>
-                <p>Te ayudamos a elegir la distribución perfecta para tu espacio.</p>
-                <div class="cta-buttons">
-                    <a href="https://wa.me/526672256523?text=Hola,%20quiero%20cotizar%20una%20cocina%20a%20medida" class="btn btn-primary">Cotizar por WhatsApp</a>
-                    <a href="tel:+526672256523" class="btn btn-secondary">Agendar visita al showroom</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Comparativa Rápida -->
+        <!-- Comparativa rápida -->
         <section id="comparativa" class="services-intro">
             <div class="container">
                 <h2>Comparativa rápida</h2>
@@ -125,21 +320,18 @@
                         <p><strong>Ventaja:</strong> inversión eficiente y limpieza simple.</p>
                         <p><strong>Recomendación Sasa:</strong> integra torre de hornos y alacena alta para ganar almacenaje vertical.</p>
                     </div>
-                    
                     <div class="service-card">
                         <h3>Cocina en L</h3>
                         <p><strong>Mejor para:</strong> departamentos medianos o cocinas integradas al comedor.</p>
                         <p><strong>Ventaja:</strong> flujo cómodo; permite barra desayunadora.</p>
                         <p><strong>Recomendación Sasa:</strong> ubica tarja y estufa en brazos distintos para optimizar el triángulo de trabajo.</p>
                     </div>
-                    
                     <div class="service-card">
                         <h3>Cocina en U</h3>
                         <p><strong>Mejor para:</strong> cocinas medianas a grandes con alto almacenaje.</p>
                         <p><strong>Ventaja:</strong> máximo espacio útil, varias zonas de preparación.</p>
                         <p><strong>Recomendación Sasa:</strong> deja pasillo interno de 100–120 cm para abrir cajones con comodidad.</p>
                     </div>
-                    
                     <div class="service-card">
                         <h3>Cocina con isla</h3>
                         <p><strong>Mejor para:</strong> espacios amplios y cocina social.</p>
@@ -147,223 +339,111 @@
                         <p><strong>Recomendación Sasa:</strong> deja circulación de 90–110 cm alrededor; si lleva parrilla, agrega campana de isla y tomas eléctricas.</p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Medidas Recomendadas -->
-        <section id="medidas" class="about">
-            <div class="container">
-                <h2>Medidas recomendadas</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <h3>Dimensiones básicas</h3>
-                        <ul>
-                            <li><strong>Altura de cubierta:</strong> 90 cm</li>
-                            <li><strong>Fondo mueble bajo:</strong> 60 cm; alto: 32–35 cm</li>
-                            <li><strong>Separación cubierta–mueble alto:</strong> 50–60 cm</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="service-card">
-                        <h3>Isla funcional</h3>
-                        <ul>
-                            <li><strong>Isla mínima funcional:</strong> 120×80 cm</li>
-                            <li><strong>Isla ideal:</strong> 180×90 cm</li>
-                            <li><strong>Circulación alrededor:</strong> 90–110 cm</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="service-card">
-                        <h3>Espacios de trabajo</h3>
-                        <ul>
-                            <li><strong>Pasillos:</strong> 90–110 cm (120 cm si trabajan dos personas)</li>
-                            <li><strong>"Triángulo de trabajo":</strong> lados de 120–270 cm</li>
-                        </ul>
-                    </div>
+                <div class="cta-buttons">
+                    <a href="/servicios/cocinas/integrales-en-l.html" class="btn btn-secondary">Ver cocinas en L</a>
+                    <a href="/servicios/cocinas/integrales-en-u.html" class="btn btn-secondary">Ver cocinas en U</a>
+                    <a href="/servicios/cocinas/integrales-con-isla.html" class="btn btn-secondary">Ver cocinas con isla</a>
                 </div>
             </div>
         </section>
 
-        <!-- Materiales y Acabados -->
+        <!-- Medidas recomendadas -->
+        <section id="medidas" class="about">
+            <div class="container">
+                <h2>Medidas recomendadas (guía rápida)</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Altura de cubierta</h3>
+                        <p>90 cm</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Fondo mueble bajo</h3>
+                        <p>60 cm; alto: 32–35 cm</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Separación cubierta–mueble alto</h3>
+                        <p>50–60 cm</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Isla mínima funcional</h3>
+                        <p>120 × 80 cm; ideal con tarja/parrilla: 180 × 90 cm</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Pasillos</h3>
+                        <p>90–110 cm (120 cm si trabajan dos personas)</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>"Triángulo de trabajo"</h3>
+                        <p>lados de 120–270 cm</p>
+                    </div>
+                </div>
+                <div style="background: var(--bg-soft); padding: 2rem; border-radius: 12px; margin-top: 2rem; text-align: center;">
+                    <h3 style="color: var(--brand); margin-bottom: 1rem;">💡 Tip</h3>
+                    <p style="margin: 0; color: var(--text-light);">Estas medidas son orientativas. En Sasa adaptamos cada diseño a tu espacio específico y necesidades de uso.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Materiales y acabados -->
         <section id="materiales" class="services-intro">
             <div class="container">
                 <h2>Materiales y acabados</h2>
                 <div class="services-grid">
                     <div class="service-card">
                         <h3>Cubiertas</h3>
-                        <ul>
-                            <li><strong>Cuarzo:</strong> no poroso, resistente a manchas</li>
-                            <li><strong>Granito:</strong> resistente al calor y rayones</li>
-                            <li><strong>Mármol:</strong> lujo natural, requiere sellado</li>
-                        </ul>
+                        <p><strong>Cuarzo:</strong> no poroso<br>
+                        <strong>Granito:</strong> resistente<br>
+                        <strong>Mármol:</strong> lujo; requiere sellado</p>
                     </div>
-                    
                     <div class="service-card">
                         <h3>Frentes</h3>
-                        <ul>
-                            <li><strong>Melamina premium:</strong> resistente y económica</li>
-                            <li><strong>Termofoil:</strong> acabado suave, fácil limpieza</li>
-                            <li><strong>Laca mate:</strong> elegante y moderna</li>
-                            <li><strong>Sin jaladeras:</strong> perfil "J" o push-to-open</li>
-                        </ul>
+                        <p>Melamina premium / termofoil / laca mate; sin jaladeras (perfil "J" o push‑to‑open)</p>
                     </div>
-                    
                     <div class="service-card">
                         <h3>Herrajes</h3>
-                        <ul>
-                            <li><strong>Correderas ocultas:</strong> máxima capacidad</li>
-                            <li><strong>Bisagras soft-close:</strong> cierre suave y silencioso</li>
-                            <li><strong>Herrajes premium:</strong> garantía extendida</li>
-                        </ul>
+                        <p>Correderas ocultas y bisagras soft‑close</p>
                     </div>
+                </div>
+                <div class="cta-buttons">
+                    <a href="/servicios/cubiertas/cubiertas-cuarzo-culiacan.html" class="btn btn-secondary">Ver cubiertas de cuarzo</a>
+                    <a href="/servicios/cubiertas/cubiertas-granito-culiacan.html" class="btn btn-secondary">Ver granito</a>
+                    <a href="/servicios/cubiertas/cubiertas-marmol-culiacan.html" class="btn btn-secondary">Ver mármol</a>
                 </div>
             </div>
         </section>
 
-        <!-- Galería -->
-        <section id="galeria" class="about">
+        <!-- Preguntas frecuentes -->
+        <section id="faq" class="about">
             <div class="container">
-                <h2>Galería de proyectos</h2>
-                <div class="gallery-grid">
-                    <div class="gallery-item">
-                        <picture>
-                            <source type="image/avif" srcset="img/proyectos/benevento-01-800.avif 800w, img/proyectos/benevento-01-1200.avif 1200w, img/proyectos/benevento-01-1600.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <source type="image/webp" srcset="img/proyectos/benevento-01-800.webp 800w, img/proyectos/benevento-01-1200.webp 1200w, img/proyectos/benevento-01-1600.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <img src="img/proyectos/benevento-01.jpg" 
-                                 srcset="img/proyectos/benevento-01-800.jpg 800w, 
-                                         img/proyectos/benevento-01-1200.jpg 1200w, 
-                                         img/proyectos/benevento-01-1600.jpg 1600w"
-                                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                 alt="Cocina integral moderna en Benevento - diseño en L" 
-                                 loading="lazy"
-                                 width="1200" 
-                                 height="800">
-                        </picture>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <picture>
-                            <source type="image/avif" srcset="img/proyectos/horizontes-01-800.avif 800w, img/proyectos/horizontes-01-1200.avif 1200w, img/proyectos/horizontes-01-1600.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <source type="image/webp" srcset="img/proyectos/horizontes-01-800.webp 800w, img/proyectos/horizontes-01-1200.webp 1200w, img/proyectos/horizontes-01-1600.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <img src="img/proyectos/horizontes-01.jpg" 
-                                 srcset="img/proyectos/horizontes-01-800.jpg 800w, 
-                                         img/proyectos/horizontes-01-1200.jpg 1200w, 
-                                         img/proyectos/horizontes-01-1600.jpg 1600w"
-                                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                 alt="Cocina integral con isla en Horizontes - diseño moderno" 
-                                 loading="lazy"
-                                 width="1200" 
-                                 height="800">
-                        </picture>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <picture>
-                            <source type="image/avif" srcset="img/proyectos/tres-rios-01-800.avif 800w, img/proyectos/tres-rios-01-1200.avif 1200w, img/proyectos/tres-rios-01-1600.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <source type="image/webp" srcset="img/proyectos/tres-rios-01-800.webp 800w, img/proyectos/tres-rios-01-1200.webp 1200w, img/proyectos/tres-rios-01-1600.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <img src="img/proyectos/tres-rios-01.jpg" 
-                                 srcset="img/proyectos/tres-rios-01-800.jpg 800w, 
-                                         img/proyectos/tres-rios-01-1200.jpg 1200w, 
-                                         img/proyectos/tres-rios-01-1600.jpg 1600w"
-                                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                 alt="Cocina integral en U en Tres Ríos - máximo almacenaje" 
-                                 loading="lazy"
-                                 width="1200" 
-                                 height="800">
-                        </picture>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <picture>
-                            <source type="image/avif" srcset="img/proyectos/las-quintas-01-800.avif 800w, img/proyectos/las-quintas-01-1200.avif 1200w, img/proyectos/las-quintas-01-1600.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <source type="image/webp" srcset="img/proyectos/las-quintas-01-800.webp 800w, img/proyectos/las-quintas-01-1200.webp 1200w, img/proyectos/las-quintas-01-1600.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <img src="img/proyectos/las-quintas-01.jpg" 
-                                 srcset="img/proyectos/las-quintas-01-800.jpg 800w, 
-                                         img/proyectos/las-quintas-01-1200.jpg 1200w, 
-                                         img/proyectos/las-quintas-01-1600.jpg 1600w"
-                                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                 alt="Cocina lineal moderna en Las Quintas - optimizada para espacio" 
-                                 loading="lazy"
-                                 width="1200" 
-                                 height="800">
-                        </picture>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <picture>
-                            <source type="image/avif" srcset="img/proyectos/la-primavera-01-800.avif 800w, img/proyectos/la-primavera-01-1200.avif 1200w, img/proyectos/la-primavera-01-1600.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <source type="image/webp" srcset="img/proyectos/la-primavera-01-800.webp 800w, img/proyectos/la-primavera-01-1200.webp 1200w, img/proyectos/la-primavera-01-1600.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <img src="img/proyectos/la-primavera-01.jpg" 
-                                 srcset="img/proyectos/la-primavera-01-800.jpg 800w, 
-                                         img/proyectos/la-primavera-01-1200.jpg 1200w, 
-                                         img/proyectos/la-primavera-01-1600.jpg 1600w"
-                                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                 alt="Cocina integral con barra en La Primavera - diseño social" 
-                                 loading="lazy"
-                                 width="1200" 
-                                 height="800">
-                        </picture>
-                    </div>
-                    
-                    <div class="gallery-item">
-                        <picture>
-                            <source type="image/avif" srcset="img/proyectos/infonavit-humaya-01-800.avif 800w, img/proyectos/infonavit-humaya-01-1200.avif 1200w, img/proyectos/infonavit-humaya-01-1600.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <source type="image/webp" srcset="img/proyectos/infonavit-humaya-01-800.webp 800w, img/proyectos/infonavit-humaya-01-1200.webp 1200w, img/proyectos/infonavit-humaya-01-1600.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw">
-                            <img src="img/proyectos/infonavit-humaya-01.jpg" 
-                                 srcset="img/proyectos/infonavit-humaya-01-800.jpg 800w, 
-                                         img/proyectos/infonavit-humaya-01-1200.jpg 1200w, 
-                                         img/proyectos/infonavit-humaya-01-1600.jpg 1600w"
-                                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                                 alt="Cocina integral pequeña en Infonavit Humaya - aprovechamiento vertical" 
-                                 loading="lazy"
-                                 width="1200" 
-                                 height="800">
-                        </picture>
-                    </div>
+                <h2>Preguntas frecuentes (FAQ)</h2>
+                <div class="faq-item">
+                    <h3>¿Qué distribución es más económica?</h3>
+                    <p>Generalmente la lineal, por menor metraje y herrajes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>¿Puedo tener isla en un espacio mediano?</h3>
+                    <p>Sí, si garantizamos 90 cm de circulación por lado.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>¿Cuánto tardan?</h3>
+                    <p>Diseño 48–72 h, fabricación 2–4 semanas según materiales.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>¿Dan garantía?</h3>
+                    <p>Sí, garantía por escrito en herrajes y fabricación.</p>
                 </div>
             </div>
         </section>
 
-        <!-- FAQ -->
-        <section id="faq" class="services-intro">
-            <div class="container">
-                <h2>Preguntas frecuentes</h2>
-                <div class="testimonials-grid">
-                    <div class="faq-item">
-                        <h3>¿Qué distribución es más económica?</h3>
-                        <p>Generalmente la lineal, por menor metraje y herrajes. Sin embargo, la inversión se optimiza según tu espacio y necesidades específicas.</p>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <h3>¿Puedo tener isla en un espacio mediano?</h3>
-                        <p>Sí, si garantizamos 90 cm de circulación por lado. Evaluamos tu espacio para determinar la viabilidad y dimensiones ideales.</p>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <h3>¿Cuánto tardan?</h3>
-                        <p>Diseño 48–72 horas, fabricación 2–4 semanas según materiales. Te mantenemos informado en cada etapa del proceso.</p>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <h3>¿Dan garantía?</h3>
-                        <p>Sí, garantía por escrito en herrajes y fabricación. Respaldamos nuestro trabajo con garantías específicas para cada componente.</p>
-                    </div>
-                    
-                    <div class="faq-item">
-                        <h3>¿Incluyen electrodomésticos?</h3>
-                        <p>Podemos incluirlos o adaptar el diseño a tus electrodomésticos actuales. Trabajamos con las mejores marcas del mercado.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Final -->
-        <section id="cta-final" class="about">
+        <!-- CTA final -->
+        <section id="contacto" class="services-intro">
             <div class="container">
                 <h2>¿Quieres que te ayudemos a elegir?</h2>
-                <p>Envíanos medidas o agenda visita al showroom.</p>
+                <p style="text-align: center; max-width: 600px; margin: 0 auto 2rem; color: var(--text-light);">
+                    Envíanos medidas o agenda visita al showroom. Te ayudamos a encontrar la distribución perfecta para tu espacio y presupuesto.
+                </p>
                 <div class="cta-buttons">
-                    <a href="https://wa.me/526672256523?text=Hola,%20quiero%20ayuda%20para%20elegir%20mi%20cocina%20ideal" class="btn btn-primary">Cotizar por WhatsApp</a>
+                    <a href="https://wa.me/526672256523?text=Hola%20ZASA%2C%20quiero%20que%20me%20ayuden%20a%20elegir%20el%20dise%C3%B1o%20de%20cocina%20perfecto%20para%20mi%20espacio.%20Tengo%20las%20medidas%20y%20fotos." class="btn btn-primary">Cotizar por WhatsApp</a>
                     <a href="tel:+526672256523" class="btn btn-secondary">Llamar 667 225 6523</a>
                 </div>
             </div>
@@ -371,25 +451,93 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <h3>Sasa Kitchen Studio</h3>
-            <p>Cocinas integrales modernas en Culiacán, Sinaloa</p>
-            <p>General Rafael Buelna Tenorio 750 Local 5, Culiacán</p>
-            <p><a href="tel:+526672256523">667 225 6523</a></p>
-            <p><a href="mailto:ventas@zasakitchen.com">ventas@zasakitchen.com</a></p>
-            
-            <nav>
-                <a href="/">Inicio</a>
-                <a href="/servicios">Servicios</a>
-                <a href="/proyectos-culiacan">Proyectos</a>
-                <a href="/contacto">Contacto</a>
-                <a href="/diseno-cocinas-medida.html">Diseño a Medida</a>
-            </nav>
-        </div>
+    <footer id="footer">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 225 6523</a></p>
+        <p>Teléfono: <a href="tel:+526672256523">667 225 6523</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="/app-consolidated.min.js" defer></script>
+    <script type="module">
+document.addEventListener("DOMContentLoaded", () => {
+  // Menú hamburguesa premium
+  const hamburger = document.getElementById('hamburger');
+  const navList = document.getElementById('nav-list');
+  
+  if (hamburger && navList) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+    
+    // Cerrar menú al hacer clic en enlaces
+    navList.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navList.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  }
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Clics en teléfono
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener("click", function () {
+      const number = this.href.replace("tel:", "");
+      if (typeof gtag !== "undefined") {
+        gtag("event", "phone_call_click", {
+          event_category: "engagement",
+          event_label: number,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+
+  // Clics en WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener("click", function () {
+      if (typeof gtag !== "undefined") {
+        gtag("event", "whatsapp_click", {
+          event_category: "engagement",
+          event_label: this.href,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+});
+</script>
 </body>
 </html>
