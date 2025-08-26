@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico ZASA Kitchen Studio</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            max-width: 800px; 
+            margin: 20px auto; 
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test { 
+            background: white; 
+            padding: 15px; 
+            margin: 10px 0; 
+            border-radius: 8px;
+            border-left: 4px solid #007cba;
+        }
+        .success { border-left-color: #28a745; }
+        .error { border-left-color: #dc3545; }
+        .warning { border-left-color: #ffc107; }
+        h1 { color: #333; }
+        h2 { color: #555; margin-top: 30px; }
+        .status { font-weight: bold; }
+        .details { font-size: 0.9em; color: #666; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h1>🔧 Diagnóstico ZASA Kitchen Studio</h1>
+    <p><strong>Fecha:</strong> <span id="datetime"></span></p>
+    
+    <h2>📋 Estado del Sistema</h2>
+    
+    <div class="test" id="html-test">
+        <div class="status">✅ HTML Básico: Funcional</div>
+        <div class="details">Esta página se está cargando correctamente</div>
+    </div>
+
+    <div class="test" id="css-test">
+        <div class="status">🎨 CSS: <span id="css-status">Verificando...</span></div>
+        <div class="details">Comprobando estilos y formateo</div>
+    </div>
+
+    <div class="test" id="js-test">
+        <div class="status">⚙️ JavaScript: <span id="js-status">Verificando...</span></div>
+        <div class="details">Comprobando funcionalidad de scripts</div>
+    </div>
+
+    <div class="test" id="images-test">
+        <div class="status">🖼️ Imágenes: <span id="images-status">Verificando...</span></div>
+        <div class="details" id="images-details">Comprobando carga de recursos gráficos</div>
+    </div>
+
+    <div class="test" id="webp-test">
+        <div class="status">🌐 WebP Support: <span id="webp-status">Verificando...</span></div>
+        <div class="details">Comprobando compatibilidad con formato WebP</div>
+    </div>
+
+    <div class="test" id="network-test">
+        <div class="status">🔗 Conexión: <span id="network-status">Verificando...</span></div>
+        <div class="details" id="network-details">Verificando conectividad de red</div>
+    </div>
+
+    <h2>🔍 Información del Navegador</h2>
+    <div class="test">
+        <div class="status">Navegador: <span id="browser-info"></span></div>
+        <div class="details">
+            <div>User Agent: <span id="user-agent"></span></div>
+            <div>Resolución: <span id="screen-resolution"></span></div>
+            <div>Fecha Local: <span id="local-time"></span></div>
+        </div>
+    </div>
+
+    <h2>🚀 Soluciones Recomendadas</h2>
+    <div class="test">
+        <div class="status">Para Chrome:</div>
+        <div class="details">
+            1. Presiona <strong>Ctrl+F5</strong> para forzar recarga<br>
+            2. Prueba en <strong>modo incógnito</strong> (Ctrl+Shift+N)<br>
+            3. Limpia caché: Chrome → Configuración → Privacidad → Borrar datos<br>
+            4. Desactiva extensiones temporalmente<br>
+            5. Verifica que no hay bloqueo de antivirus/firewall
+        </div>
+    </div>
+
+    <div class="test">
+        <div class="status">Enlaces de prueba:</div>
+        <div class="details">
+            <a href="/" target="_blank">🏠 Página principal (nueva ventana)</a><br>
+            <a href="/servicios/" target="_blank">🔧 Servicios (nueva ventana)</a><br>
+            <a href="/proyectos-culiacan/" target="_blank">📂 Proyectos (nueva ventana)</a>
+        </div>
+    </div>
+
+    <script>
+        // Actualizar fecha
+        document.getElementById('datetime').textContent = new Date().toLocaleString('es-MX');
+        document.getElementById('local-time').textContent = new Date().toLocaleString('es-MX');
+        
+        // Info del navegador
+        document.getElementById('browser-info').textContent = navigator.userAgent.split(' ')[0];
+        document.getElementById('user-agent').textContent = navigator.userAgent;
+        document.getElementById('screen-resolution').textContent = screen.width + 'x' + screen.height;
+
+        // Test CSS
+        setTimeout(() => {
+            const testElement = document.getElementById('css-test');
+            const computedStyle = window.getComputedStyle(testElement);
+            if (computedStyle.backgroundColor !== 'rgba(0, 0, 0, 0)') {
+                document.getElementById('css-status').innerHTML = '✅ Funcional';
+                testElement.classList.add('success');
+            } else {
+                document.getElementById('css-status').innerHTML = '❌ Error';
+                testElement.classList.add('error');
+            }
+        }, 100);
+
+        // Test JavaScript
+        setTimeout(() => {
+            document.getElementById('js-status').innerHTML = '✅ Funcional';
+            document.getElementById('js-test').classList.add('success');
+        }, 200);
+
+        // Test imágenes
+        const testImages = [
+            '/img/logo-zasa.jpg',
+            '/img/optimized/servicios/cocina-en-u-800.jpg',
+            '/og-image.jpg'
+        ];
+        
+        let imageResults = [];
+        let imagesLoaded = 0;
+        
+        testImages.forEach((imgSrc, index) => {
+            const img = new Image();
+            img.onload = () => {
+                imageResults[index] = '✅';
+                imagesLoaded++;
+                if (imagesLoaded === testImages.length) {
+                    updateImageStatus();
+                }
+            };
+            img.onerror = () => {
+                imageResults[index] = '❌';
+                imagesLoaded++;
+                if (imagesLoaded === testImages.length) {
+                    updateImageStatus();
+                }
+            };
+            img.src = imgSrc;
+        });
+
+        function updateImageStatus() {
+            const successCount = imageResults.filter(r => r === '✅').length;
+            const statusEl = document.getElementById('images-status');
+            const detailsEl = document.getElementById('images-details');
+            
+            if (successCount === testImages.length) {
+                statusEl.innerHTML = '✅ Todas funcionan';
+                document.getElementById('images-test').classList.add('success');
+            } else if (successCount > 0) {
+                statusEl.innerHTML = '⚠️ Algunas fallan';
+                document.getElementById('images-test').classList.add('warning');
+            } else {
+                statusEl.innerHTML = '❌ No cargan';
+                document.getElementById('images-test').classList.add('error');
+            }
+            
+            detailsEl.innerHTML = `${successCount}/${testImages.length} imágenes cargadas correctamente`;
+        }
+
+        // Test WebP
+        function testWebP() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 1;
+            canvas.height = 1;
+            
+            if (canvas.toDataURL && canvas.toDataURL('image/webp').indexOf('data:image/webp') === 0) {
+                document.getElementById('webp-status').innerHTML = '✅ Soportado';
+                document.getElementById('webp-test').classList.add('success');
+            } else {
+                document.getElementById('webp-status').innerHTML = '❌ No soportado';
+                document.getElementById('webp-test').classList.add('warning');
+            }
+        }
+        
+        setTimeout(testWebP, 300);
+
+        // Test de red
+        fetch('/', { method: 'HEAD' })
+            .then(response => {
+                const statusEl = document.getElementById('network-status');
+                const detailsEl = document.getElementById('network-details');
+                
+                if (response.ok) {
+                    statusEl.innerHTML = '✅ Funcional';
+                    document.getElementById('network-test').classList.add('success');
+                    detailsEl.innerHTML = `Conexión OK - Status: ${response.status}`;
+                } else {
+                    statusEl.innerHTML = '⚠️ Problemas';
+                    document.getElementById('network-test').classList.add('warning');
+                    detailsEl.innerHTML = `Status: ${response.status}`;
+                }
+            })
+            .catch(error => {
+                document.getElementById('network-status').innerHTML = '❌ Error';
+                document.getElementById('network-test').classList.add('error');
+                document.getElementById('network-details').innerHTML = `Error: ${error.message}`;
+            });
+
+        // Mostrar información adicional después de 2 segundos
+        setTimeout(() => {
+            console.log('🔧 Diagnóstico ZASA Kitchen Studio');
+            console.log('Información técnica disponible en la consola del navegador');
+            console.log('Performance:', performance.now() + 'ms');
+            console.log('Memoria:', navigator.deviceMemory || 'No disponible');
+            console.log('Conexión:', navigator.connection?.effectiveType || 'No disponible');
+        }, 2000);
+    </script>
+</body>
+</html>
