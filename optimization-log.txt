@@ -1,0 +1,947 @@
+[0;34m🚀 ZASA Kitchen Studio - Optimizador de Imágenes[0m
+[0;34m================================================[0m
+[0;34m📁 Buscando imágenes en: /Users/hectorpc/Documents/Hector Palazuelos/Google My Business/Zasa Kitchen Studio /zasa-kitchen-website/img[0m
+[1;33m📸 Procesando: chapalita.jpg[0m
+   [0;32m✅ Optimizada: 8355 bytes ahorrados (5%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: granito.jpg[0m
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: hero.jpg[0m
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: placeholder-cocina.jpg[0m
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: country.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cuarzo.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocinaintegrales.png[0m
+   ✅ Backup creado
+   🔄 Convirtiendo PNG grande a JPG...
+   [0;32m✅ Optimizada: 2110171 bytes ahorrados (94%)[0m
+   🔄 Generando WebP...
+   [0;32m✅ WebP creado[0m
+[1;33m📸 Procesando: foto principal.png[0m
+   ✅ Backup creado
+   🔄 Convirtiendo PNG grande a JPG...
+   [0;32m✅ Optimizada: 2076571 bytes ahorrados (95%)[0m
+   🔄 Generando WebP...
+   [0;32m✅ WebP creado[0m
+[1;33m📸 Procesando: marmol.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: chapultepec-01-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 25516 bytes ahorrados (15%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios-01.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 25907 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-01-800.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: las-quintas-01.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 15487 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: benevento-03-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 33471 bytes ahorrados (17%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: benevento-02-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 24349 bytes ahorrados (14%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: las-quintas-03.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 13149 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios-02.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 24891 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios-03.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 24936 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: villas-del-rio-01-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-02-800.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: benevento-02.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 19219 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: villas-del-rio-01-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 99883 bytes ahorrados (50%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: benevento-03-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 21659 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: benevento-02-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 19219 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: benevento-03.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 21659 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: benevento-01.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 21433 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: chapultepec-01-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 18426 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-03-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 33043 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-02-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 31014 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-01-800.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-03-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 99883 bytes ahorrados (50%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-02-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 42510 bytes ahorrados (19%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios-02-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 24891 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios-03-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 24936 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-02-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 99883 bytes ahorrados (50%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-03-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 99883 bytes ahorrados (50%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: las-quintas-03-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 19545 bytes ahorrados (15%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: las-quintas-03-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 13149 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-02-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-03-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios-02-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 189922 bytes ahorrados (51%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios-03-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 185030 bytes ahorrados (51%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: chapultepec-01.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 18426 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: chapultepec-03.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 21172 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-03-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-02-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 25390 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-03-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 226585 bytes ahorrados (49%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-02-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 222054 bytes ahorrados (51%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: chapultepec-02.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 18262 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: villas-del-rio-02.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-03.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-01-800.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-02.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 25390 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: chapultepec-03-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 21172 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: chapultepec-02-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 18262 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: villas-del-rio-03.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: villas-del-rio-01.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: villas-del-rio-03-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 99883 bytes ahorrados (50%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: villas-del-rio-02-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 99883 bytes ahorrados (50%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: benevento-01-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 21433 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-01.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 24549 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: benevento-01-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 35103 bytes ahorrados (18%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-01.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 34731 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: villas-del-rio-03-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: villas-del-rio-02-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: chapultepec-03-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 35403 bytes ahorrados (18%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: chapultepec-02-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 25915 bytes ahorrados (15%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-03.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 33043 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cuatro-rios-01.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-02.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 31014 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-03.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-01-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 24549 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-01-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 251766 bytes ahorrados (52%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-02.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12311 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-01-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 27126 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: las-quintas-01-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 15487 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-02-800.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-01.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 27126 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios-01-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 191007 bytes ahorrados (50%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-03-800.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios-01-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 25907 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: las-quintas-01-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 27771 bytes ahorrados (18%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: horizontes-01-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 50196 bytes ahorrados (20%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: la-primavera-01-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 34731 bytes ahorrados (12%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: infonavit-humaya-01-1600.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 40535 bytes ahorrados (18%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: fotococinaintegral-optimized.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 7001 bytes ahorrados (5%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocinas-modernas.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: tres-rios.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 25907 bytes ahorrados (11%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-1.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-3.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-2.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-6.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-5.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: hero-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 42503 bytes ahorrados (27%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cuarzo-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: closets-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: hero-optimized-backup.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 1 bytes ahorrados (0%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocina-hero-source.png[0m
+   ✅ Backup creado
+   🔄 Convirtiendo PNG grande a JPG...
+   [0;32m✅ Optimizada: 2076571 bytes ahorrados (95%)[0m
+   🔄 Generando WebP...
+   [0;32m✅ WebP creado[0m
+[1;33m📸 Procesando: cocina-hero-optimized.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 110333 bytes ahorrados (52%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocina-hero-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 11364 bytes ahorrados (8%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocina-hero-1920.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 309483 bytes ahorrados (75%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: CocinasML.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 46255 bytes ahorrados (25%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocinas-integrales.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 10560 bytes ahorrados (5%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocina-en-u.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocinamadera-optimized.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 139257 bytes ahorrados (41%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocina-en-l.png[0m
+   ✅ Backup creado
+   🔄 Convirtiendo PNG grande a JPG...
+   [0;32m✅ Optimizada: 2020429 bytes ahorrados (94%)[0m
+   🔄 Generando WebP...
+   [0;32m✅ WebP creado[0m
+[1;33m📸 Procesando: interior-1-1200.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+[1;33m📸 Procesando: cocina-pequena-bajo-escaleras.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-4-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-3-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocina-integral-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: granito-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: country-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: marmol-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: placeholder-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-6-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-2-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: imagen-cocina-integral-1920.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 180360 bytes ahorrados (55%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: foto-principal-1920.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 218687 bytes ahorrados (67%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: foto-principal-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 8572 bytes ahorrados (7%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: imagen-cocina-integral-1200.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 55753 bytes ahorrados (26%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: imagen-cocina-integral.png[0m
+   ✅ Backup creado
+   🔄 Convirtiendo PNG grande a JPG...
+   [0;32m✅ Optimizada: 1881295 bytes ahorrados (92%)[0m
+   🔄 Generando WebP...
+   [0;32m✅ WebP creado[0m
+[1;33m📸 Procesando: hero-tablet-1200x675.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 10629 bytes ahorrados (7%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: hero-desktop-1920x874.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 76551 bytes ahorrados (55%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: foto-principal.png[0m
+   ✅ Backup creado
+   🔄 Convirtiendo PNG grande a JPG...
+   [0;32m✅ Optimizada: 2076571 bytes ahorrados (95%)[0m
+   🔄 Generando WebP...
+   [0;32m✅ WebP creado[0m
+[1;33m📸 Procesando: hero-optimized.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 253999 bytes ahorrados (70%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-5-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-1-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocinas-modernas-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: cocinaintegrales-optimized.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: beneficio-4.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Bar chaparro 1.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Elia 2.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Elia 1.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-06-14 at 12.35.34 PM (1).jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-06-14 at 12.36.36 PM.jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-06-14 at 12.35.04 PM (1).jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-06-14 at 12.36.35 PM.jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-06-14 at 12.36.35 PM (2).jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Benevento 2.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Benevento 1.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Benevento .jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Vestidor Villas del Rio 1.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 12633 bytes ahorrados (6%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Closet Villas del Rio .jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 22304 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Maria de Jesus  1.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 20713 bytes ahorrados (10%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Radames 8.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Radames 5.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Radames 7.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Radames 2.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Radames 3.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Radames 1.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Casandra Espinoza 2.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 228546 bytes ahorrados (65%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Casandra Espinoza 1.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 640072 bytes ahorrados (77%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.30.16 PM (1).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 459927 bytes ahorrados (72%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.30.16 PM (2).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 540626 bytes ahorrados (74%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.30.20 PM.jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 578299 bytes ahorrados (79%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.30.20 PM (1).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 624924 bytes ahorrados (81%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.40.41 PM (1).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 707703 bytes ahorrados (75%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.40.42 PM (2).jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.40.41 PM (2).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 587839 bytes ahorrados (73%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.40.42 PM.jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 521756 bytes ahorrados (70%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.40.42 PM (1).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 591491 bytes ahorrados (71%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-08-12 at 6.40.42 PM (3).jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-03-28 at 3.33.41 PM (3).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 525857 bytes ahorrados (76%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-03-28 at 3.33.41 PM (1).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 554957 bytes ahorrados (75%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-03-28 at 3.33.40 PM.jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 521316 bytes ahorrados (73%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-03-28 at 3.33.41 PM.jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 588586 bytes ahorrados (76%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-03-28 at 3.33.41 PM (2).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 535885 bytes ahorrados (74%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Mueble tv(3).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 451869 bytes ahorrados (72%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Mueble tv(1).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 487044 bytes ahorrados (71%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Mueble tv(2).jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 530315 bytes ahorrados (74%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Mueble tv.jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 501966 bytes ahorrados (73%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Luis German 2.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 19768 bytes ahorrados (9%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Luis German 1.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 15113 bytes ahorrados (6%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Luis German.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 3893 bytes ahorrados (2%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-07-28 at 4.24.05 PM.jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-07-28 at 4.24.04 PM.jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-07-28 at 4.24.54 PM.jpeg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: WhatsApp Image 2025-07-28 at 4.40.28 PM.jpeg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 376658 bytes ahorrados (71%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: MOODBOARD.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: MOODBOARD1.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: MOODBOARD2.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 25481 bytes ahorrados (5%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: san alberto 1.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: San alberto.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Juan Saracho 2.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: Juan Saracho.jpg[0m
+   ✅ Backup creado
+   ℹ️  Ya optimizada
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[1;33m📸 Procesando: closets.jpg[0m
+   ✅ Backup creado
+   [0;32m✅ Optimizada: 767399 bytes ahorrados (38%)[0m
+   🔄 Generando WebP...
+   ⚠️  WebP no soportado en este sistema
+[0;34m================================================[0m
+[0;32m🎉 Optimización completada[0m
+[0;32m📊 Estadísticas:[0m
+   • Archivos encontrados: 294
+   • Archivos procesados: 187
+   • Espacio ahorrado: 28069750 bytes
+   • Ahorro en MB: 26MB
+   • Backups en: /Users/hectorpc/Documents/Hector Palazuelos/Google My Business/Zasa Kitchen Studio /zasa-kitchen-website/img-backups
+[1;33m💡 Tip: Ejecuta este script cada vez que agregues nuevas imágenes[0m

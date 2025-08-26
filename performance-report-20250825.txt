@@ -1,0 +1,8 @@
+ZASA Kitchen Studio - Reporte de Performance
+==============================================
+Fecha: Mon Aug 25 23:05:11 MST 2025
+Tamaño total: 703MB
+Tamaño imágenes: 295MB
+Imágenes sin optimizar: 15
+Tiempo de respuesta: N/As
+WebP disponibles: 21
