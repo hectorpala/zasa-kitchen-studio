@@ -43,12 +43,15 @@
   <noscript><link rel="stylesheet" href="mobile-premium.css?v=31"></noscript>
   <link rel="stylesheet" href="css/overrides.css?v=31">
 
+  <!-- WebP Support Script (preload) -->
+  <link rel="preload" href="webp-support.js" as="script">
+
   <meta name="theme-color" content="#ED6623">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Cocinas Integrales y Modernas en Culiacán | ZASA">
   <meta property="og:description" content="Diseñamos, fabricamos e instalamos cocinas a medida en Culiacán. Materiales premium (cuarzo, granito), tiempos claros y garantía por escrito.">
-  <meta property="og:image" content="/og-image.svg">
+  <meta property="og:image" content="/og-image.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.zasakitchenstudio.mx/">
 
@@ -56,7 +59,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cocinas Integrales y Modernas en Culiacán | ZASA">
   <meta name="twitter:description" content="Diseñamos, fabricamos e instalamos cocinas a medida en Culiacán. Materiales premium, tiempos claros y garantía por escrito.">
-  <meta name="twitter:image" content="/og-image.svg">
+  <meta name="twitter:image" content="/og-image.jpg">
 
   <!-- Schema Negocio de Cocinas Completo -->
   <script type="application/ld+json">
@@ -67,12 +70,12 @@
     "name": "Zasa Kitchen Studio",
     "alternateName": "Cocinas Modernas Zasa",
     "image": [
-      "https://www.zasakitchenstudio.mx/img/logo.svg",
-      "https://www.zasakitchenstudio.mx/img/showroom.png"
+      "https://www.zasakitchenstudio.mx/img/logo-zasa.jpg",
+      "https://www.zasakitchenstudio.mx/og-image.jpg"
     ],
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.zasakitchenstudio.mx/img/logo.svg",
+      "url": "https://www.zasakitchenstudio.mx/img/logo-zasa.jpg",
       "width": "200",
       "height": "80"
     },
@@ -292,7 +295,11 @@
                     </div>
                     
                     <div class="service-card" data-card-id="cocinas-en-u">
-                        <!-- Espacio para imagen -->
+                        <picture>
+                            <source media="(max-width: 640px)" srcset="img/optimized/servicios/cocina-en-u-480.jpg">
+                            <source media="(max-width: 1024px)" srcset="img/optimized/servicios/cocina-en-u-800.jpg">
+                            <img src="img/optimized/servicios/cocina-en-u-1200.jpg" alt="Cocinas en U modernas - Máximo almacenamiento para espacios amplios" loading="lazy">
+                        </picture>
                         <h3>Cocinas en U</h3>
                         <p>Máximo almacenamiento y zonificación para espacios amplios.</p>
                     </div>
@@ -639,5 +646,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 <script src="/app-consolidated.min.js" defer></script>
+<!-- WebP Optimization System -->
+<script src="webp-support.js" defer></script>
 </body>
 </html>
