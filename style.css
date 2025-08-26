@@ -286,10 +286,10 @@ h3 {
 /* Service card images - Desktop */
 .service-card img {
     width: 100%;
+    height: auto;
     border-radius: 12px;
     margin-bottom: 1.5rem;
-    aspect-ratio: 16/10;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     transition: transform 0.3s ease;
     display: block;
@@ -300,19 +300,12 @@ h3 {
     margin: 0;
     margin-bottom: 1.5rem;
     border-radius: 12px;
-    overflow: hidden;
-    position: relative;
-    min-height: 250px;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 .service-card[data-card-id="cocinas-integrales"] img {
     width: 100%;
     height: auto;
-    min-height: 250px;
-    max-height: 350px;
-    object-fit: cover;
-    object-position: center;
     display: block;
+    border-radius: 12px;
     margin-bottom: 0;
 }
 
