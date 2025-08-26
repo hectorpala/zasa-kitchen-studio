@@ -27,7 +27,9 @@
       "WebFetch(domain:localhost)",
       "Bash(open index.html)",
       "Bash(open:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "WebFetch(domain:zasakitchenstudio.mx)",
+      "Bash(git pull:*)"
     ],
     "deny": [],
     "ask": [],
