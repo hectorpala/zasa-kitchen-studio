@@ -23,7 +23,9 @@
       "Bash(npm run:*)",
       "Bash(touch:*)",
       "Bash(git rev-parse:*)",
-      "Bash(convert:*)"
+      "Bash(convert:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(open index.html)"
     ],
     "deny": [],
     "ask": [],
