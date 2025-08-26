@@ -141,43 +141,16 @@ function generateCardHTML(card) {
 }
 
 /**
- * Update index.html with generated cards
+ * Skip HTML update - only optimize images
  * @param {Array} cards 
  */
 function updateIndexHTML(cards) {
-  try {
-    let htmlContent = fs.readFileSync(INDEX_HTML_PATH, 'utf8');
-    
-    // Generate cards HTML
-    const cardsHTML = cards
-      .sort((a, b) => a.title.localeCompare(b.title))
-      .map(generateCardHTML)
-      .join('\n\n                    ');
-
-    // Check if markers exist
-    const startMarker = '<!-- CARDS_HOME_START -->';
-    const endMarker = '<!-- CARDS_HOME_END -->';
-    
-    if (htmlContent.includes(startMarker) && htmlContent.includes(endMarker)) {
-      // Replace content between markers
-      const startIndex = htmlContent.indexOf(startMarker) + startMarker.length;
-      const endIndex = htmlContent.indexOf(endMarker);
-      
-      htmlContent = htmlContent.substring(0, startIndex) + 
-                   '\n                    ' + cardsHTML + '\n                    ' +
-                   htmlContent.substring(endIndex);
-    } else {
-      console.warn('⚠️  CARDS_HOME_START/END markers not found in index.html');
-      console.log('Generated cards HTML:');
-      console.log(cardsHTML);
-      return;
-    }
-
-    fs.writeFileSync(INDEX_HTML_PATH, htmlContent, 'utf8');
-    console.log(`✓ Updated index.html with ${cards.length} cards`);
-  } catch (error) {
-    console.error('✗ Error updating index.html:', error.message);
-  }
+  // DISABLED: Script now only optimizes images, does not modify HTML
+  console.log('📝 HTML update skipped - script in image-only mode');
+  console.log('📋 Generated optimizations for:');
+  cards.forEach(card => {
+    console.log(`   ✔ ${card.slug} → 6 files (JPG + WebP in 480, 800, 1200px)`);
+  });
 }
 
 /**
@@ -233,10 +206,10 @@ async function main() {
 
   console.log(`\n✅ Successfully processed ${cards.length} images`);
   
-  // Update index.html
+  // Skip HTML update - only optimize images
   updateIndexHTML(cards);
   
-  console.log('\n🎉 Build complete!');
+  console.log('\n🎉 Image optimization complete!');
   console.log('📋 Summary:');
   cards.forEach(card => {
     console.log(`   - ${card.title} (${card.slug})`);

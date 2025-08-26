@@ -21,7 +21,8 @@
       "Bash(curl:*)",
       "Bash(npm i:*)",
       "Bash(npm run:*)",
-      "Bash(touch:*)"
+      "Bash(touch:*)",
+      "Bash(git rev-parse:*)"
     ],
     "deny": [],
     "ask": [],
