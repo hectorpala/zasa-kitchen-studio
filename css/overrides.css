@@ -66,21 +66,39 @@
   font-weight: 600;
 }
 
-/* FIX: Aplicar estilo propiedades.com a las cards existentes */
-.service-card img {
+/* FIX: Aplicar estilo propiedades.com con máxima especificidad */
+.services-grid .service-card img,
+.container .services-grid .service-card img,
+section .container .services-grid .service-card img {
   width: 100% !important;
+  height: auto !important;
   aspect-ratio: 3/2 !important;
   border-radius: 8px !important;
   object-fit: cover !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  display: block !important;
 }
 
-.service-card figure img {
+.services-grid .service-card figure img,
+.container .services-grid .service-card figure img,
+section .container .services-grid .service-card figure img {
   width: 100% !important;
+  height: auto !important;
   aspect-ratio: 3/2 !important;
   border-radius: 8px !important;
   object-fit: cover !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  display: block !important;
+}
+
+/* Forzar figure también */
+.services-grid .service-card figure,
+.container .services-grid .service-card figure {
+  margin: 0 !important;
+  padding: 0 !important;
+  aspect-ratio: 3/2 !important;
+  overflow: hidden !important;
+  border-radius: 8px !important;
 }
 
 /* Grid responsive para services-grid */
