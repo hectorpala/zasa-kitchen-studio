@@ -283,6 +283,22 @@ h3 {
     margin: 0;
 }
 
+/* Service card images - Desktop */
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover img {
+    transform: scale(1.02);
+}
+
 /* Botones CTA */
 .cta-buttons {
     display: flex;
