@@ -66,6 +66,42 @@
   font-weight: 600;
 }
 
+/* FIX: Aplicar estilo propiedades.com a las cards existentes */
+.service-card img {
+  width: 100% !important;
+  aspect-ratio: 3/2 !important;
+  border-radius: 8px !important;
+  object-fit: cover !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+}
+
+.service-card figure img {
+  width: 100% !important;
+  aspect-ratio: 3/2 !important;
+  border-radius: 8px !important;
+  object-fit: cover !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+}
+
+/* Grid responsive para services-grid */
+.services-grid {
+  display: grid !important;
+  gap: 20px !important;
+  grid-template-columns: 1fr !important;
+}
+
+@media (min-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
 .hero{
   position: relative;
   display: grid;
