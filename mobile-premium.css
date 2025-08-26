@@ -35,6 +35,73 @@
 }
 
 /* ===================================
+   COCINAS COMPACTAS - OPTIMIZACIÓN MÓVIL
+   =================================== */
+@media (max-width: 768px) {
+  .service-detail h2 {
+    font-size: clamp(1.75rem, 4vw, 2.25rem) !important;
+    line-height: 1.2 !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .feature-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+  
+  .feature-item {
+    padding: 1.25rem !important;
+    border-radius: 12px !important;
+    background: #f8f9fa !important;
+    border-left: 4px solid var(--primary-color) !important;
+  }
+  
+  .feature-item h4 {
+    font-size: 1.25rem !important;
+    margin-bottom: 0.75rem !important;
+    color: var(--primary-color) !important;
+  }
+  
+  .cta-section {
+    text-align: center !important;
+    padding: 2rem 1rem !important;
+    background: linear-gradient(135deg, var(--primary-color), #2c5530) !important;
+    border-radius: 16px !important;
+    margin: 2rem 0 !important;
+  }
+  
+  .cta-section h3 {
+    color: white !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+  
+  .cta-section p {
+    color: rgba(255,255,255,0.9) !important;
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .faq-section {
+    padding: 2rem var(--mobile-padding) !important;
+  }
+  
+  .faq-item {
+    margin-bottom: 1.5rem !important;
+    padding: 1.25rem !important;
+    background: white !important;
+    border-radius: 12px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06) !important;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.125rem !important;
+    color: var(--primary-color) !important;
+    margin-bottom: 0.75rem !important;
+  }
+}
+
+/* ===================================
    NAVBAR MÓVIL PREMIUM
    =================================== */
 @media (max-width: 768px) {
