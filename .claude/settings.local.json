@@ -20,7 +20,8 @@
       "WebFetch(domain:hectorpala.github.io)",
       "Bash(curl:*)",
       "Bash(npm i:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(touch:*)"
     ],
     "deny": [],
     "ask": [],
