@@ -283,16 +283,24 @@ h3 {
     margin: 0;
 }
 
-/* Service card images - Desktop */
+/* Service card images - Formato vertical para mejor ajuste */
 .service-card img {
     width: 100%;
-    height: auto;
+    height: 350px;
     border-radius: 12px;
     margin-bottom: 1.5rem;
     object-fit: contain;
     object-position: center;
     transition: transform 0.3s ease;
     display: block;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* En móvil, ajustar altura */
+@media (max-width: 768px) {
+    .service-card img {
+        height: 250px;
+    }
 }
 
 /* Contenedor específico para Cocinas Integrales - Mayor especificidad */
