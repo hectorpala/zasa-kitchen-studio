@@ -120,6 +120,41 @@ section .container .services-grid .service-card figure img {
   }
 }
 
+/* PROYECTOS CULIACÁN: Aplicar estilo propiedades.com a las cards SIN imágenes */
+.service-card {
+  border-radius: 12px !important;
+  border: 1px solid #e1e1e1 !important;
+  overflow: hidden !important;
+  transition: transform 0.3s ease !important;
+  background: white !important;
+  padding: 20px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+}
+
+.service-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+}
+
+.service-card h3 {
+  margin: 0 0 12px 0 !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+}
+
+.service-card h3 a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.service-card p {
+  margin: 0 !important;
+  color: #666 !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+
 .hero{
   position: relative;
   display: grid;
