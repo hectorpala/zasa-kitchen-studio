@@ -15,7 +15,8 @@
       "Bash(__NEW_LINE__ echo \"Verificando último commit:\")",
       "Bash(__NEW_LINE__ git add -A)",
       "Bash(mkdir:*)",
-      "Bash(sips:*)"
+      "Bash(sips:*)",
+      "Bash(cp:*)"
     ],
     "deny": [],
     "ask": [],
