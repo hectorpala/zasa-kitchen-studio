@@ -10,7 +10,7 @@ const OUTPUT_FOLDER = path.join(__dirname, '../img/optimized/servicios');
 const INDEX_HTML_PATH = path.join(__dirname, '../index.html');
 const SUPPORTED_FORMATS = ['.jpg', '.jpeg', '.png', '.webp'];
 const SIZES = [480, 800, 1200];
-const ASPECT_RATIO = { width: 3, height: 2 }; // 3:2 ratio
+const ASPECT_RATIO = { width: 16, height: 10 }; // 16:10 ratio for service-cards
 
 /**
  * Convert filename to Title Case
