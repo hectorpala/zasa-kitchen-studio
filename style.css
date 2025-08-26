@@ -283,23 +283,22 @@ h3 {
     margin: 0;
 }
 
-/* Service card images - Formato vertical para mejor ajuste */
+/* Service card images - Formato horizontal */
 .service-card img {
     width: 100%;
-    height: 350px;
+    height: 200px;
     border-radius: 12px;
     margin-bottom: 1.5rem;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
     transition: transform 0.3s ease;
     display: block;
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
 /* En móvil, ajustar altura */
 @media (max-width: 768px) {
     .service-card img {
-        height: 250px;
+        height: 180px;
     }
 }
 
