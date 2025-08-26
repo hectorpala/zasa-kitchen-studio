@@ -302,22 +302,21 @@ h3 {
     }
 }
 
-/* Contenedor específico para Cocinas Integrales - Mayor especificidad */
+/* Contenedor específico para Cocinas Integrales */
 .service-card[data-card-id="cocinas-integrales"] figure {
-    margin: 0 !important;
-    margin-bottom: 1.5rem !important;
+    margin: 0;
+    margin-bottom: 1.5rem;
     border-radius: 12px;
     width: 100%;
 }
 .service-card[data-card-id="cocinas-integrales"] figure img {
-    width: 100% !important;
-    height: auto !important;
-    max-width: 100% !important;
-    display: block !important;
-    border-radius: 12px !important;
-    margin-bottom: 0 !important;
-    object-fit: scale-down !important;
-    object-position: center !important;
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 0;
+    object-fit: cover;
+    object-position: center;
 }
 
 .service-card:hover img {
