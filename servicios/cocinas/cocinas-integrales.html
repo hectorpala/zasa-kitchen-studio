@@ -308,14 +308,18 @@
                 <h2>¿Qué incluye una cocina integral ZASA?</h2>
                 <div class="services-grid">
                     <div class="service-card">
-                        <img src="../../img/optimized/servicios/CocinasML.jpg"
-                             alt="Cocina integral moderna en L"
-                             width="600" height="400"
-                             loading="lazy"
-                             style="width: 100%; height: auto; border-radius: 12px; margin-bottom: 1rem;">
-                        <h3>CocinasML</h3>
-                        <p>Diseño a medida: Lineal, L, U o con isla, según tu espacio.</p>
-                        <a href="/diseno-cocinas-medida.html" style="color: var(--brand); font-weight: 600; font-size: 0.9rem; margin-top: 1rem; display: inline-block; text-decoration: none;">Ver comparativa completa →</a>
+                        <picture style="display: block; margin-bottom: 1rem;">
+                            <source media="(max-width: 480px)" srcset="../../img/optimized/servicios/CocinasML-small.jpg">
+                            <source media="(max-width: 800px)" srcset="../../img/optimized/servicios/CocinasML-mobile.jpg">
+                            <img src="../../img/optimized/servicios/CocinasML.jpg"
+                                 alt="Cocina integral moderna en L - CocinasML"
+                                 width="600" height="400"
+                                 loading="lazy"
+                                 style="width: 100%; height: auto; border-radius: 12px; object-fit: cover;">
+                        </picture>
+                        <h3 style="margin-bottom: 0.75rem; font-size: clamp(1.25rem, 2.5vw, 1.5rem);">CocinasML</h3>
+                        <p style="margin-bottom: 1rem; font-size: clamp(0.9rem, 1.6vw, 1rem); line-height: 1.5;">Diseño a medida: Lineal, L, U o con isla, según tu espacio.</p>
+                        <a href="/diseno-cocinas-medida.html" style="color: var(--brand); font-weight: 600; font-size: clamp(0.8rem, 1.4vw, 0.9rem); margin-top: 1rem; display: inline-block; text-decoration: none; padding: 0.5rem 0; border-bottom: 1px solid transparent; transition: border-color 0.3s ease;">Ver comparativa completa →</a>
                     </div>
                     <div class="service-card">
                         <h3>Almacenamiento inteligente</h3>
