@@ -16,7 +16,11 @@
       "Bash(__NEW_LINE__ git add -A)",
       "Bash(mkdir:*)",
       "Bash(sips:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "WebFetch(domain:hectorpala.github.io)",
+      "Bash(curl:*)",
+      "Bash(npm i:*)",
+      "Bash(npm run:*)"
     ],
     "deny": [],
     "ask": [],

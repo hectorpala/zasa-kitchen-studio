@@ -4,8 +4,16 @@
   "description": "ZASA Kitchen Studio staging website",
   "scripts": {
     "build": "echo 'Static site - no build needed'",
-    "start": "echo 'Static site - no dev server needed'"
+    "start": "echo 'Static site - no dev server needed'",
+    "cards:folder": "node scripts/build-cards-from-folder.js"
   },
-  "keywords": ["cocinas", "culiacan", "staging"],
-  "author": "ZASA Kitchen Studio"
+  "keywords": [
+    "cocinas",
+    "culiacan",
+    "staging"
+  ],
+  "author": "ZASA Kitchen Studio",
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
 }
