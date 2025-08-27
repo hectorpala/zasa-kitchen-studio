@@ -192,3 +192,23 @@ section .container .services-grid .service-card figure img {
 @media (min-width: 1200px){
   .hero{ min-height: 78vh; }
 }
+
+/* START override-hero-overlay-blue (desktop preview) */
+@media (min-width: 641px) {
+  body .hero::after,
+  html body .hero::after {
+    display: none !important; /* oculta completamente */
+    background: none !important; /* quita color/gradiente */
+    background-image: none !important; /* elimina cualquier imagen */
+    background-color: transparent !important; /* color transparente */
+    opacity: 0 !important; /* invisible */
+    /* No tocar position/z-index/content */
+  }
+}
+/* END override-hero-overlay-blue */
+
+/* START unify-hero-image - usar imagen móvil en todos los tamaños */
+.hero {
+  background-image: url('../img/optimized/hero-480.jpg') !important;
+}
+/* END unify-hero-image */
