@@ -241,6 +241,23 @@ section .container .services-grid .service-card figure img {
   }
 }
 
+/* Overlay sutil desktop */
+@media (min-width: 1024px) {
+  .hero-figure::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,.12) 0%, rgba(0,0,0,.18) 100%);
+  }
+}
+
+/* Centrado tipográfico en desktop */
+@media (min-width: 1024px) {
+  .hero .container { max-width: 72ch; margin: 0 auto; text-align: center; }
+  .hero h1 { line-height: 1.1; margin-bottom: 16px; }
+  .hero p  { margin-left: auto; margin-right: auto; }
+}
+
 /* Hero container por encima */
 .hero .container {
   position: relative;
