@@ -29,7 +29,9 @@
       "Bash(open:*)",
       "Bash(node:*)",
       "WebFetch(domain:zasakitchenstudio.mx)",
-      "Bash(git pull:*)"
+      "Bash(git pull:*)",
+      "Bash(mv:*)",
+      "Bash(cd:*)"
     ],
     "deny": [],
     "ask": [],
