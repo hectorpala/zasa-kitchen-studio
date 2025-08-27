@@ -26,9 +26,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
-  <!-- Preload recursos críticos (WebP optimizado) -->
-  <link rel="preload" as="image" href="img/optimized/home-hero/foto-principal-1920.webp" type="image/webp" fetchpriority="high">
-  <link rel="preload" as="image" href="img/logo-zasa.webp" type="image/webp" fetchpriority="high">
+  <!-- Preload recursos críticos (responsive optimizado) -->
+  <link rel="preload" as="image" href="img/responsive/1200/foto-principal-1200.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="img/responsive/480/foto-principal-480.jpg" media="(max-width: 480px)" fetchpriority="high">
+  <link rel="preload" as="image" href="img/responsive/768/foto-principal-768.jpg" media="(max-width: 768px)" fetchpriority="high">
   <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
   
   <!-- Critical CSS inline -->
@@ -289,10 +290,20 @@
                     </div>
                     
                     <div class="service-card" data-card-id="cocinas-pequenas">
-                        <img src="img/optimized/servicios/cocina-pequena-bajo-escaleras.jpg"
-                             alt="Cocinas Pequeñas - Cocina bajo escaleras"
-                             width="1200" height="750"
-                             loading="lazy" decoding="async">
+                        <picture>
+                            <source media="(max-width: 480px)" 
+                                    srcset="img/responsive/480/cocina-pequena-bajo-escaleras-480.jpg 480w"
+                                    sizes="100vw">
+                            <source media="(max-width: 768px)" 
+                                    srcset="img/responsive/768/cocina-pequena-bajo-escaleras-768.jpg 768w"
+                                    sizes="100vw">
+                            <img src="img/responsive/1200/cocina-pequena-bajo-escaleras-1200.jpg"
+                                 srcset="img/responsive/1200/cocina-pequena-bajo-escaleras-1200.jpg 1200w"
+                                 sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                                 width="1200" height="750"
+                                 alt="Cocinas Pequeñas - Aprovechamiento máximo de espacios reducidos"
+                                 loading="lazy" decoding="async">
+                        </picture>
                         <h3>Cocinas pequeñas</h3>
                         <p>Aprovechamiento inteligente de espacios reducidos, como esta cocina bajo escaleras con muebles verticales y almacenamiento optimizado.</p>
                     </div>
@@ -673,7 +684,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 <!-- Optimized JavaScript Bundle -->
 <script src="js/app.optimized.min.js" defer></script>
-<script src="js/lazy-images.min.js" defer></script>
+<script src="js/responsive-lazy.min.js" defer></script>
 
 <!-- Service Worker Registration -->
 <script>

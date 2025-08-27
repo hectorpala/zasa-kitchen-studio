@@ -31,7 +31,8 @@
       "WebFetch(domain:zasakitchenstudio.mx)",
       "Bash(git pull:*)",
       "Bash(mv:*)",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "Bash(brew install:*)"
     ],
     "deny": [],
     "ask": [],
