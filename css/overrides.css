@@ -160,6 +160,42 @@ section .container .services-grid .service-card figure img {
   text-decoration: none !important;
   color: inherit !important;
   display: block !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+}
+
+.service-card-link:hover {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.service-card-link .service-card {
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.service-card-link:hover .service-card {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.15) !important;
+  border-color: #E36414 !important;
+}
+
+.service-card-link:hover .service-card h3 {
+  color: #E36414 !important;
+}
+
+/* Ensure all clickable areas have pointer cursor */
+.service-card-link *,
+.service-card-link h3,
+.service-card-link p,
+.service-card-link figure,
+.service-card-link img {
+  cursor: pointer !important;
+  pointer-events: none !important; /* Let parent handle all clicks */
+}
+
+.service-card-link {
+  pointer-events: auto !important;
 }
 
 .hero{
