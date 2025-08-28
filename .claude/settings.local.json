@@ -46,7 +46,9 @@
       "Bash(git fetch:*)",
       "Bash(gh api:*)",
       "Bash(git switch:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(chmod:*)",
+      "Bash(./fix-priority2-security.sh:*)"
     ],
     "deny": [],
     "ask": [],
