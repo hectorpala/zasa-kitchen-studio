@@ -45,7 +45,8 @@
       "WebFetch(domain:api.github.com)",
       "Bash(git fetch:*)",
       "Bash(gh api:*)",
-      "Bash(git switch:*)"
+      "Bash(git switch:*)",
+      "WebSearch"
     ],
     "deny": [],
     "ask": [],
