@@ -14,6 +14,7 @@
   ],
   "author": "ZASA Kitchen Studio",
   "devDependencies": {
+    "cheerio": "^1.1.2",
     "sharp": "^0.33.5"
   }
 }

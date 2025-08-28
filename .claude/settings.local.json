@@ -32,7 +32,16 @@
       "Bash(git pull:*)",
       "Bash(mv:*)",
       "Bash(cd:*)",
-      "Bash(brew install:*)"
+      "Bash(brew install:*)",
+      "Bash(if [ -f package.json ])",
+      "Bash(then npm run lint)",
+      "Bash(else echo \"No hay package.json\")",
+      "Bash(fi)",
+      "WebFetch(domain:github.com)",
+      "Bash(cd:*)",
+      "Bash(cd:*)",
+      "Bash(cd:*)",
+      "Bash(cd:*)"
     ],
     "deny": [],
     "ask": [],
