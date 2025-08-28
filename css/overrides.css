@@ -317,3 +317,8 @@ section .container .services-grid .service-card figure img {
   position: relative;
   z-index: 1;
 }
+
+/* Footer background change: blue to black */
+footer {
+  background: #000000 !important;
+}
