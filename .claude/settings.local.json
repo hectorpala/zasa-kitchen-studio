@@ -48,7 +48,8 @@
       "Bash(git switch:*)",
       "WebSearch",
       "Bash(chmod:*)",
-      "Bash(./fix-priority2-security.sh:*)"
+      "Bash(./fix-priority2-security.sh:*)",
+      "Bash(./update-colonias.sh:*)"
     ],
     "deny": [],
     "ask": [],
