@@ -58,7 +58,6 @@
   <!-- Optimized App Script (preload) -->
   <link rel="preload" href="js/app.optimized.min.js" as="script">
 
-  <meta name="theme-color" content="#ED6623">
 
   <!-- Open Graph Mejorado -->
   <meta property="og:type" content="article">
@@ -154,20 +153,37 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar">
-    <div class="container">
-      <div class="nav-wrap">
-        <a href="/" class="logo">
-          <img src="img/logo-zasa.png" alt="ZASA Kitchen Studio - Cocinas Integrales Culiacán" class="logo-navbar" width="200" height="80">
-        </a>
-        <ul class="nav-list">
-          <li><a href="/#servicios">Servicios</a></li>
-          <li><a href="/#proyectos">Proyectos</a></li>
-          <li><a href="/#ubicacion">Contacto</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar">
+        <div class="container nav-wrap">
+            <div class="brand">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar" loading="eager">
+            </div>
+            <ul class="nav-list" id="nav-list">
+              <li class="nav-item">
+                <a href="/servicios" class="nav-link">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a href="/proyectos-culiacan" class="nav-link">PROYECTOS</a>
+              </li>
+              <li class="nav-item">
+                <a href="/blog" class="nav-link">BLOG</a>
+              </li>
+              <li class="nav-item">
+                <a href="/contacto/?utm_source=site&utm_medium=nav&utm_campaign=contacto" class="nav-link">CONTACTO</a>
+              </li>
+            </ul>
+            <div class="nav-actions">
+              <a href="tel:+526672256523" class="nav-cta" data-phone="header">
+                <span>LLÁMANOS</span>
+              </a>
+              <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+        </div>
+    </nav>
 
   <!-- Hero optimizado -->
   <section class="hero">
@@ -405,36 +421,106 @@
     </section>
   </main>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <img src="img/logo-zasa.png" alt="ZASA Kitchen Studio" class="footer-logo" width="180" height="72">
-          <p>Diseño y fabricación de cocinas integrales modernas en Culiacán, Sinaloa.</p>
-        </div>
-        <div class="footer-section">
-          <h3>Contacto</h3>
-          <p>General Rafael Buelna Tenorio 750 Local 5</p>
-          <p>WhatsApp: <a href="https://wa.me/526672256523">667 225 6523</a></p>
-          <p>Email: info@zasakitchenstudio.mx</p>
-        </div>
-        <div class="footer-section">
-          <h3>Servicios</h3>
-          <ul>
-            <li><a href="servicios/cocinas/cocinas-integrales.html">Cocinas integrales</a></li>
-            <li><a href="cocinas-pequenas.html">Cocinas pequeñas</a></li>
-            <li><a href="/blog-consejos.html">Blog de consejos</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2024 ZASA Kitchen Studio. Todos los derechos reservados.</p>
-      </div>
-    </div>
-  </footer>
+    <!-- Footer -->
+    <footer id="contacto">
+        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
+        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
+        <p>WhatsApp: <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 225 6523</a></p>
+        <p>Teléfono: <a href="tel:+526672256523">667 225 6523</a></p>
+        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm • Sábados de 9:00 am a 2:00 pm</p>
+        <nav>
+            <a href="/servicios">Servicios</a> |
+            <a href="/proyectos-culiacan">Proyectos</a> |
+            <a href="/blog">Blog & Consejos</a> |
+            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
+            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
+        </nav>
+    </footer>
 
-  <!-- Scripts -->
-  <script src="js/app.optimized.min.js" defer></script>
+    <script type="module" defer="">
+document.addEventListener("DOMContentLoaded", () => {
+  // Menú hamburguesa premium
+  const hamburger = document.getElementById('hamburger');
+  const navList = document.getElementById('nav-list');
+  
+  if (hamburger && navList) {
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+      document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+    
+    // Cerrar menú al hacer clic en enlaces
+    navList.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      });
+    });
+    
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener('click', (e) => {
+      if (!hamburger.contains(e.target) && !navList.contains(e.target)) {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
+    });
+  }
+
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Clics en teléfono
+  document.querySelectorAll('a[href^="tel:"]').forEach(el => {
+    el.addEventListener("click", function () {
+      const number = this.href.replace("tel:", "");
+      if (typeof gtag !== "undefined") {
+        gtag("event", "phone_call_click", {
+          event_category: "engagement",
+          event_label: number,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+
+  // Clics en WhatsApp
+  document.querySelectorAll('a[href*="wa.me"]').forEach(el => {
+    el.addEventListener("click", function () {
+      if (typeof gtag !== "undefined") {
+        gtag("event", "whatsapp_click", {
+          event_category: "engagement",
+          event_label: this.href,
+          value: 1,
+          phone_location: this.dataset.phone || "unknown"
+        });
+      }
+    });
+  });
+});
+</script>
+<!-- Optimized JavaScript Bundle -->
+<script src="js/app.optimized.min.js" defer=""></script>
+
+
+<!-- Service Worker Registration -->
+<script>
+if('serviceWorker' in navigator){
+navigator.serviceWorker.register('/sw.js')
+.then(reg=>console.log('SW registered',reg))
+.catch(err=>console.log('SW registration failed',err));
+}
+</script>
 </body>
 </html>
