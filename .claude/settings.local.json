@@ -50,7 +50,9 @@
       "Bash(chmod:*)",
       "Bash(./fix-priority2-security.sh:*)",
       "Bash(./update-colonias.sh:*)",
-      "Bash(/tmp/add_gtm.sh:*)"
+      "Bash(/tmp/add_gtm.sh:*)",
+      "Bash(/tmp/fix_gtm_noscript.sh:*)",
+      "Bash(/dev/null)"
     ],
     "deny": [],
     "ask": [],
