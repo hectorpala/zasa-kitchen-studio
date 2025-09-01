@@ -41,18 +41,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   
-  <!-- Preload recursos críticos (responsive optimizado) -->
+  <!-- Preload recursos críticos optimizado -->
   <link rel="preload" as="image" href="assets/hero/cocinamodernanuevo-hero.png" fetchpriority="high">
-  <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2" as="font" type="font/woff2" crossorigin="">
+  <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2" as="font" type="font/woff2" crossorigin>
   
   <!-- Critical CSS inline -->
   <style>
     *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--bg:#FFFFFF;--bg-soft:#F8FAFC;--border:#E2E8F0;--gradient-brand:linear-gradient(135deg,#F97316 0%,#E36414 100%)}body{font-family:'Inter',sans-serif;font-display:swap;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px}.fonts-loading body{opacity:0.9}.fonts-loaded body{opacity:1;transition:opacity 0.3s}.skip-link{position:absolute;top:-40px;left:6px;background:var(--brand);color:white;padding:8px;text-decoration:none;border-radius:0 0 4px 4px;z-index:100;transition:top 0.3s}.skip-link:focus{top:0}.navbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0;will-change:transform}.container{max-width:1200px;margin:0 auto;padding:0 24px}.nav-wrap{display:flex;align-items:center;justify-content:space-between}.logo-navbar{height:65px;width:auto;display:block}.nav-list{display:flex;gap:24px;list-style:none;margin:0}.hero{min-height:85vh;display:grid;place-items:center;text-align:center;position:relative;contain:layout}.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,0.4) 0%,rgba(30,41,59,0.3) 100%)}@media (max-width:640px){.hero::after{background:linear-gradient(135deg,rgba(15,23,42,0.6) 0%,rgba(30,41,59,0.5) 100%)!important}}.hero .container{position:relative;z-index:1}.lazyload{transition:opacity 0.3s;opacity:0}.lazyloaded{opacity:1}
   .skip-link{position:absolute;left:-999px;top:auto}.skip-link:focus{left:16px;top:16px;z-index:1000;background:#000;color:#fff;padding:.5rem .75rem;border-radius:.5rem}</style>
   
-  <!-- Fonts (subset optimizado) -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=Montserrat:wght@700;800&amp;display=swap&amp;text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789áéíóúüñÁÉÍÓÚÜÑ¿¡.,;:()[]{}+-*/@&amp;$€%" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet"></noscript>
+  <!-- Fonts optimizado con font-display swap -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap&family=Montserrat:wght@700;800&display=swap" rel="stylesheet"></noscript>
   
   <!-- Main styles (optimized) -->
   <link rel="preload" href="css/style.optimized.min.css?v=32" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -296,7 +297,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav class="navbar">
         <div class="container nav-wrap">
             <div class="brand">
-                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar" loading="eager">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar" width="200" height="80" loading="eager">
             </div>
             <ul class="nav-list" id="mainNav">
               <li class="nav-item">
@@ -328,7 +329,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <header class="hero"><figure class="hero-figure">
   <picture>
     <source media="(max-width: 640px)" srcset="assets/hero/cocinamodernanuevo-hero-480.png">
-    <img src="assets/hero/cocinamodernanuevo-hero.png" alt="Cocina integral moderna con diseño contemporáneo — Zasa Kitchen Studio" loading="eager" fetchpriority="high" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;">
+    <img src="assets/hero/cocinamodernanuevo-hero.png" alt="Cocina integral moderna con diseño contemporáneo — Zasa Kitchen Studio" width="1920" height="1080" loading="eager" fetchpriority="high" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;">
   </picture>
 </figure>
         <div class="container">
@@ -366,7 +367,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <source srcset="img/optimized/servicios/cocinas-de-madera-1200.jpg 1200w,
                                             img/optimized/servicios/cocinas-de-madera-800.jpg 800w,
                                             img/optimized/servicios/cocinas-de-madera-480.jpg 480w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw">
-                            <img src="img/optimized/servicios/cocinas-de-madera-800.jpg" srcset="img/optimized/servicios/cocinas-de-madera-480.jpg 480w, img/optimized/servicios/cocinas-de-madera-800.jpg 800w, img/optimized/servicios/cocinas-de-madera-1200.jpg 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="1200" height="750" alt="Cocina integral de madera con gabinetes enchapados y cubierta de granito" loading="lazy" decoding="async">
+                            <img src="img/optimized/servicios/cocinas-de-madera-800.jpg" srcset="img/optimized/servicios/cocinas-de-madera-480.jpg 480w, img/optimized/servicios/cocinas-de-madera-800.jpg 800w, img/optimized/servicios/cocinas-de-madera-1200.jpg 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="800" height="500" alt="Cocina integral de madera con gabinetes enchapados y cubierta de granito" loading="lazy" decoding="async">
                           </picture>
                         </figure>
                         <h3>Cocinas Integrales</h3>
@@ -379,7 +380,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <picture>
                             <source media="(max-width: 480px)" srcset="img/responsive/480/cocina-pequena-480.jpg 480w" sizes="100vw">
                             <source media="(max-width: 768px)" srcset="img/responsive/768/cocina-pequena-768.jpg 768w" sizes="100vw">
-                            <img src="img/responsive/1200/cocina-pequena-1200.jpg" srcset="img/responsive/1200/cocina-pequena-1200.jpg 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="1200" height="750" alt="Cocinas Pequeñas - Aprovechamiento máximo de espacios reducidos" loading="lazy" decoding="async">
+                            <img src="img/responsive/1200/cocina-pequena-1200.jpg" srcset="img/responsive/1200/cocina-pequena-1200.jpg 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="800" height="500" alt="Cocinas Pequeñas - Aprovechamiento máximo de espacios reducidos" loading="lazy" decoding="async">
                         </picture>
                         <h3>Cocinas pequeñas</h3>
                         <p>Aprovechamiento inteligente de espacios reducidos, como esta cocina bajo escaleras con muebles verticales y almacenamiento optimizado.</p>
@@ -387,7 +388,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </a>
                     
                     <div class="service-card" data-card-id="cocinas-en-l">
-                        <img src="img/optimized/servicios/cocina-en-l.jpg" srcset="img/responsive/480/cocina-en-l-480.jpg 480w, img/responsive/768/cocina-en-l-768.jpg 768w, img/responsive/1200/cocina-en-l-1200.jpg 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" alt="Cocina en L con isla central, gabinetes blancos y cubierta de cuarzo" width="1200" height="750" loading="lazy" decoding="async">
+                        <img src="img/optimized/servicios/cocina-en-l.jpg" srcset="img/responsive/480/cocina-en-l-480.jpg 480w, img/responsive/768/cocina-en-l-768.jpg 768w, img/responsive/1200/cocina-en-l-1200.jpg 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" alt="Cocina en L con isla central, gabinetes blancos y cubierta de cuarzo" width="800" height="500" loading="lazy" decoding="async">
                         <h3>Cocinas Modernas</h3>
                         <p>Triángulo de trabajo perfecto y esquinas funcionales.</p>
                     </div>
@@ -396,7 +397,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <picture>
                             <source media="(max-width: 640px)" srcset="img/optimized/servicios/cocinas-modernas-u-480.jpg">
                             <source media="(max-width: 1024px)" srcset="img/optimized/servicios/cocinas-modernas-u-800.jpg">
-                            <img src="img/optimized/servicios/cocinas-modernas-u-1200.jpg" alt="Cocina en U moderna con gabinetes grises, isla y electrodomésticos integrados" loading="lazy">
+                            <img src="img/optimized/servicios/cocinas-modernas-u-1200.jpg" alt="Cocina en U moderna con gabinetes grises, isla y electrodomésticos integrados" width="800" height="500" loading="lazy" decoding="async">
                         </picture>
                         <h3>Cocinas en U</h3>
                         <p>Máximo almacenamiento y zonificación para espacios amplios.</p>
@@ -406,7 +407,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <picture>
                             <source media="(max-width: 640px)" srcset="img/optimized/servicios/cocinas-con-isla-nueva-480.jpg">
                             <source media="(max-width: 1024px)" srcset="img/optimized/servicios/cocinas-con-isla-nueva-800.jpg">
-                            <img src="img/optimized/servicios/cocinas-con-isla-nueva-1200.jpg" alt="Cocina moderna con isla de mármol, gabinetes blancos y barra desayunador" loading="lazy">
+                            <img src="img/optimized/servicios/cocinas-con-isla-nueva-1200.jpg" alt="Cocina moderna con isla de mármol, gabinetes blancos y barra desayunador" width="800" height="500" loading="lazy" decoding="async">
                         </picture>
                         <h3>Cocinas con isla</h3>
                         <p>Superficie adicional, convivencia y conexiones especializadas.</p>
