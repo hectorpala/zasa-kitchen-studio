@@ -61,7 +61,8 @@
       "Bash(perl:*)",
       "Bash(echo:*)",
       "Bash(done)",
-      "Bash(git merge:*)"
+      "Bash(git merge:*)",
+      "Bash(gh pr view:*)"
     ],
     "deny": [],
     "ask": [],

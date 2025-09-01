@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <meta name="theme-color" content="#ff6600">
+  <meta name="theme-color" content="#E36414">
   <meta name="generator" content="Astro v5.12.2">
 
   <!-- SEO para Proyecto Chulavista -->
@@ -32,7 +32,7 @@
   <!-- Critical CSS inline -->
   <style>
     *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--bg:#FFFFFF;--bg-soft:#F8FAFC;--border:#E2E8F0;--gradient-brand:linear-gradient(135deg,#F97316 0%,#E36414 100%)}body{font-family:'Inter',sans-serif;font-display:swap;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px}.fonts-loading body{opacity:0.9}.fonts-loaded body{opacity:1;transition:opacity 0.3s}.navbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0;will-change:transform}.container{max-width:1200px;margin:0 auto;padding:0 24px}.nav-wrap{display:flex;align-items:center;justify-content:space-between}.logo-navbar{height:65px;width:auto;display:block}.nav-list{display:flex;gap:24px;list-style:none;margin:0}.hero{min-height:85vh;display:grid;place-items:center;text-align:center;position:relative;contain:layout}.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,0.4) 0%,rgba(30,41,59,0.3) 100%)}@media (max-width:640px){.hero::after{background:linear-gradient(135deg,rgba(15,23,42,0.6) 0%,rgba(30,41,59,0.5) 100%)!important}}.hero .container{position:relative;z-index:1}.lazyload{transition:opacity 0.3s;opacity:0}.lazyloaded{opacity:1}
-  </style>
+  .skip-link{position:absolute;left:-999px;top:auto}.skip-link:focus{left:16px;top:16px;z-index:1000;background:#000;color:#fff;padding:.5rem .75rem;border-radius:.5rem}</style>
   
   <!-- Fonts (subset optimizado) -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=Montserrat:wght@700;800&amp;display=swap&amp;text=ABCDEFGHIJ KLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789áéíóúüñÁÉÍÓÚÜÑ¿¡.,;:()[]{}+-*/@&amp;$€%" rel="stylesheet" media="print" onload="this.media='all'">
@@ -137,7 +137,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JP92QFH"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<nav class="navbar">
+<a class="skip-link" href="#main">Saltar al contenido</a><nav class="navbar">
         <div class="container nav-wrap">
             <div class="brand">
                 <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar" loading="eager">
@@ -160,7 +160,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <a href='tel:+526672256523' class='nav-cta' data-phone='header'>
                 <span>LLÁMANOS</span>
               </a>
-              <button class="hamburger" id="hamburger" aria-label="Menú">
+              <button class="hamburger" id="hamburger" aria-label="Menú" aria-controls="mainNav" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
