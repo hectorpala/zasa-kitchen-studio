@@ -101,23 +101,25 @@ section .container .services-grid .service-card figure img {
   border-radius: 8px !important;
 }
 
-/* Grid responsive para services-grid */
+/* Grid responsive optimizado para services-grid */
 .services-grid {
-  display: grid !important;
-  gap: 20px !important;
-  grid-template-columns: 1fr !important;
-  align-items: stretch !important;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+  align-items: stretch;
 }
 
 @media (min-width: 768px) {
   .services-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
   }
 }
 
 @media (min-width: 1280px) {
   .services-grid {
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
   }
 }
 

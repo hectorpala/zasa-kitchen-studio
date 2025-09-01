@@ -52,7 +52,8 @@
       "Bash(./update-colonias.sh:*)",
       "Bash(/tmp/add_gtm.sh:*)",
       "Bash(/tmp/fix_gtm_noscript.sh:*)",
-      "Bash(/dev/null)"
+      "Bash(/dev/null)",
+      "Bash(pkill:*)"
     ],
     "deny": [],
     "ask": [],
