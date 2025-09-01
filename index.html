@@ -45,6 +45,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preload" as="image" href="assets/hero/culiacan-hero-1200.webp" fetchpriority="high" media="(min-width: 640px)">
   <link rel="preload" as="image" href="assets/hero/culiacan-hero-480.webp" fetchpriority="high" media="(max-width: 639px)">
   <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2" as="font" type="font/woff2" crossorigin="">
+  <!-- Preload CSS crítico -->
+  <link rel="preload" href="css/style.optimized.min.css?v=32" as="style">
+  <!-- Preload JavaScript crítico -->
+  <link rel="preload" href="js/app.optimized.min.js" as="script">
   
   <!-- Critical CSS inline - LCP optimizado + A11Y Contrast Fix -->
   <style>
@@ -58,7 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .nav-list{display:flex;gap:24px;list-style:none;margin:0}
     .hero{min-height:85vh;display:grid;place-items:center;text-align:center;position:relative;contain:layout style}
     .hero-figure{position:absolute;inset:0;margin:0;contain:layout}
-    .hero-figure img{will-change:transform;contain:layout;image-rendering:crisp-edges}
+    .hero-figure img{will-change:transform;contain:layout;image-rendering:crisp-edges;content-visibility:auto;contain-intrinsic-size:1200px 800px}
     .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,0.4) 0%,rgba(30,41,59,0.3) 100%);pointer-events:none}
     @media (max-width:640px){.hero::after{background:linear-gradient(135deg,rgba(15,23,42,0.6) 0%,rgba(30,41,59,0.5) 100%)!important}}
     .hero .container{position:relative;z-index:1}
@@ -92,8 +96,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <noscript><link rel="stylesheet" href="css/overrides.css?v=preview2"></noscript>
 
   <!-- Optimized App Script (preload crítico) -->
-  <link rel="preload" href="js/app.optimized.min.js" as="script">
-  <link rel="preload" href="css/style.optimized.min.css?v=32" as="style">
   <link rel="preload" href="css/mobile-premium.optimized.min.css?v=32" as="style">
 
 
@@ -672,62 +674,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </footer>
 
     <script type="module" defer="">
-// Optimizado para LCP - solo funciones críticas
+// Optimizado para LCP - funciones críticas con task scheduling
 document.addEventListener("DOMContentLoaded", () => {
-  // Navbar scroll effect optimizado
-  const navbar = document.querySelector('.navbar');
-  let ticking = false;
   
-  const updateNavbar = () => {
-    navbar.classList.toggle('scrolled', window.scrollY > 100);
-    ticking = false;
-  };
-  
-  window.addEventListener('scroll', () => {
-    if (!ticking) {
-      requestAnimationFrame(updateNavbar);
-      ticking = true;
+  // Utilidades para dividir tareas largas
+  function yieldToMain() { return new Promise(resolve => setTimeout(resolve, 0)); }
+  async function scheduleWork(tasks) {
+    for (const task of tasks) {
+      await task();
+      if (tasks.length > 1) await yieldToMain();
     }
-  }, { passive: true });
-
-  // Menú hamburguesa optimizado
-  const hamburger = document.getElementById('hamburger');
-  const navList = document.getElementById('mainNav');
-  
-  if (hamburger && navList) {
-    hamburger.addEventListener('click', () => {
-      const isActive = hamburger.classList.toggle('active');
-      navList.classList.toggle('active');
-      hamburger.setAttribute('aria-expanded', isActive);
-      document.body.style.overflow = isActive ? 'hidden' : 'auto';
-    });
-    
-    // Cerrar menú optimizado
-    navList.addEventListener('click', (e) => {
-      if (e.target.classList.contains('nav-link')) {
-        hamburger.classList.remove('active');
-        navList.classList.remove('active');
-        hamburger.setAttribute('aria-expanded', false);
-        document.body.style.overflow = 'auto';
-      }
-    });
   }
 
-  // Analytics diferido
-  setTimeout(() => {
-    document.querySelectorAll('a[href^="tel:"],a[href*="wa.me"]').forEach(el => {
-      el.addEventListener("click", function () {
-        if (typeof gtag !== "undefined") {
-          const isPhone = this.href.startsWith('tel:');
-          gtag("event", isPhone ? "phone_call_click" : "whatsapp_click", {
-            event_category: "engagement",
-            event_label: isPhone ? this.href.replace("tel:", "") : this.href,
-            value: 1
-          });
+  // Tareas críticas - ejecutar inmediatamente
+  const criticalTasks = [
+    () => {
+      // Navbar scroll effect optimizado
+      const navbar = document.querySelector('.navbar');
+      let ticking = false;
+      
+      const updateNavbar = () => {
+        navbar?.classList.toggle('scrolled', window.scrollY > 100);
+        ticking = false;
+      };
+      
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          requestAnimationFrame(updateNavbar);
+          ticking = true;
         }
+      }, { passive: true });
+    },
+    
+    () => {
+      // Menú hamburguesa optimizado
+      const hamburger = document.getElementById('hamburger');
+      const navList = document.getElementById('mainNav');
+      
+      if (hamburger && navList) {
+        hamburger.addEventListener('click', () => {
+          requestAnimationFrame(() => {
+            const isActive = hamburger.classList.toggle('active');
+            navList.classList.toggle('active');
+            hamburger.setAttribute('aria-expanded', isActive);
+            document.body.style.overflow = isActive ? 'hidden' : 'auto';
+          });
+        });
+        
+        navList.addEventListener('click', (e) => {
+          if (e.target.classList.contains('nav-link')) {
+            requestAnimationFrame(() => {
+              hamburger.classList.remove('active');
+              navList.classList.remove('active');
+              hamburger.setAttribute('aria-expanded', false);
+              document.body.style.overflow = 'auto';
+            });
+          }
+        });
+      }
+    }
+  ];
+
+  // Tareas diferidas - ejecutar cuando el browser esté libre
+  const deferredTasks = [
+    () => {
+      // Analytics diferido
+      document.querySelectorAll('a[href^="tel:"],a[href*="wa.me"]').forEach(el => {
+        el.addEventListener("click", function () {
+          if (typeof gtag !== "undefined") {
+            const isPhone = this.href.startsWith('tel:');
+            gtag("event", isPhone ? "phone_call_click" : "whatsapp_click", {
+              event_category: "engagement",
+              event_label: isPhone ? this.href.replace("tel:", "") : this.href,
+              value: 1
+            });
+          }
+        });
       });
-    });
-  }, 100);
+    }
+  ];
+
+  // Ejecutar tareas críticas primero
+  scheduleWork(criticalTasks).then(() => {
+    // Ejecutar tareas diferidas cuando el browser esté libre
+    (requestIdleCallback || setTimeout)(() => scheduleWork(deferredTasks), 0);
+  });
 });
 </script>
 <!-- Optimized JavaScript Bundle -->
