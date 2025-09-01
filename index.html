@@ -46,9 +46,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preload" as="image" href="assets/hero/culiacan-hero-480.webp" fetchpriority="high" media="(max-width: 639px)">
   <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2" as="font" type="font/woff2" crossorigin="">
   
-  <!-- Critical CSS inline - LCP optimizado -->
+  <!-- Critical CSS inline - LCP optimizado + A11Y Contrast Fix -->
   <style>
-    *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--bg:#FFFFFF;--bg-soft:#F8FAFC;--border:#E2E8F0;--gradient-brand:linear-gradient(135deg,#F97316 0%,#E36414 100%)}body{font-family:'Inter',sans-serif;font-display:swap;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px;contain:layout}
+    *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--text-light:#334155;--text-muted:#475569;--bg:#FFFFFF;--bg-soft:#F8FAFC;--border:#E2E8F0;--gradient-brand:linear-gradient(135deg,#F97316 0%,#E36414 100%)}body{font-family:'Inter',sans-serif;font-display:swap;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px;contain:layout}
     .fonts-loading body{opacity:0.9}.fonts-loaded body{opacity:1;transition:opacity 0.3s}
     .skip-link{position:absolute;left:-999px;top:auto;background:var(--brand);color:white;padding:.5rem .75rem;text-decoration:none;border-radius:.5rem;z-index:1000}.skip-link:focus{left:16px;top:16px}
     .navbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0;will-change:transform;contain:layout}
@@ -68,6 +68,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .btn-primary{display:inline-block;background:var(--gradient-brand);color:#FFFFFF;text-decoration:none;padding:18px 36px;border-radius:16px;font-size:1.125rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;transition:transform 0.4s cubic-bezier(0.4,0,0.2,1),box-shadow 0.4s ease;box-shadow:0 8px 32px rgba(227,100,20,0.4);position:relative;overflow:hidden;contain:layout}
     .hero-microlink{color:rgba(255,255,255,0.9);text-decoration:underline;font-size:0.9rem;transition:all 0.3s ease;font-weight:500}
     @media (max-width:640px){.hero h1{font-size:clamp(2rem,8vw,3rem)}.hero p{font-size:1rem}.hero{min-height:75vh}}
+    /* Expanded critical CSS for FCP - subnav and services-grid */
+    .subnav{position:sticky;top:72px;z-index:40;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0}
+    .subtabs{list-style:none;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin:0}
+    .subtabs a{display:inline-block;padding:12px 24px;border:2px solid var(--border);border-radius:50px;background:var(--bg);color:var(--text);font-weight:600;text-decoration:none;transition:all 0.3s ease;font-size:0.875rem}
+    section{padding:80px 0;scroll-margin-top:120px}
+    .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;margin-top:3rem}
+    .service-card{background:var(--bg);padding:2.5rem 2rem;border-radius:20px;box-shadow:0 4px 24px rgba(15,23,42,0.1);transition:all 0.3s ease;border:1px solid var(--border);position:relative}
+    @media (max-width:768px){.services-grid{grid-template-columns:1fr;gap:1.5rem}.service-card{padding:2rem 1.5rem}.subnav{top:65px;padding:12px 0}}
   </style>
   
   <!-- Fonts (subset optimizado) -->
@@ -79,7 +87,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <noscript><link rel="stylesheet" href="css/style.optimized.min.css?v=32"></noscript>
   <link rel="preload" href="css/mobile-premium.optimized.min.css?v=32" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="css/mobile-premium.optimized.min.css?v=32"></noscript>
-  <link rel="stylesheet" href="css/overrides.css?v=preview2">
+  <!-- Critical: Preload overrides.css to fix LCP latency -->
+  <link rel="preload" href="css/overrides.css?v=preview2" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/overrides.css?v=preview2"></noscript>
 
   <!-- Optimized App Script (preload crítico) -->
   <link rel="preload" href="js/app.optimized.min.js" as="script">

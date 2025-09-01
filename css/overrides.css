@@ -1,3 +1,8 @@
+/* A11Y Contrast Fix - Override text-light for better contrast */
+:root {
+  --text-light: #334155 !important; /* Darker gray for better contrast ratio */
+}
+
 /* === PROPIEDADES STYLE CARDS === */
 .properties-grid {
   display: grid;
