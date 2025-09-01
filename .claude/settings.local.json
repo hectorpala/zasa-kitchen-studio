@@ -53,7 +53,14 @@
       "Bash(/tmp/add_gtm.sh:*)",
       "Bash(/tmp/fix_gtm_noscript.sh:*)",
       "Bash(/dev/null)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(git checkout:*)",
+      "Bash(./clean_ga4.sh:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"Cleaning: $file\")",
+      "Bash(perl:*)",
+      "Bash(echo:*)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": [],
