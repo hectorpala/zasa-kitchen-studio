@@ -1,0 +1,143 @@
+.google-reviews {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.google-reviews-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.google-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.rating-score {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #E36414;
+}
+
+.rating-stars {
+  color: #FFB400;
+  font-size: 1.5rem;
+}
+
+.rating-count {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.review-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.review-author strong {
+  color: #333;
+  font-size: 1rem;
+}
+
+.review-rating {
+  color: #FFB400;
+  font-size: 1.1rem;
+}
+
+.review-text {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.review-text p {
+  margin: 0;
+  color: #555;
+}
+
+.review-time {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.google-reviews-footer {
+  text-align: center;
+}
+
+.btn-google {
+  display: inline-flex;
+  align-items: center;
+  background: #4285F4;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-google:hover {
+  background: #3367D6;
+  color: white;
+}
+
+.google-reviews-loading, .google-reviews-error {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #E36414;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .google-rating {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .rating-score {
+    font-size: 1.5rem;
+  }
+}
