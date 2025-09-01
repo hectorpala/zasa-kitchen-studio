@@ -1,19 +1,19 @@
-// Service Worker - ZASA Kitchen Studio v2.0
-const CACHE_NAME = 'zasa-kitchen-v2';
-const STATIC_CACHE_NAME = 'zasa-static-v2';
-const DYNAMIC_CACHE_NAME = 'zasa-dynamic-v2';
+// Service Worker - ZASA Kitchen Studio v3.0 LCP Optimizado
+const CACHE_NAME = 'zasa-kitchen-v3';
+const STATIC_CACHE_NAME = 'zasa-static-v3';
+const DYNAMIC_CACHE_NAME = 'zasa-dynamic-v3';
 
-// Assets to cache immediately
-const STATIC_ASSETS = [
+// Assets críticos para LCP
+const CRITICAL_ASSETS = [
   '/',
   '/css/style.optimized.min.css',
-  '/css/mobile-premium.optimized.min.css',
+  '/css/mobile-premium.optimized.min.css', 
   '/js/app.optimized.min.js',
-  '/js/lazy-images.min.js',
-  '/img/logo-zasa.webp',
-  '/img/optimized/home-hero/foto-principal-1920.webp',
-  '/favicon.ico',
-  '/site.webmanifest'
+  '/img/logo-zasa.jpg',
+  '/assets/hero/culiacan-hero-1200.webp',
+  '/assets/hero/culiacan-hero-480.webp',
+  '/assets/hero/culiacan-hero-800.webp',
+  '/favicon.ico'
 ];
 
 // Assets to cache on demand
@@ -27,20 +27,20 @@ const DYNAMIC_ASSETS_PATTERNS = [
   /fonts\.gstatic\.com/
 ];
 
-// Install event - cache static assets
+// Install event - cache crítico para LCP
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(STATIC_CACHE_NAME)
       .then(cache => {
-        console.log('[SW] Caching static assets');
-        return cache.addAll(STATIC_ASSETS);
+        console.log('[SW] Caching critical LCP assets');
+        return cache.addAll(CRITICAL_ASSETS);
       })
       .then(() => {
-        console.log('[SW] Static assets cached successfully');
+        console.log('[SW] Critical assets cached successfully');
         return self.skipWaiting();
       })
       .catch(error => {
-        console.error('[SW] Failed to cache static assets:', error);
+        console.error('[SW] Failed to cache critical assets:', error);
       })
   );
 });
@@ -104,7 +104,7 @@ self.addEventListener('fetch', event => {
     pattern.test(event.request.url)
   );
 
-  if (isDynamicAsset || STATIC_ASSETS.includes(url.pathname)) {
+  if (isDynamicAsset || CRITICAL_ASSETS.includes(url.pathname)) {
     event.respondWith(
       caches.match(event.request)
         .then(response => {
@@ -113,7 +113,7 @@ self.addEventListener('fetch', event => {
             fetch(event.request)
               .then(fetchResponse => {
                 if (fetchResponse.ok) {
-                  const cacheName = STATIC_ASSETS.includes(url.pathname) 
+                  const cacheName = CRITICAL_ASSETS.includes(url.pathname) 
                     ? STATIC_CACHE_NAME 
                     : DYNAMIC_CACHE_NAME;
                   
@@ -131,7 +131,7 @@ self.addEventListener('fetch', event => {
             .then(fetchResponse => {
               if (fetchResponse.ok) {
                 const responseClone = fetchResponse.clone();
-                const cacheName = STATIC_ASSETS.includes(url.pathname) 
+                const cacheName = CRITICAL_ASSETS.includes(url.pathname) 
                   ? STATIC_CACHE_NAME 
                   : DYNAMIC_CACHE_NAME;
                 
