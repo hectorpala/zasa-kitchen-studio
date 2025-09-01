@@ -60,7 +60,8 @@
       "Bash(do echo \"Cleaning: $file\")",
       "Bash(perl:*)",
       "Bash(echo:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(gh pr view:*)"
     ],
     "deny": [],
     "ask": [],
