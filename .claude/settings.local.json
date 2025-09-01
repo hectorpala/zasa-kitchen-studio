@@ -63,7 +63,8 @@
       "Bash(done)",
       "Bash(git merge:*)",
       "Bash(gh pr view:*)",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "Bash(gh run list:*)"
     ],
     "deny": [],
     "ask": [],
