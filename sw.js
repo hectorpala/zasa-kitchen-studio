@@ -1,7 +1,7 @@
-// Service Worker - ZASA Kitchen Studio v3.0 LCP Optimizado
-const CACHE_NAME = 'zasa-kitchen-v3';
-const STATIC_CACHE_NAME = 'zasa-static-v3';
-const DYNAMIC_CACHE_NAME = 'zasa-dynamic-v3';
+// Service Worker - ZASA Kitchen Studio v4.0 Ultra-Optimized
+const CACHE_NAME = 'zasa-kitchen-v4';
+const STATIC_CACHE_NAME = 'zasa-static-v4';
+const DYNAMIC_CACHE_NAME = 'zasa-dynamic-v4';
 
 // Assets críticos para LCP
 const CRITICAL_ASSETS = [

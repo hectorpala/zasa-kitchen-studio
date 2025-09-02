@@ -50,13 +50,11 @@ if(window.requestIdleCallback) {
   <link rel="alternate" hreflang="x-default" href="https://zasakitchenstudio.mx/">
 
   
-  <!-- Resource Hints optimizados para máximo rendimiento -->
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="dns-prefetch" href="//fonts.gstatic.com">  
-  <link rel="dns-prefetch" href="//www.googletagmanager.com">
-  <link rel="dns-prefetch" href="//www.google-analytics.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- DNS Prefetch y Preconnect optimizado -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   
   <!-- Mobile-First Preload Strategy for Optimal LCP -->
   <link rel="preload" as="image" href="assets/hero/culiacan-hero-480.webp" fetchpriority="high" media="(max-width: 640px)" type="image/webp">
@@ -69,38 +67,45 @@ if(window.requestIdleCallback) {
   <!-- Preload JavaScript crítico -->
   <link rel="preload" href="js/app.optimized.min.js" as="script">
   
-  <!-- Critical CSS Ultra-Minified for LCP + CLS Prevention -->
+  <!-- Critical CSS inline - LCP optimizado + A11Y Contrast Fix + CLS Prevention -->
   <style>
-    *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--text-light:#334155;--bg:#FFF;--bg-soft:#F8FAFC;--border:#E2E8F0}body{font-family:Inter,sans-serif;font-display:swap;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px;contain:layout;transform:translateZ(0)}
-    .navbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0;contain:layout}
+    *{margin:0;padding:0;box-sizing:border-box}:root{--brand:#E36414;--brand-light:#F97316;--text:#0F172A;--text-light:#334155;--text-muted:#475569;--bg:#FFFFFF;--bg-soft:#F8FAFC;--border:#E2E8F0;--gradient-brand:linear-gradient(135deg,#F97316 0%,#E36414 100%)}body{font-family:'Inter',sans-serif;font-display:swap;line-height:1.7;color:var(--text);background:var(--bg-soft);padding-top:80px;contain:layout;transform:translateZ(0);will-change:scroll-position}
+    .fonts-loading body{opacity:0.9}.fonts-loaded body{opacity:1;transition:opacity 0.3s}
+    .skip-link{position:absolute;left:-999px;top:auto;background:var(--brand);color:white;padding:.5rem .75rem;text-decoration:none;border-radius:.5rem;z-index:1000}.skip-link:focus{left:16px;top:16px}
+    .navbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0;will-change:transform;contain:layout}
     .container{max-width:1200px;margin:0 auto;padding:0 24px}
     .nav-wrap{display:flex;align-items:center;justify-content:space-between}
-    .logo-navbar{height:65px;width:auto}
+    .logo-navbar{height:65px;width:auto;display:block}
     .nav-list{display:flex;gap:24px;list-style:none;margin:0}
     .hero{min-height:85vh;display:grid;place-items:center;text-align:center;position:relative;contain:layout style}
     .hero-figure{position:absolute;inset:0;margin:0;contain:layout;width:100%;height:100%}
     .hero-figure picture{display:block;width:100%;height:100%}
-    .hero-figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;transform:translateZ(0);contain:layout;content-visibility:auto;contain-intrinsic-size:1200px 800px}
-    .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,.4) 0%,rgba(30,41,59,.3) 100%);pointer-events:none}
-    @media (max-width:640px){.hero::after{background:linear-gradient(135deg,rgba(15,23,42,.6) 0%,rgba(30,41,59,.5) 100%)!important}.hero{min-height:75vh}.hero-figure{height:75vh}}
+    .hero-figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1;transform:translateZ(0);will-change:transform;contain:layout;image-rendering:crisp-edges;content-visibility:auto;contain-intrinsic-size:1200px 800px}
+    .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(15,23,42,0.4) 0%,rgba(30,41,59,0.3) 100%);pointer-events:none}
+    @media (max-width:640px){.hero::after{background:linear-gradient(135deg,rgba(15,23,42,0.6) 0%,rgba(30,41,59,0.5) 100%)!important}.hero{min-height:75vh}.hero-figure{height:75vh}}
     .hero .container{position:relative;z-index:1}
-    .hero h1{font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(3rem,7vw,5rem);line-height:1.1;margin-bottom:2rem;color:#FFF;text-shadow:0 8px 32px rgba(0,0,0,.3);contain:layout}
-    .hero p{font-size:clamp(1.125rem,2.5vw,1.375rem);color:#F1F5F9;margin-bottom:3rem;text-shadow:0 4px 16px rgba(0,0,0,.2);max-width:700px;margin-left:auto;margin-right:auto;line-height:1.6}
+    .hero h1{font-family:'Montserrat',sans-serif;font-weight:800;font-size:clamp(3rem,7vw,5rem);line-height:1.1;margin-bottom:2rem;color:#FFFFFF;text-shadow:0 8px 32px rgba(0,0,0,0.3);contain:layout}
+    .hero p{font-size:clamp(1.125rem,2.5vw,1.375rem);color:#F1F5F9;margin-bottom:3rem;text-shadow:0 4px 16px rgba(0,0,0,0.2);max-width:700px;margin-left:auto;margin-right:auto;line-height:1.6}
     .hero-ctas{display:flex;flex-direction:column;align-items:center;gap:1rem}
-    .btn-primary{display:inline-block;background:linear-gradient(135deg,#F97316 0%,#E36414 100%);color:#FFF;text-decoration:none;padding:18px 36px;border-radius:16px;font-size:1.125rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;transition:transform .4s cubic-bezier(.4,0,.2,1),box-shadow .4s ease;box-shadow:0 8px 32px rgba(227,100,20,.4);position:relative;overflow:hidden;contain:layout}
-    .hero-microlink{color:rgba(255,255,255,.9);text-decoration:underline;font-size:.9rem;transition:all .3s ease;font-weight:500}
+    .btn-primary{display:inline-block;background:var(--gradient-brand);color:#FFFFFF;text-decoration:none;padding:18px 36px;border-radius:16px;font-size:1.125rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;transition:transform 0.4s cubic-bezier(0.4,0,0.2,1),box-shadow 0.4s ease;box-shadow:0 8px 32px rgba(227,100,20,0.4);position:relative;overflow:hidden;contain:layout}
+    .hero-microlink{color:rgba(255,255,255,0.9);text-decoration:underline;font-size:0.9rem;transition:all 0.3s ease;font-weight:500}
     @media (max-width:640px){.hero h1{font-size:clamp(2rem,8vw,3rem)}.hero p{font-size:1rem}}
+    /* Critical CLS Prevention for Images */
     img[width][height]{aspect-ratio:attr(width)/attr(height);width:100%;height:auto}
     .service-card img{aspect-ratio:3/2;width:100%;height:auto;display:block;object-fit:cover}
+    .card-item{aspect-ratio:16/10;min-height:220px}
+    /* Expanded critical CSS for FCP - subnav and services-grid */
+    .subnav{position:sticky;top:72px;z-index:40;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:16px 0}
+    .subtabs{list-style:none;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin:0}
+    .subtabs a{display:inline-block;padding:12px 24px;border:2px solid var(--border);border-radius:50px;background:var(--bg);color:var(--text);font-weight:600;text-decoration:none;transition:all 0.3s ease;font-size:0.875rem}
+    section{padding:80px 0;scroll-margin-top:120px}
     .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;margin-top:3rem}
-    .service-card{background:var(--bg);padding:2.5rem 2rem;border-radius:20px;box-shadow:0 4px 24px rgba(15,23,42,.1);transition:all .3s ease;border:1px solid var(--border);position:relative}
-    @media (max-width:768px){.services-grid{grid-template-columns:1fr;gap:1.5rem}.service-card{padding:2rem 1.5rem}}
+    .service-card{background:var(--bg);padding:2.5rem 2rem;border-radius:20px;box-shadow:0 4px 24px rgba(15,23,42,0.1);transition:all 0.3s ease;border:1px solid var(--border);position:relative}
+    @media (max-width:768px){.services-grid{grid-template-columns:1fr;gap:1.5rem}.service-card{padding:2rem 1.5rem}.subnav{top:65px;padding:12px 0}}
   </style>
   
-  <!-- Fonts optimizadas con font-display:swap y subset latino -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap&subset=latin" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;">
+  <!-- Fonts (subset optimizado) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=Montserrat:wght@700;800&amp;display=swap&amp;text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789áéíóúüñÁÉÍÓÚÜÑ¿¡.,;:()[]{}+-*/@&amp;$€%" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;800&display=swap" rel="stylesheet"></noscript>
   
   <!-- Main styles (optimized) -->
@@ -140,6 +145,204 @@ if(window.requestIdleCallback) {
   <!-- Schema.org cargado de forma asíncrona para mejor rendimiento -->
   <script src="js/schema.min.js" defer></script>
   
+  <!-- Schema inline eliminado - ahora cargado desde archivo externo -->
+  <!-- <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "KitchenRemodeler",
+    "@id": "https://www.zasakitchenstudio.mx/#organization",
+    "name": "Zasa Kitchen Studio",
+    "alternateName": "Cocinas Modernas Zasa",
+    "image": [
+      "https://www.zasakitchenstudio.mx/img/logo-zasa.jpg",
+      "https://www.zasakitchenstudio.mx/og-image.jpg"
+    ],
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.zasakitchenstudio.mx/img/logo-zasa.jpg",
+      "width": "200",
+      "height": "80"
+    },
+    "description": "Diseño, fabricación e instalación de cocinas modernas en Culiacán, Sinaloa. Cocinas integrales personalizadas y remodelación de espacios.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "General Rafael Buelna Tenorio 750 Local 5",
+      "addressLocality": "Culiacán Rosales",
+      "addressRegion": "Sinaloa",
+      "postalCode": "80060",
+      "addressCountry": "MX"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "24.7993",
+      "longitude": "-107.3938"
+    },
+    "telephone": "+52-667-225-6523",
+    "url": "https://www.zasakitchenstudio.mx",
+    "email": "ventas@zasakitchen.com",
+    "areaServed": {
+      "@type": "City",
+      "name": "Culiacán"
+    },
+    "priceRange": "$$",
+    "paymentAccepted": ["Efectivo", "Tarjeta de Crédito", "Transferencia"],
+    "currenciesAccepted": "MXN",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Servicios de Cocinas Integrales",
+      "itemListElement": [
+        {
+          "@type": "Service",
+          "name": "Cocinas Integrales Personalizadas",
+          "description": "Diseño, fabricación e instalación de cocinas integrales a medida con materiales premium.",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/#organization"}
+        },
+        {
+          "@type": "Service", 
+          "name": "Cubiertas de Cocina",
+          "description": "Instalación de cubiertas de cuarzo, granito y mármol para cocinas.",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/#organization"}
+        },
+        {
+          "@type": "Service",
+          "name": "Closets y Carpintería",
+          "description": "Diseño y fabricación de closets y muebles de carpintería a medida.",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/#organization"}
+        },
+        {
+          "@type": "Service",
+          "name": "Cocinas Integrales",
+          "description": "Fabricación e instalación de cocinas integrales a medida.",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/#organization"}
+        },
+        {
+          "@type": "Service",
+          "name": "Remodelación de Cocinas",
+          "description": "Transforma tu cocina con acabados modernos y funcionales.",
+          "provider": {"@id": "https://www.zasakitchenstudio.mx/#organization"}
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "52"
+    },
+    "slogan": "Diseñamos tu cocina, creamos tu espacio",
+    "sameAs": [
+      "https://www.instagram.com/zasakitchenstudio",
+      "https://www.facebook.com/zasakitchenstudio",
+      "https://wa.me/526672256523"
+    ]
+  }
+  </script>
+
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.zasakitchenstudio.mx/"},
+    {"@type":"ListItem","position":2,"name":"Proyectos","item":"https://www.zasakitchenstudio.mx/proyectos-culiacan"},
+    {"@type":"ListItem","position":3,"name":"Blog","item":"https://www.zasakitchenstudio.mx/blog"}
+  ]
+}
+</script>
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo toma fabricar e instalar una cocina integral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El tiempo varía entre 15 a 30 días dependiendo del diseño y materiales seleccionados. Para cocinas con cubiertas de cuarzo o granito especiales, puede extenderse a 35 días. Te proporcionamos un cronograma detallado al aprobar tu proyecto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué tipo de cubierta es mejor para mi cocina: cuarzo, granito o mármol?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cuarzo: ideal para uso intensivo, resistente a manchas y colores uniformes. Granito: piedra natural muy durable, resistente al calor. Mármol: elegante pero requiere más cuidado contra ácidos. Te asesoramos según tu estilo de vida y presupuesto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué garantía ofrecen en las cocinas integrales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ofrecemos garantía de 5 años en estructura y herrajes, 2 años en cubiertas de piedra, y 1 año en instalación. Incluye manual de cuidados y servicio postventa. Todas nuestras garantías son por escrito."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hacen instalación en toda el área metropolitana de Culiacán?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, instalamos en todas las colonias de Culiacán y zona metropolitana: Tres Ríos, Country Álamos, Chapalita, Las Quintas, Horizontes, y más de 50 colonias. El costo de instalación está incluido en el presupuesto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo funciona el proceso de cotización y diseño?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1) Visita gratuita para tomar medidas y entender tus necesidades. 2) Diseño 3D y propuesta detallada en 3-5 días. 3) Revisión y ajustes sin costo. 4) Una vez aprobado, iniciamos fabricación. Todo el proceso de cotización es gratuito y sin compromiso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué opciones de financiamiento manejan para cocinas integrales?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aceptamos pagos con tarjeta de crédito (hasta 18 meses sin intereses según el banco), efectivo con descuento, y planes de pago personalizados. También trabajamos con créditos de tiendas departamentales. Consúltanos por WhatsApp para conocer todas las opciones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Incluyen electrodomésticos en el paquete de cocina integral?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nos especializamos en muebles y cubiertas. Los electrodomésticos los puedes adquirir por separado, pero te asesoramos en medidas y conexiones necesarias. Tenemos alianzas con distribuidores para ofrecerte precios preferenciales si lo necesitas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué pasa si mi espacio es muy pequeño o tiene forma irregular?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nos especializamos en aprovechar espacios complicados: cocinas bajo escaleras, en forma de L, espacios triangulares, etc. Usamos soluciones como muebles verticales, esquineros giratorios, y despensas extraíbles para maximizar el almacenamiento."
+      }
+    }
+  ]
+}
+</script> -->
 
 <style>body { padding-top: 80px; }</style>
 </head>
@@ -254,7 +457,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <picture>
                             <source media="(max-width: 640px)" srcset="img/optimized/servicios/cocinas-modernas-u-480.jpg">
                             <source media="(max-width: 1024px)" srcset="img/optimized/servicios/cocinas-modernas-u-800.jpg">
-                            <img src="img/optimized/servicios/cocinas-modernas-u-1200.jpg" alt="Cocina en U moderna con gabinetes grises, isla y electrodomésticos integrados" width="1200" height="750" loading="lazy" decoding="async">
+                            <img src="img/optimized/servicios/cocinas-modernas-u-1200.jpg" alt="Cocina en U moderna con gabinetes grises, isla y electrodomésticos integrados" loading="lazy">
                         </picture>
                         <h3>Cocinas en U</h3>
                         <p>Máximo almacenamiento y zonificación para espacios amplios.</p>
@@ -264,7 +467,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <picture>
                             <source media="(max-width: 640px)" srcset="img/optimized/servicios/cocinas-con-isla-nueva-480.jpg">
                             <source media="(max-width: 1024px)" srcset="img/optimized/servicios/cocinas-con-isla-nueva-800.jpg">
-                            <img src="img/optimized/servicios/cocinas-con-isla-nueva-1200.jpg" alt="Cocina moderna con isla de mármol, gabinetes blancos y barra desayunador" width="1200" height="750" loading="lazy" decoding="async">
+                            <img src="img/optimized/servicios/cocinas-con-isla-nueva-1200.jpg" alt="Cocina moderna con isla de mármol, gabinetes blancos y barra desayunador" loading="lazy">
                         </picture>
                         <h3>Cocinas con isla</h3>
                         <p>Superficie adicional, convivencia y conexiones especializadas.</p>
@@ -496,18 +699,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- JavaScript optimizado movido a archivo externo para evitar duplicación -->
 <!-- Optimized JavaScript Bundle -->
-<script src="js/app.optimized.min.js" defer></script>
-
-<!-- Service Worker Registration -->
-<script>
-if('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js', {scope: '/'})
-      .then(reg => console.log('SW registered'))
-      .catch(err => console.log('SW registration failed'));
-  });
-}
-</script>
+<script src="js/app.optimized.min.js" defer=""></script>
 
 
 <!-- Service Worker Registration -->

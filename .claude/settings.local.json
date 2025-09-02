@@ -65,7 +65,11 @@
       "Bash(gh pr view:*)",
       "Bash(cd:*)",
       "Bash(gh run list:*)",
-      "Bash(pngquant:*)"
+      "Bash(pngquant:*)",
+      "Bash(npx lighthouse:*)",
+      "Bash(./optimize-images.sh:*)",
+      "Bash(./clean-html.sh:*)",
+      "Bash(./test-lighthouse.sh:*)"
     ],
     "deny": [],
     "ask": [],
