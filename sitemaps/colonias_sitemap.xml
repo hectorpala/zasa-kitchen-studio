@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://zasakitchenstudio.mx/colonias/chapultepec.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://zasakitchenstudio.mx/colonias/las-quintas.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://zasakitchenstudio.mx/colonias/tres-rios.html</loc>
+    <lastmod>2025-09-02</lastmod>
+    <priority>0.5</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
+
