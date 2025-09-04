@@ -1,8 +1,6 @@
-# Redirects para colonias - /colonias/:slug/ → /colonias/:slug.html
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^colonias/([^/]+)/?$ /colonias/$1.html [R=301,L]
 
 
 # Cache headers for static assets - AGGRESSIVE LIGHTHOUSE OPTIMIZED (401 KiB fix)

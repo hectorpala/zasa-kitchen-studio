@@ -2,12 +2,8 @@
   "public": true,
   "rewrites": [
     {
-      "source": "/colonias/:slug/",
-      "destination": "/colonias/:slug.html"
     },
     {
-      "source": "/colonias/:slug",
-      "destination": "/colonias/:slug.html"
     }
   ]
 }

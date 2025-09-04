@@ -2,13 +2,9 @@
   publish = "."
 
 [[redirects]]
-  from = "/colonias/:slug/"
-  to = "/colonias/:slug.html"
   status = 301
 
 [[redirects]]
-  from = "/colonias/:slug"
-  to = "/colonias/:slug.html"
   status = 301
 
 
