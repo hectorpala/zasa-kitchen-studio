@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://zasakitchenstudio.mx/index.html</loc></url>
-  <url><loc>https://zasakitchenstudio.mx/contacto/index.html</loc></url>
+  <!-- Páginas principales -->
+  <url><loc>https://zasakitchenstudio.mx/</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/contacto/</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/blog/</loc></url>
   <url><loc>https://zasakitchenstudio.mx/blog-consejos.html</loc></url>
   <url><loc>https://zasakitchenstudio.mx/cocinas-integrales-chapalita.html</loc></url>
   <url><loc>https://zasakitchenstudio.mx/cocinas-integrales-country-alamos.html</loc></url>
   <url><loc>https://zasakitchenstudio.mx/cocinas-integrales-tres-rios.html</loc></url>
   <url><loc>https://zasakitchenstudio.mx/cocinas-pequenas.html</loc></url>
+
+  <!-- Proyectos Culiacán -->
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/centro.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/chapultepec.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/chulavista.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/country-alamos.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/guadalupe.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/horizontes.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/infonavit-humaya.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/la-conquista.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/la-primavera.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/las-quintas.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/lomas-de-guadalupe.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/montebello.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/portalegre.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/terranova.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/tres-rios.html</loc></url>
+  <url><loc>https://zasakitchenstudio.mx/proyectos-culiacan/villas-del-rio.html</loc></url>
 </urlset>
