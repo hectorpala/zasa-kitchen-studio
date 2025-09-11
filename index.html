@@ -137,13 +137,28 @@ if(window.requestIdleCallback) {
   <script type="application/ld+json">
 {
   "@context":"https://schema.org",
-  "@type":"HomeAndConstructionBusiness",
+  "@type":"Organization",
   "name":"Zasa Kitchen Studio",
   "url":"https://zasakitchenstudio.mx/",
+  "logo":"https://zasakitchenstudio.mx/img/logo-zasa.webp",
   "image":"https://zasakitchenstudio.mx/img/og/og-image.webp",
   "telephone":"+52 667 225 6523",
-  "address":{"@type":"PostalAddress","addressLocality":"Culiacán","addressRegion":"Sinaloa","postalCode":"80000","addressCountry":"MX"},
-  "areaServed":"Culiacán, Sinaloa","priceRange":"$"
+  "address":{"@type":"PostalAddress","streetAddress":"General Rafael Buelna Tenorio 750 Local 5","addressLocality":"Culiacán Rosales","addressRegion":"Sinaloa","postalCode":"80060","addressCountry":"MX"},
+  "areaServed":"Culiacán, Sinaloa",
+  "priceRange":"$$-$$$",
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"150"},
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "@id":"https://zasakitchenstudio.mx/servicios/#catalog",
+    "name":"Servicios de Cocinas Integrales",
+    "itemListElement":[
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cocinas Integrales","description":"Diseño y fabricación de cocinas completas a medida","url":"https://zasakitchenstudio.mx/servicios/"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cocinas Modernas","description":"Cocinas contemporáneas con materiales premium"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cocinas Pequeñas","description":"Soluciones para espacios reducidos","url":"https://zasakitchenstudio.mx/cocinas-pequenas.html"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Cocinas con Isla","description":"Cocinas con isla central multifuncional"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Diseño 3D","description":"Visualización realista antes de la fabricación"}}
+    ]
+  }
 }
 </script>
   <script type="application/ld+json">

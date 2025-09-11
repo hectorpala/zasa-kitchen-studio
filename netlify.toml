@@ -2,10 +2,20 @@
   publish = "."
 
 [[redirects]]
+  from = "/proyectos-culiacan/*"
+  to = "/proyectos/culiacan/:splat"
   status = 301
 
 [[redirects]]
+  from = "/proyectos-culiacan"
+  to = "/proyectos/culiacan/"
   status = 301
+
+[[redirects]]
+  from = "/*.html"
+  to = "/:splat/"
+  status = 301
+  force = false
 
 
 # Headers específicos para Netlify - complementa _headers
