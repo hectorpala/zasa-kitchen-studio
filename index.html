@@ -83,7 +83,10 @@ if(window.requestIdleCallback) {
     .hero-microlink{color:rgba(255,255,255,.9);text-decoration:underline;font-size:.9rem;transition:all .3s ease;font-weight:500}
     @media (max-width:640px){.hero h1{font-size:clamp(2rem,8vw,3rem)}.hero p{font-size:1rem}}
     img[width][height]{aspect-ratio:attr(width)/attr(height);width:100%;height:auto}
-    .service-card img{aspect-ratio:3/2;width:100%;height:auto;display:block;object-fit:cover}
+    .service-card img{aspect-ratio:3/2;width:100%;height:auto;display:block;object-fit:cover;object-position:center;border-radius:8px;background:#f5f5f5}
+    .service-card picture{display:block;aspect-ratio:3/2;width:100%;overflow:hidden;border-radius:8px;background:#f5f5f5}
+    .service-card figure{margin:0;display:block;aspect-ratio:3/2;width:100%;overflow:hidden;border-radius:8px;background:#f5f5f5;margin-bottom:1.5rem}
+    .service-card figure img,.service-card picture img{aspect-ratio:3/2!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;display:block!important;border-radius:8px}
     .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;margin-top:3rem}
     .service-card{background:var(--bg);padding:2.5rem 2rem;border-radius:20px;box-shadow:0 4px 24px rgba(15,23,42,.1);transition:all .3s ease;border:1px solid var(--border);position:relative}
     @media (max-width:768px){.services-grid{grid-template-columns:1fr;gap:1.5rem}.service-card{padding:2rem 1.5rem}}
@@ -243,10 +246,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="service-card" data-card-id="cocinas-integrales">
                         <figure>
                           <picture>
-                            <source srcset="img/proyectos/benevento-02-1200.jpg 1200w,
-                                            img/proyectos/benevento-02-800.jpg 800w,
-                                            img/proyectos/benevento-02-480.jpg 480w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw">
-                            <img src="img/proyectos/benevento-02-800.jpg?v=20250912b" srcset="img/proyectos/benevento-02-480.jpg?v=20250912b 480w, img/proyectos/benevento-02-800.jpg?v=20250912b 800w, img/proyectos/benevento-02-1200.jpg?v=20250912b 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="1200" height="750" alt="Cocina integral moderna con mármol veteado y gabinetes grises" loading="lazy" decoding="async">
+                            <source srcset="img/optimized/servicios/cocinas-de-madera-1200.jpg 1200w,
+                                            img/optimized/servicios/cocinas-de-madera-800.jpg 800w,
+                                            img/optimized/servicios/cocinas-de-madera-480.jpg 480w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw">
+                            <img src="img/optimized/servicios/cocinas-de-madera-800.jpg" srcset="img/optimized/servicios/cocinas-de-madera-480.jpg 480w, img/optimized/servicios/cocinas-de-madera-800.jpg 800w, img/optimized/servicios/cocinas-de-madera-1200.jpg 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="1200" height="750" alt="Cocina integral moderna con mármol veteado y gabinetes grises" loading="lazy" decoding="async">
                           </picture>
                         </figure>
                         <h3>Cocinas Integrales</h3>
@@ -279,10 +282,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
                     <div class="service-card" data-card-id="cocinas-en-u">
                         <picture>
-                            <source srcset="img/proyectos/las-quintas-01-1200.jpg 1200w,
-                                            img/proyectos/las-quintas-01-800.jpg 800w,
-                                            img/proyectos/las-quintas-01-480.jpg 480w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw">
-                            <img src="img/proyectos/las-quintas-01-800.jpg?v=20250912b" srcset="img/proyectos/las-quintas-01-480.jpg?v=20250912b 480w, img/proyectos/las-quintas-01-800.jpg?v=20250912b 800w, img/proyectos/las-quintas-01-1200.jpg?v=20250912b 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="1200" height="750" alt="Cocina en U bicolor con acabados de madera y mármol" loading="lazy" decoding="async">
+                            <source srcset="img/optimized/servicios/cocinas-modernas-u-1200.jpg 1200w,
+                                            img/optimized/servicios/cocinas-modernas-u-800.jpg 800w,
+                                            img/optimized/servicios/cocinas-modernas-u-480.jpg 480w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw">
+                            <img src="img/optimized/servicios/cocinas-modernas-u-800.jpg" srcset="img/optimized/servicios/cocinas-modernas-u-480.jpg 480w, img/optimized/servicios/cocinas-modernas-u-800.jpg 800w, img/optimized/servicios/cocinas-modernas-u-1200.jpg 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="1200" height="750" alt="Cocina en U bicolor con acabados de madera y mármol" loading="lazy" decoding="async">
                         </picture>
                         <h3>Cocinas en U</h3>
                         <p>Máximo almacenamiento y zonificación para espacios amplios.</p>
@@ -290,10 +293,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     
                     <div class="service-card" data-card-id="cocinas-con-isla">
                         <picture>
-                            <source srcset="img/proyectos/infonavit-humaya-01-1200.jpg 1200w,
-                                            img/proyectos/infonavit-humaya-01-800.jpg 800w,
-                                            img/proyectos/infonavit-humaya-01-480.jpg 480w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw">
-                            <img src="img/proyectos/infonavit-humaya-01-800.jpg?v=20250912b" srcset="img/proyectos/infonavit-humaya-01-480.jpg?v=20250912b 480w, img/proyectos/infonavit-humaya-01-800.jpg?v=20250912b 800w, img/proyectos/infonavit-humaya-01-1200.jpg?v=20250912b 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="1200" height="750" alt="Cocina moderna con isla de mármol veteado y gabinetes contemporáneos" loading="lazy" decoding="async">
+                            <source srcset="img/optimized/servicios/cocinas-con-isla-nueva-1200.jpg 1200w,
+                                            img/optimized/servicios/cocinas-con-isla-nueva-800.jpg 800w,
+                                            img/optimized/servicios/cocinas-con-isla-nueva-480.jpg 480w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw">
+                            <img src="img/optimized/servicios/cocinas-con-isla-nueva-800.jpg" srcset="img/optimized/servicios/cocinas-con-isla-nueva-480.jpg 480w, img/optimized/servicios/cocinas-con-isla-nueva-800.jpg 800w, img/optimized/servicios/cocinas-con-isla-nueva-1200.jpg 1200w" sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw" width="1200" height="750" alt="Cocina moderna con isla de mármol veteado y gabinetes contemporáneos" loading="lazy" decoding="async">
                         </picture>
                         <h3>Cocinas con isla</h3>
                         <p>Superficie adicional, convivencia y conexiones especializadas.</p>
