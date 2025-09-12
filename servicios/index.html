@@ -17,6 +17,10 @@ if(window.requestIdleCallback) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index,follow">
+  <!-- Force cache refresh -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -379,8 +383,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- JavaScript optimizado -->
     <script src="/js/app.optimized.min.js" defer></script>
 
-    <!-- Service Worker Registration -->
+    <!-- Image Reload Force Script -->
     <script>
+    // Force image reload with cache busting
+    document.addEventListener('DOMContentLoaded', function() {
+      const images = document.querySelectorAll('img[src*="/img/servicios/"]');
+      const timestamp = new Date().getTime();
+      images.forEach(img => {
+        const originalSrc = img.src;
+        img.src = originalSrc + '?v=' + timestamp;
+      });
+    });
+    
     if('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js', {scope: '/'})
