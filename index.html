@@ -92,6 +92,53 @@ if(window.requestIdleCallback) {
     @media (max-width:768px){.services-grid{grid-template-columns:1fr;gap:1.5rem}.service-card{padding:2rem 1.5rem}}
   </style>
   
+  <!-- INLINE CSS FORZADO PARA IMAGENES - NO CACHEABLE -->
+  <style>
+    /* FORCE IMAGE SIZING - ANTI-CACHE VERSION 20250912 */
+    .service-card img {
+      aspect-ratio: 3/2 !important;
+      width: 100% !important;
+      height: auto !important;
+      max-height: 200px !important;
+      object-fit: cover !important;
+      object-position: center !important;
+      display: block !important;
+      border-radius: 8px !important;
+      background: #f5f5f5 !important;
+    }
+    .service-card picture {
+      display: block !important;
+      aspect-ratio: 3/2 !important;
+      width: 100% !important;
+      height: auto !important;
+      max-height: 200px !important;
+      overflow: hidden !important;
+      border-radius: 8px !important;
+    }
+    .service-card figure {
+      margin: 0 !important;
+      margin-bottom: 1.5rem !important;
+      display: block !important;
+      aspect-ratio: 3/2 !important;
+      width: 100% !important;
+      height: auto !important;
+      max-height: 200px !important;
+      overflow: hidden !important;
+      border-radius: 8px !important;
+    }
+    .service-card figure img,
+    .service-card picture img {
+      aspect-ratio: 3/2 !important;
+      width: 100% !important;
+      height: 100% !important;
+      max-height: 200px !important;
+      object-fit: cover !important;
+      object-position: center !important;
+      display: block !important;
+      border-radius: 8px !important;
+    }
+  </style>
+  
   <!-- Fonts optimizadas con font-display:swap y subset latino -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
