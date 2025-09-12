@@ -1,0 +1,9 @@
+FORCE REDEPLOY - $(date)
+
+This deployment trigger ensures:
+- Complete site rebuild
+- All /img/servicios/*.jpg files properly deployed
+- CDN/hosting cache cleared
+- Binary assets synchronized
+
+Timestamp: $(date +%s)
