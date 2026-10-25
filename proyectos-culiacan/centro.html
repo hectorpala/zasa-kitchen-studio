@@ -3,6 +3,7 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -12,16 +13,16 @@
   <meta name="generator" content="Astro v5.12.2">
 
   <!-- SEO Optimizado -->
-  <title>Cocina Integral Centro Histórico Culia | Zasa Kitchen Studio</title>
+  <title>Cocina Integral Centro Historico Culiacan | ZASA Kitchen</title>
   <meta name="description" content="Cocina integral urbana en Centro Histórico de Culiacán, Sinaloa. Diseño adaptado a edificios coloniales con funcionalidad moderna y materiales duraderos.">
-  <link rel="canonical" href="https://zasakitchenstudio.mx/proyectos-culiacan/centro.html">
+  <link rel="canonical" href="https://zasakitchen.com/proyectos-culiacan/centro.html">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Cocina Integral Centro Histórico Culiacán, Sinaloa | Zasa Kitchen Studio">
   <meta property="og:description" content="Cocina integral urbana en Centro Histórico de Culiacán, Sinaloa con diseño adaptado a edificios coloniales.">
-  <meta property="og:image" content="/img/proyectos/centro-01.jpg">
+  <meta property="og:image" content="https://zasakitchen.com/og-image.jpg">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://zasakitchenstudio.mx/proyectos-culiacan/centro.html">
+  <meta property="og:url" content="https://zasakitchen.com/proyectos-culiacan/centro.html">
 
   
   <!-- DNS Prefetch y Preconnect optimizado -->
@@ -63,18 +64,29 @@
     "creator": {
       "@type": "Organization",
       "name": "Zasa Kitchen Studio",
-      "url": "https://zasakitchenstudio.mx"
+      "url": "https://zasakitchen.com"
     },
     "image": [
-      "https://zasakitchenstudio.mx/img/proyectos/centro-01.jpg",
-      "https://zasakitchenstudio.mx/img/proyectos/centro-02.jpg",
-      "https://zasakitchenstudio.mx/img/proyectos/centro-03.jpg"
+      "https://zasakitchen.com/img/proyectos/centro-01.jpg",
+      "https://zasakitchen.com/img/proyectos/centro-02.jpg",
+      "https://zasakitchen.com/img/proyectos/centro-03.jpg"
     ],
     "locationCreated": {
       "@type": "Place",
       "name": "Centro Histórico, Culiacán, Sinaloa",
       "address": "Centro Histórico, Culiacán Rosales, Sinaloa, México"
     }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://zasakitchen.com/"},
+      {"@type": "ListItem", "position": 2, "name": "Proyectos Culiacán", "item": "https://zasakitchen.com/proyectos-culiacan/"},
+      {"@type": "ListItem", "position": 3, "name": "Centro"}
+    ]
   }
   </script>
   <link rel="stylesheet" href="../style.css">
@@ -138,7 +150,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a class="skip-link" href="#main">Saltar al contenido</a><nav class="navbar">
         <div class="container nav-wrap">
             <div class="brand">
-                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar" loading="eager">
+                <img src="/img/logo-zasa.jpg" alt="Zasa Kitchen Studio" class="logo-navbar" loading="eager" width="180" height="65">
             </div>
             <ul class='nav-list' id="nav-list">
               <li class='nav-item'>
@@ -167,26 +179,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </nav>
 
-
-  
-    
-    <header class="hero">
-        <div class="container">
-            <!-- Hero content será definido por cada página -->
-        </div>
-    </header>
-
-    <section class="hero" style="">
+  <main id="main">
+<section class="hero" style="">
     <div class="hero-content">
       <h1>Cocina Integral Centro Histórico</h1>
       
       <div style="background:#f9f9f9;padding:20px;margin:20px 0;border-left:4px solid var(--brand);">
-        <h3>Resumen del proyecto</h3>
+        <h2>Resumen del proyecto</h2>
         <p><strong>Reto:</strong> Cocina compacta en edificio histórico requería solución funcional respetando arquitectura colonial.</p>
         <p><strong>Solución:</strong> Distribución vertical inteligente con materiales resistentes adaptados a normativas patrimoniales.</p>
         <p><strong>Resultado:</strong> +40% almacenamiento organizado respetando el carácter histórico del inmueble.</p>
         
-        <h3>Ficha técnica</h3>
+        <h2>Ficha técnica</h2>
         <p><strong>Colonia:</strong> <a >Centro</a></p>
         <p><strong>Material de cubierta:</strong> <a href="/servicios/cubiertas/cubiertas-granito-culiacan.html">Granito</a> comercial resistente</p>
         <p><strong>Frentes/Herrajes:</strong> MDF lacado mate, tiradores anti-vandálicos empotrados</p>
@@ -240,36 +244,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <source media="(max-width: 480px)" srcset="../img/proyectos/centro-01-480.jpg">
           <source media="(max-width: 800px)" srcset="../img/proyectos/centro-01-800.jpg">
           <source media="(max-width: 1200px)" srcset="../img/proyectos/centro-01-1200.jpg">
-          <div class="image-slot gallery-image-slot" data-lazy="true">
-                <div class="placeholder-content">
-                    <div class="placeholder-title">Galería 4:3</div>
-                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
-                </div>
-            </div>
+          <img src="../img/proyectos/centro-01.jpg" alt="Cocina integral en Centro, Culiacán - vista general" class="gallery-image-slot" loading="lazy" width="800" height="600">
         </picture>
         
         <picture>
           <source media="(max-width: 480px)" srcset="../img/proyectos/centro-02-480.jpg">
           <source media="(max-width: 800px)" srcset="../img/proyectos/centro-02-800.jpg">
           <source media="(max-width: 1200px)" srcset="../img/proyectos/centro-02-1200.jpg">
-          <div class="image-slot gallery-image-slot" data-lazy="true">
-                <div class="placeholder-content">
-                    <div class="placeholder-title">Galería 4:3</div>
-                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
-                </div>
-            </div>
+          <img src="../img/proyectos/centro-02.jpg" alt="Detalle de gabinetes y cubierta en cocina Centro" class="gallery-image-slot" loading="lazy" width="800" height="600">
         </picture>
         
         <picture>
           <source media="(max-width: 480px)" srcset="../img/proyectos/centro-03-480.jpg">
           <source media="(max-width: 800px)" srcset="../img/proyectos/centro-03-800.jpg">
           <source media="(max-width: 1200px)" srcset="../img/proyectos/centro-03-1200.jpg">
-          <div class="image-slot gallery-image-slot" data-lazy="true">
-                <div class="placeholder-content">
-                    <div class="placeholder-title">Galería 4:3</div>
-                    <div class="placeholder-subtitle">Por definir • Lazy loading ready</div>
-                </div>
-            </div>
+          <img src="../img/proyectos/centro-03.jpg" alt="Acabados y herrajes de cocina integral en Centro" class="gallery-image-slot" loading="lazy" width="800" height="600">
         </picture>
       </div>
     </div>
@@ -299,20 +288,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2>Resultado del Cliente</h2>
       <blockquote style="background:#f9f9f9;padding:20px;border-left:4px solid var(--brand);margin:20px 0;">
         <p style="font-style:italic;font-size:18px;line-height:1.6;">"Perfecta para nuestro local en el centro histórico. El diseño respeta el carácter colonial del edificio pero nos da toda la funcionalidad moderna que necesitamos. Los materiales aguantan perfectamente el uso diario intenso en Culiacán."</p>
-        <footer id="contacto">
-        <h3>Zasa Kitchen Studio – Cocinas Integrales</h3>
-        <p>Dirección: General Rafael Buelna Tenorio 750 Local 5, 80060 Culiacán Rosales, MX</p>
-        <p>WhatsApp: <a href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20quiero%20cotizar%20mi%20cocina%20en%20Culiac%C3%A1n&utm_source=site&utm_medium=cta&utm_campaign=whatsapp">667 225 6523</a></p>
-        <p>Teléfono: <a href="tel:+526672256523">667 225 6523</a></p>
-        <p>Horario: Lunes a Viernes de 9:00 am a 7:00 pm • Sábados de 9:00 am a 2:00 pm</p>
-        <nav>
-            <a href="/servicios">Servicios</a> |
-            <a href="/proyectos-culiacan">Proyectos</a> |
-            <a href="/blog">Blog & Consejos</a> |
-            <a href="/colonias">Cobertura por colonias (A–Z)</a> |
-            <a href="/contacto/?utm_source=site&utm_medium=footer&utm_campaign=contacto">Contacto</a>
-        </nav>
-    </footer>
+        <cite>-- Cliente en Centro, Culiacán</cite>
       </blockquote>
     </div>
   </section>
@@ -347,6 +323,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <a class="btn btn-primary" href="https://wa.me/526672256523?text=Hola%20Zasa%2C%20me%20gusta%20el%20proyecto%20urbano%20del%20Centro%2C%20quiero%20cotizar%20algo%20similar">WHATSAPP</a>
     </div>
   </section>
+
+  </main>
 
   <!-- FOOTER -->
   <footer id="contacto">
